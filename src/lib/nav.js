@@ -23,6 +23,28 @@ export const links = [
 
   {
     id: 2,
+    title: "elder scrolls",
+    url: "#",
+    subitems: [
+      {
+        page: "III: morrowind",
+        url: "/morrowind",
+      },
+
+      {
+        page: "IV: oblivion",
+        url: "/oblivion",
+      },
+
+      {
+        page: "V: skyrim",
+        url: "/skyrim",
+      },
+    ],
+  },
+
+  {
+    id: 3,
     title: "final fantasy",
     url: "#",
     subitems: [
@@ -59,7 +81,7 @@ export const links = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "mass effect",
     url: "#",
     subitems: [
@@ -81,7 +103,7 @@ export const links = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "resident evil",
     url: "#",
     subitems: [

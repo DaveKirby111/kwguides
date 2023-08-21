@@ -13,7 +13,7 @@
             role="button"
             data-bs-toggle="dropdown">{link.title}</a
           >
-          <ul class="dropdown-menu p-0">
+          <ul class="dropdown-menu p-0 text-center">
             {#each link.subitems as subitem}
               <li>
                 <a href={subitem.url} class="dropdown-item">{subitem.page}</a>
