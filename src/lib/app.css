@@ -1,0 +1,24 @@
+/*-----------------
+1. HEADER
+2. NAV
+3. CONTENT
+4. FOOTER
+-------------------*/
+
+header, main, nav, footer {
+    border: 2px solid black;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+/* 1:HEADER */
+/* 2:NAV */
+/* 3:CONTENT */
+
+.ttg {
+    width: 100%;
+    height: auto;
+}
+/* 4:FOOTER */
