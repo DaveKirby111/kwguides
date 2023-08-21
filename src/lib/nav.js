@@ -108,17 +108,17 @@ export const links = [
     url: "#",
     subitems: [
       {
-        page: "re 1 remake",
+        page: "RE 1 remake",
         url: "/re1",
       },
 
       {
-        page: "re 2 remake",
+        page: "RE 2 remake",
         url: "/re2",
       },
 
       {
-        page: "re 3 remake",
+        page: "RE 3 remake",
         url: "/re3",
       },
     ],

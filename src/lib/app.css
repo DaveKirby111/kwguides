@@ -12,6 +12,7 @@ header, main, nav, footer, div {
 h1 {
     text-transform: capitalize;
     font-size: 80px;
+    text-align: center;
 }
 
 /* 1:HEADER */
