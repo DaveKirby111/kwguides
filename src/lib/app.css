@@ -5,15 +5,22 @@
 4. FOOTER
 -------------------*/
 
-header, main, nav, footer {
+header, main, nav, footer, div {
     border: 2px solid black;
 }
 
 h1 {
     text-transform: capitalize;
+    font-size: 80px;
 }
 
 /* 1:HEADER */
+
+.logo {
+    width: 200px;
+    height: 90px;
+    margin-left: 10px;
+}
 /* 2:NAV */
 /* 3:CONTENT */
 
