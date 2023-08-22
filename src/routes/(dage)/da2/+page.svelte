@@ -1,1 +1,4 @@
-<h1>da 2</h1>
+<script>
+  import { pageTitle } from "$lib/stores.js";
+  $pageTitle = "dragon age II";
+</script>

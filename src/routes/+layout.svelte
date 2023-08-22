@@ -2,6 +2,7 @@
   import "$lib/app.css";
   import Nav from "$lib/nav.svelte";
   import kwg from "$lib/images/kwguides.jpg";
+  import Title from "$lib/title.svelte";
 </script>
 
 <svelte:head>
@@ -14,7 +15,7 @@
       <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
       <Nav />
     </div>
-    <h1>KWorld game guides</h1>
+    <Title />
   </header>
 
   <main class="flex-grow-1">

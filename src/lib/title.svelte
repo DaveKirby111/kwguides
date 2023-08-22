@@ -1,5 +1,5 @@
 <script>
-  export let current;
+  import { pageTitle } from "$lib/stores.js";
 </script>
 
-<h1>{current}</h1>
+<h1>{$pageTitle}</h1>

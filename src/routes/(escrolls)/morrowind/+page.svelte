@@ -1,1 +1,4 @@
-<h1>morrowind</h1>
+<script>
+  import { pageTitle } from "$lib/stores.js";
+  $pageTitle = "elder scrolls III: morrowind";
+</script>
