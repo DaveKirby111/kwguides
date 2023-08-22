@@ -11,7 +11,7 @@
 
 <div class="container-fluid d-flex flex-column min-vh-100 m-0 p-0">
   <header>
-    <div class="d-flex">
+    <div class="title d-flex">
       <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
       <Nav />
     </div>
