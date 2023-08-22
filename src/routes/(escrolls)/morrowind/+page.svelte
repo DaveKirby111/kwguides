@@ -71,19 +71,13 @@
       </ul>
       <li>Extrace MSE to Morrowind directory and run MWSE-Update.exe</li>
     </ol>
-    <div class="d-flex">
+    <div class="d-flex justify-content-center">
       <div class="d-flex flex-column me-5">
         <p>MSE</p>
         <p>
           <a
             href="https://www.nexusmods.com/morrowind/mods/45468?tab=description"
             target="_blank">Nexus Page</a
-          >
-        </p>
-        <p>
-          <a
-            href="assets/morrowind/MWSE-Update for Nightly Builds-45468-nightly-builds-1624232443.zip"
-            >Download</a
           >
         </p>
       </div>
@@ -95,11 +89,6 @@
             target="_blank">Nexus Page</a
           >
         </p>
-        <p>
-          <a href="assets/morrowind/Morrowind Code Patch-19510-2-4.7z"
-            >Download</a
-          >
-        </p>
       </div>
       <div class="d-flex flex-column">
         <p>MGE</p>
@@ -107,11 +96,6 @@
           <a
             href="https://www.nexusmods.com/morrowind/mods/41102?tab=description"
             target="_blank">Nexus Page</a
-          >
-        </p>
-        <p>
-          <a href="assets/morrowind/MGE XE Installer-41102-0-16-3-1682284970.7z"
-            >Download</a
           >
         </p>
       </div>
@@ -130,7 +114,6 @@
           >Visit Site</a
         >
       </p>
-      <p><a href="assets/morrowind/OpenMW-0.48.0-win64.exe">Download</a></p>
     </div>
   </div>
 </div>
@@ -147,23 +130,12 @@
           target="_blank">Nexus Page</a
         >
       </p>
-      <p>
-        <a
-          href="assets/morrowind/Multiple Teleport Marking Mod (OpenMW vanilla)-44825-1-1552676488.zip"
-          >Download</a
-        >
-      </p>
     </div>
     <div class="d-flex flex-column text-center">
       <p>Cheat Menu (requires MWSE)</p>
       <p>
         <a href="https://www.nexusmods.com/morrowind/mods/47143" target="_blank"
           >Nexus Page</a
-        >
-      </p>
-      <p>
-        <a href="assets/morrowind/Cheat menu-47143-1-11-1582686650.zip"
-          >Download</a
         >
       </p>
     </div>

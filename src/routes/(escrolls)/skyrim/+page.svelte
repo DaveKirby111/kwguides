@@ -42,12 +42,6 @@
           target="_blank">Nexus Page</a
         >
       </p>
-      <p>
-        <a
-          href="assets/skyrim/Skyrim Script Extender (SKSE64)-30379-2-2-3-1665515370.7z"
-          >Download</a
-        >
-      </p>
     </div>
     <div class="d-flex flex-column me-5 text-center">
       <p>SkyUI</p>
@@ -57,7 +51,6 @@
           target="_blank">Nexus Page</a
         >
       </p>
-      <p><a href="assets/skyrim/SkyUI_5_2_SE-12604-5-2SE.7z">Download</a></p>
     </div>
     <div class="d-flex flex-column me-5 text-center">
       <p>Unofficial Skyrim Special Edition Patch</p>
@@ -65,12 +58,6 @@
         <a
           href="https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=392477"
           target="_blank">Nexus Page</a
-        >
-      </p>
-      <p>
-        <a
-          href="assets/skyrim/Unofficial Skyrim Special Edition Patch-266-4-2-9a-1685216241.7z"
-          >Download</a
         >
       </p>
     </div>
@@ -82,12 +69,6 @@
           target="_blank">Nexus Page</a
         >
       </p>
-      <p>
-        <a
-          href="assets/skyrim/Unofficial Skyrim Creation Club Content Patch-18975-7-4-1690697815.zip"
-          >Download</a
-        >
-      </p>
     </div>
     <div class="d-flex flex-column me-5 text-center">
       <p>SkyHud</p>
@@ -97,7 +78,6 @@
           target="_blank">Nexus Page</a
         >
       </p>
-      <p><a href="assets/skyrim/SkyHUD v090B v4-463-0-90B.zip">Download</a></p>
     </div>
     <div class="d-flex flex-column me-5 text-center">
       <p>Nordic UI Overhaul</p>
@@ -106,12 +86,6 @@
           href="https://www.nexusmods.com/skyrimspecialedition/mods/49881?tab=description"
           target="_blank"
           rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-      <p>
-        <a
-          href="assets/skyrim/NORDIC UI (Final Design)-49881-2-4-1-1628977374.zip"
-          >Download</a
         >
       </p>
     </div>
@@ -126,11 +100,6 @@
           rel="noopener noreferrer">Nexus Page</a
         >
       </p>
-      <p>
-        <a href="assets/skyrim/WPE 1.7.1.1-1285-1-7-1-1-1586728078.zip"
-          >Download</a
-        >
-      </p>
     </div>
     <div class="me-5 text-center">
       <p>Dragon Aspect (Mage Version)</p>
@@ -139,12 +108,6 @@
           href="https://www.nexusmods.com/skyrimspecialedition/mods/22763?tab=description"
           target="_blank"
           rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-      <p>
-        <a
-          href="assets/skyrim/Dragon Aspect - Mage Version-22763-1-1-1572302765.7z"
-          >Download</a
         >
       </p>
     </div>
@@ -157,7 +120,6 @@
           rel="noopener noreferrer">Nexus Page</a
         >
       </p>
-      <p><a href="assets/skyrim/My Home is Your Home-7096-.zip">Download</a></p>
     </div>
     <div class="me-5 text-center">
       <p>Paarthurnax Quest Expansion</p>
@@ -165,12 +127,6 @@
         <a
           href="https://www.nexusmods.com/skyrimspecialedition/mods/51711?tab=description"
           target="_blank">Nexus Page</a
-        >
-      </p>
-      <p>
-        <a
-          href="assets/skyrim/Paarthurnax - Quest Expansion-51711-1-12-1682859219.zip"
-          >Download</a
         >
       </p>
     </div>
@@ -183,11 +139,6 @@
           rel="noopener noreferrer">Nexus Page</a
         >
       </p>
-      <p>
-        <a href="assets/skyrim/Cloaks of Skyrim SSE - v1.2.1-6369-1-2-1.rar"
-          >Download</a
-        >
-      </p>
     </div>
     <div class="me-5 text-center">
       <p>Armor Variants Expansion</p>
@@ -196,12 +147,6 @@
           href="https://www.nexusmods.com/skyrimspecialedition/mods/34100?tab=description"
           target="_blank"
           rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-      <p>
-        <a
-          href="assets/skyrim/Armor Variants Expansion-34100-2-0-1589724219.zip"
-          >Download</a
         >
       </p>
     </div>
@@ -216,18 +161,6 @@
           rel="noopener noreferrer">Nexus Page</a
         >
       </p>
-      <p>
-        <a href="assets/skyrim/Convenient Horses-9519-7-1-1641573606.zip"
-          >Download</a
-        >
-      </p>
-      <p>Patch for Anniversery Edition:</p>
-      <p>
-        <a
-          href="assets/skyrim/Convenient Horses Anniversary Edition Patch-9519-7-1-1641420567.zip"
-          >Download</a
-        >
-      </p>
     </div>
     <div class="me-5 text-center">
       <p>Sleek Wolf Armor</p>
@@ -236,12 +169,6 @@
           href="https://www.nexusmods.com/skyrimspecialedition/mods/44812?tab=description"
           target="_blank"
           rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-      <p>
-        <a
-          href="assets/skyrim/Sleek Wolf Armor - Replacer-44812-1-3-1621865266.7z"
-          >Download</a
         >
       </p>
     </div>
@@ -254,7 +181,6 @@
           rel="noopener noreferrer">Nexus Page</a
         >
       </p>
-      <p><a href="assets/skyrim/Perk Point Book-2254-2-0.7z">Download</a></p>
     </div>
     <div class="me-5 text-center">
       <p>Magic Training</p>
@@ -263,11 +189,6 @@
           href="https://www.nexusmods.com/skyrimspecialedition/mods/40000?tab=description"
           target="_blank"
           rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-      <p>
-        <a href="assets/skyrim/Magic Training-40000-1-0-1598909532.7z"
-          >Download</a
         >
       </p>
     </div>
@@ -281,12 +202,6 @@
           rel="noopener noreferrer">Nexus Page</a
         >
       </p>
-      <p>
-        <a
-          href="assets/skyrim/Alternate Start - Live Another Life-272-4-2-0-1687559307.7z"
-          >Download</a
-        >
-      </p>
     </div>
     <div class="me-5 text-center">
       <p>A Quality World Map</p>
@@ -297,69 +212,6 @@
           rel="noopener noreferrer">Nexus Page</a
         >
       </p>
-      <p>
-        <a
-          href="assets/skyrim/A Quality World Map - Classic with All Roads-5804-8-4CA.zip"
-          >Download</a
-        >
-      </p>
-      <p>Clear Skies:</p>
-      <p>
-        <a
-          href="assets/skyrim/A Quality World Map - Clear Map Skies-5804-9-0-1CMS.zip"
-          >Download</a
-        >
-      </p>
-    </div>
-  </div>
-  <div class="d-flex flex-column">
-    <h3>At Your Own Pace</h3>
-    <p class="text-center" style="color: red;">* Requires Unofficial Patch *</p>
-    <a
-      href="https://www.nexusmods.com/skyrimspecialedition/mods/52704?tab=description"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="text-center mb-5"
-    >
-      Nexus Page
-    </a>
-    <div class="d-flex mx-auto">
-      <div class="me-5 text-center">
-        <p>Main Quest</p>
-        <p>
-          <a
-            href="assets/skyrim/At Your Own Pace - Main Quest-52704-2-1-0-1677557354.zip"
-            >Download</a
-          >
-        </p>
-      </div>
-      <div class="me-5 text-center">
-        <p>College of Winterhold</p>
-        <p>
-          <a
-            href="assets/skyrim/At Your Own Pace - College of Winterhold-52704-2-1-0MG-1684436813.zip"
-            >Download</a
-          >
-        </p>
-      </div>
-      <div class="me-5 text-center">
-        <p>Thieves Guild</p>
-        <p>
-          <a
-            href="assets/skyrim/At Your Own Pace - Thieves Guild-52704-2-1-1TG-1682573468.zip"
-            >Download</a
-          >
-        </p>
-      </div>
-      <div class="me-5 text-center">
-        <p>Companions</p>
-        <p>
-          <a
-            href="assets/skyrim/At Your Own Pace - Companions-52704-3-0-0CP-1688156566.zip"
-            >Download</a
-          >
-        </p>
-      </div>
     </div>
   </div>
 </div>
