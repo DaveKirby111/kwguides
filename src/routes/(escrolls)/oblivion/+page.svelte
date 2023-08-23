@@ -24,11 +24,52 @@
       link: "#guides",
     },
   ];
+
+  const commands = [
+    {
+      name: "god mode",
+      input: "tgm",
+      desc: "toggle god mode. Infinite health, magicka, fatigue",
+    },
+
+    {
+      name: "toggle collision",
+      input: "tcl",
+      desc: "move through the world.",
+    },
+
+    {
+      name: "money",
+      input: "player.additem f (amount)",
+      desc: "give the player gold",
+    },
+  ];
 </script>
 
 <Sections {sections} />
 
-<div id="console" class="console" />
+<div id="console" class="console">
+  <h2>console commands</h2>
+
+  <table class="table table-responsive">
+    <thead class="text-capitalize">
+      <tr>
+        <th>name</th>
+        <th>command</th>
+        <th>function</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each commands as command}
+        <tr>
+          <td>{command.name}</td>
+          <td>{command.input}</td>
+          <td>{command.desc}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+</div>
 <div id="mods" class="mods" />
 <div id="guides" class="guides">
   <h2>guides</h2>

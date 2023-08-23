@@ -24,11 +24,71 @@
       link: "#guides",
     },
   ];
+
+  const commands = [
+    {
+      name: "god mode",
+      input: "tgm",
+      desc: "toggle god mode. Infinite health, magicka, fatigue",
+    },
+
+    {
+      name: "toggle collision",
+      input: "tcl",
+      desc: "move through the world.",
+    },
+
+    {
+      name: "money",
+      input: "player.additem f (amount)",
+      desc: "give the player gold",
+    },
+
+    {
+      name: "grand soul gems",
+      input: "player.additem 2e4ff (amount)",
+      desc: "give the player filled grand soul gems",
+    },
+
+    {
+      name: "ultimate healing potions",
+      input: "player.additem 30be5 (amount)",
+      desc: "gives highest quality healing potions",
+    },
+
+    {
+      name: "dragon souls",
+      input: "player.modav dragonsouls (amount)",
+      desc: "gives dragon souls for shouts",
+    },
+  ];
 </script>
 
 <Sections {sections} />
 
-<div id="console" class="console" />
+<div id="console" class="console">
+  <h2>console commands</h2>
+
+  <table class="table table-responsive">
+    <thead class="text-capitalize">
+      <tr>
+        <th>name</th>
+        <th>command</th>
+        <th>function</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each commands as command}
+        <tr>
+          <td>{command.name}</td>
+          <td>{command.input}</td>
+          <td>{command.desc}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+</div>
+
 <div id="bat" class="bat" />
 <div id="mods" class="mods">
   <h2>mods</h2>
