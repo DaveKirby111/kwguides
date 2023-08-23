@@ -379,7 +379,7 @@
               rel="noopener noreferrer">Silverdrift Lair</a
             >
           </li>
-          <li>Snow Veil Canctum (thieves guild)</li>
+          <li>Snow Veil Sanctum (thieves guild)</li>
         </ul>
       </div>
     </div>
@@ -636,14 +636,14 @@
       </div>
     </div>
     <div class="d-flex">
-      <div class="shout">
+      <div class="shout w-50">
         <p class="fw-bold">Unrelenting Force</p>
 
         <ul>
           <li>Main Quest</li>
         </ul>
       </div>
-      <div class="shout">
+      <div class="shout w-50">
         <p class="fw-bold">Whirlwind Sprint</p>
 
         <ul>
@@ -747,3 +747,18 @@
     <p>Miraak = Main Quest</p>
   </div>
 </div>
+
+<style>
+  .shout {
+    width: 20%;
+  }
+
+  .shout p {
+    text-align: center;
+  }
+
+  .shout ul {
+    text-align: center;
+    list-style-type: none;
+  }
+</style>

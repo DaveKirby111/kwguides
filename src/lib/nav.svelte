@@ -23,3 +23,22 @@
     {/each}
   </ul>
 </nav>
+
+<style>
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    width: 200px;
+  }
+
+  .dropdown-menu {
+    width: 200px;
+    text-align: center;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+</style>
