@@ -402,9 +402,9 @@
         <p class="fw-bold">Dismay</p>
 
         <ul>
-          <li>Dead Crone Rock</li>
-          <li>Lost Tongue Overlook</li>
-          <li>Shalidor's Maze, Labyrinthian</li>
+          <li><a href={components.crone}>Dead Crone Rock</a></li>
+          <li><a href={components.tongue}>Lost Tongue Overlook</a></li>
+          <li>Labyrinthian (Mage's quest)</li>
         </ul>
       </div>
       <div class="shout">
@@ -427,7 +427,7 @@
         <p class="fw-bold">Drain Vitality</p>
 
         <ul>
-          <li>Arcwind Point</li>
+          <li><a href={components.arcwind}>Arcwind Point</a></li>
           <li>Dawnguard - Main Quest</li>
         </ul>
       </div>
@@ -435,8 +435,8 @@
         <p class="fw-bold">Elemental Fury</p>
 
         <ul>
-          <li>Dragontooth Crater</li>
-          <li>Shriekwind Bastion</li>
+          <li><a href={components.dragontooth}>Dragontooth Crater</a></li>
+          <li><a href={components.shriekwind}>Shriekwind Bastion</a></li>
           <li>Statue of Meridia</li>
         </ul>
       </div>
@@ -447,7 +447,7 @@
 
         <ul>
           <li>Dustman's Cairn (Companion's Quest)</li>
-          <li>Sunderstone Gorge</li>
+          <li><a href={components.sunderstone}>Sunderstone Gorge</a></li>
           <li>Main Quest</li>
         </ul>
       </div>
@@ -455,9 +455,9 @@
         <p class="fw-bold">Frost Breath</p>
 
         <ul>
-          <li>Bonestrewn Crest</li>
-          <li>Folgunthur</li>
-          <li>Skyborn Altar</li>
+          <li><a href={components.bone}>Bonestrewn Crest</a></li>
+          <li><a href={components.folg}>Folgunthur</a></li>
+          <li><a href={components.skyborn}>Skyborn Altar</a></li>
         </ul>
       </div>
       <div class="shout">

@@ -11,6 +11,15 @@ import kol from "$lib/images/skyrim/Kolbjorn.webp";
 import wridge from "$lib/images/skyrim/wRidge.webp";
 import eldersblood from "$lib/images/skyrim/Eldersblood.webp";
 import silverdrift from "$lib/images/skyrim/Silverdrift.webp";
+import crone from "$lib/images/skyrim/DCrone.webp";
+import tongue from "$lib/images/skyrim/LTongue.webp";
+import arcwind from "$lib/images/skyrim/Arcwind.webp";
+import dragontooth from "$lib/images/skyrim/Dragontooth.webp";
+import shriekwind from "$lib/images/skyrim/Shriekwind.webp";
+import sunderstone from "$lib/images/skyrim/Sunderstone.webp";
+import folg from "$lib/images/skyrim/Folgunthur.webp";
+import skyborn from "$lib/images/skyrim/Skyborn.webp";
+import bone from "$lib/images/skyrim/Bonestrewn.webp";
 
 export {
   ascent,
@@ -26,4 +35,13 @@ export {
   wridge,
   eldersblood,
   silverdrift,
+  crone,
+  tongue,
+  arcwind,
+  dragontooth,
+  shriekwind,
+  sunderstone,
+  folg,
+  skyborn,
+  bone,
 };
