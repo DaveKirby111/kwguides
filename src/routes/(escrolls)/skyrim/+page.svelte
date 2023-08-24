@@ -336,15 +336,15 @@
         <p class="fw-bold">Battle Fury</p>
 
         <ul>
-          <li>Vahlok's Tomb</li>
+          <li><a href={components.vahlok}>Vahlok's Tomb</a></li>
         </ul>
       </div>
       <div class="shout">
         <p class="fw-bold">Become Ethereal</p>
 
         <ul>
-          <li>Ironbind Barrow</li>
-          <li>Lost Valley Redoubt</li>
+          <li><a href={components.ironbind}>Ironbind Barrow</a></li>
+          <li><a href={components.lost}>Lost Valley Redoubt</a></li>
           <li>Ustengrav (main quest)</li>
         </ul>
       </div>
@@ -382,17 +382,17 @@
         <p class="fw-bold">Cyclone</p>
 
         <ul>
-          <li>Benkongerike</li>
-          <li>Kolbjorn Barrow</li>
-          <li>White Ridge Sanctum</li>
+          <li><a href={components.benk}>Benkongerike</a></li>
+          <li><a href={components.kol}>Kolbjorn Barrow</a></li>
+          <li><a href={components.wridge}>White Ridge Sanctum</a></li>
         </ul>
       </div>
       <div class="shout">
         <p class="fw-bold">Disarm</p>
 
         <ul>
-          <li>Eldersblood Peak</li>
-          <li>Silverdrift Lair</li>
+          <li><a href={components.eldersblood}>Eldersblood Peak</a></li>
+          <li><a href={components.silverdrift}>Silverdrift Lair</a></li>
           <li>Snow Veil Sanctum (thieves guild)</li>
         </ul>
       </div>
