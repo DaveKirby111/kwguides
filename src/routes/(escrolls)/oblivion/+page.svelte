@@ -33,15 +33,51 @@
     },
 
     {
-      name: "toggle collision",
+      name: "Toggle Collision",
       input: "tcl",
       desc: "move through the world.",
     },
 
     {
-      name: "money",
+      name: "Money",
       input: "player.additem f (amount)",
       desc: "give the player gold",
+    },
+
+    {
+      name: "Boots of Bloody Bounding",
+      input: "player.additem 348ac 1",
+      desc: "level 30+, Fortify Acro 18pts, Fortify blade 18pts",
+    },
+
+    {
+      name: "Goldbrand",
+      input: "player.additem 27105 1",
+      desc: "fire damage 22 pts",
+    },
+
+    {
+      name: "Elixir of Exploration (grand)",
+      input: "player.additem 4e93a amount",
+      desc: "night-eye 300 sec, fortify health and fatigue 20 pts 300sec, fortify blade, blunt, dest, rest, sec, sneak 10pts 300sec.",
+    },
+
+    {
+      name: "Potion of Cure Disease",
+      input: "player.additem 920e amount",
+      desc: "cure disease",
+    },
+
+    {
+      name: "Potion of Nighteye (strong)",
+      input: "player.additem 98482 amount",
+      desc: "night-eye 90 sec.",
+    },
+
+    {
+      name: "Potion of Healing (strong)",
+      input: "player.additem 9311 amount",
+      desc: "restore health 50pts 60 sec.",
     },
   ];
 </script>
@@ -70,6 +106,17 @@
     </tbody>
   </table>
 </div>
+
+<div id="bat" class="bat">
+  <h2>bat files</h2>
+  <p class="fw-bold">What are they?</p>
+  <p>
+    Bat files are .txt files containing console commands and placed in the games
+    root folder. Bringing up the console in game and using the input bat
+    (filename) will execute the console commands in that .txt file.
+  </p>
+</div>
+
 <div id="mods" class="mods" />
 <div id="guides" class="guides">
   <h2>guides</h2>

@@ -2,6 +2,7 @@
   import { pageTitle } from "$lib/stores.js";
   $pageTitle = "elder scrolls V: skyrim";
   import Sections from "$lib/sections.svelte";
+  import * as components from "$lib/skyrimarr.js";
 
   const sections = [
     {
@@ -61,6 +62,12 @@
       input: "player.modav dragonsouls (amount)",
       desc: "gives dragon souls for shouts",
     },
+
+    {
+      name: "dragon aspect",
+      input: "player.teachword 0401df93, 94, 95",
+      desc: "all words for dragon aspect shout",
+    },
   ];
 </script>
 
@@ -89,7 +96,16 @@
   </table>
 </div>
 
-<div id="bat" class="bat" />
+<div id="bat" class="bat">
+  <h2>bat files</h2>
+  <p class="fw-bold">What are they?</p>
+  <p>
+    Bat files are .txt files containing console commands and placed in the games
+    root folder. Bringing up the console in game and using the input bat
+    (filename) will execute the console commands in that .txt file.
+  </p>
+</div>
+
 <div id="mods" class="mods">
   <h2>mods</h2>
 
@@ -302,67 +318,33 @@
         <p class="fw-bold">Animal Allegiance</p>
 
         <ul>
-          <li>
-            <a href="images/ascent.jpeg" target="_blank">Ancient's Ascent</a>
-          </li>
-          <li>
-            <a href="images/Angarvunde_Maplocation.webp" target="_blank"
-              >Angarvunde</a
-            >
-          </li>
-          <li>Ysgramor's Tomb</li>
+          <li><a href={components.ascent}>Ancient's Ascent</a></li>
+          <li><a href={components.angar}>Angarvunde</a></li>
+          <li>Ysgramor's Tomb (Companions quest)</li>
         </ul>
       </div>
       <div class="shout">
         <p class="fw-bold">Aura Whisper</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Northwind_summit_map.webp"
-              target="_blank"
-              rel="noopener noreferrer">Northwind Summit</a
-            >
-          </li>
-          <li>
-            <a href="images/Valthume_Map.webp" target="_blank">Valthume</a>
-          </li>
-          <li>
-            <a
-              href="images/Volunruudmap.webp"
-              target="_blank"
-              rel="noopener noreferrer">Volunruud</a
-            >
-          </li>
+          <li><a href={components.northwind}>Northwind Summit</a></li>
+          <li><a href={components.valthume}>Valthume</a></li>
+          <li><a href={components.volunruud}>Volunruud</a></li>
         </ul>
       </div>
       <div class="shout">
         <p class="fw-bold">Battle Fury</p>
 
         <ul>
-          <li>
-            <a href="images/Vahlok.webp" target="_blank">Vahlok's Tomb</a>
-          </li>
+          <li>Vahlok's Tomb</li>
         </ul>
       </div>
       <div class="shout">
         <p class="fw-bold">Become Ethereal</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Ironbind_Barrow.webp"
-              target="_blank"
-              rel="noopener noreferrer">Ironbind Barrow</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/Lost_Valley_Redoubt.webp"
-              target="_blank"
-              rel="noopener noreferrer">Lost Valley Redoubt</a
-            >
-          </li>
+          <li>Ironbind Barrow</li>
+          <li>Lost Valley Redoubt</li>
           <li>Ustengrav (main quest)</li>
         </ul>
       </div>
@@ -400,45 +382,17 @@
         <p class="fw-bold">Cyclone</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Benkongerike.webp"
-              target="_blank"
-              rel="noopener noreferrer">Benkongerike</a
-            >
-          </li>
-          <li>
-            <a href="images/Kolbjorn_Barrow_DB_Map.webp" target="_blank"
-              >Kolbjorn Barrow</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/White_Ridge_Barrow.webp"
-              target="_blank"
-              rel="noopener noreferrer">White Ridge Sanctum</a
-            >
-          </li>
+          <li>Benkongerike</li>
+          <li>Kolbjorn Barrow</li>
+          <li>White Ridge Sanctum</li>
         </ul>
       </div>
       <div class="shout">
         <p class="fw-bold">Disarm</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Eldersblood.webp"
-              target="_blank"
-              rel="noopener noreferrer">Eldersblood Peak</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/SSilverdrift.webp"
-              target="_blank"
-              rel="noopener noreferrer">Silverdrift Lair</a
-            >
-          </li>
+          <li>Eldersblood Peak</li>
+          <li>Silverdrift Lair</li>
           <li>Snow Veil Sanctum (thieves guild)</li>
         </ul>
       </div>
@@ -448,20 +402,8 @@
         <p class="fw-bold">Dismay</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Dead_Crone_Rock.webp"
-              target="_blank"
-              rel="noopener noreferrer">Dead Crone Rock</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/Lost_Tongue_Overlook_Map.webp"
-              target="_blank"
-              rel="noopener noreferrer">Lost Tongue Overlook</a
-            >
-          </li>
+          <li>Dead Crone Rock</li>
+          <li>Lost Tongue Overlook</li>
           <li>Shalidor's Maze, Labyrinthian</li>
         </ul>
       </div>
@@ -485,13 +427,7 @@
         <p class="fw-bold">Drain Vitality</p>
 
         <ul>
-          <li>
-            <a
-              href="images/ArcwindPointMap.webp"
-              target="_blank"
-              rel="noopener noreferrer">Arcwind Point</a
-            >
-          </li>
+          <li>Arcwind Point</li>
           <li>Dawnguard - Main Quest</li>
         </ul>
       </div>
@@ -499,20 +435,8 @@
         <p class="fw-bold">Elemental Fury</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Dragontooth_Crater_Map.webp"
-              target="_blank"
-              rel="noopener noreferrer">Dragontooth Crater</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/South_Shriekwind_Bastion.webp"
-              target="_blank"
-              rel="noopener noreferrer">Shriekwind Bastion</a
-            >
-          </li>
+          <li>Dragontooth Crater</li>
+          <li>Shriekwind Bastion</li>
           <li>Statue of Meridia</li>
         </ul>
       </div>
@@ -523,13 +447,7 @@
 
         <ul>
           <li>Dustman's Cairn (Companion's Quest)</li>
-          <li>
-            <a
-              href="images/Sunderstone_Gorge.webp"
-              target="_blank"
-              rel="noopener noreferrer">Sunderstone Gorge</a
-            >
-          </li>
+          <li>Sunderstone Gorge</li>
           <li>Main Quest</li>
         </ul>
       </div>
@@ -537,47 +455,17 @@
         <p class="fw-bold">Frost Breath</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Skyrim_map_Bonestrewn_Crest.webp"
-              target="_blank"
-              rel="noopener noreferrer">Bonestrewn Crest</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/Folgunthur_Map.webp"
-              target="_blank"
-              rel="noopener noreferrer">Folgunthur</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/Skyborn_Altar_MAP.webp"
-              target="_blank"
-              rel="noopener noreferrer">Skyborn Altar</a
-            >
-          </li>
+          <li>Bonestrewn Crest</li>
+          <li>Folgunthur</li>
+          <li>Skyborn Altar</li>
         </ul>
       </div>
       <div class="shout">
         <p class="fw-bold">Ice Form</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Frostmerecryptmap.webp"
-              target="_blank"
-              rel="noopener noreferrer">Frostmere Crypt</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/Mount_Anthor_Map.webp"
-              target="_blank"
-              rel="noopener noreferrer">Mount Anthor</a
-            >
-          </li>
+          <li>Frostmere Crypt</li>
+          <li>Mount Anthor</li>
           <li>Saarthal(mage's quest)</li>
         </ul>
       </div>
@@ -585,48 +473,18 @@
         <p class="fw-bold">Kyne's Peace</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Ragnvald.webp"
-              target="_blank"
-              rel="noopener noreferrer">Ragnvald</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/Rannveig.webp"
-              target="_blank"
-              rel="noopener noreferrer">Ranngeig's Fast</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/Shroud_Hearth_Barrow_map.webp"
-              target="_blank"
-              rel="noopener noreferrer">Shroud Hearth Barrow</a
-            >
-          </li>
+          <li>Ragnvald</li>
+          <li>Ranngeig's Fast</li>
+          <li>Shroud Hearth Barrow</li>
         </ul>
       </div>
       <div class="shout">
         <p class="fw-bold">Marked For Death</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Autmnwatch_tower_Map.webp"
-              target="_blank"
-              rel="noopener noreferrer">Autumnwatch Tower</a
-            >
-          </li>
+          <li>Autumnwatch Tower</li>
           <li>Dark Brotherhood Sanctuary</li>
-          <li>
-            <a
-              href="images/Forsaken_Cave_Maplocation.webp"
-              target="_blank"
-              rel="noopener noreferrer">Forsaken Cave</a
-            >
-          </li>
+          <li>Forsaken Cave</li>
         </ul>
       </div>
     </div>
@@ -635,13 +493,7 @@
         <p class="fw-bold">Slow Time</p>
 
         <ul>
-          <li>
-            <a
-              href="images/hagsend.webp"
-              target="_blank"
-              rel="noopener noreferrer">Forsaken Cave</a
-            >
-          </li>
+          <li>Forsaken Cave</li>
           <li>Korvanjund (civil war)</li>
           <li>Labyrinthian (mage's quest)</li>
         </ul>
@@ -657,20 +509,8 @@
         <p class="fw-bold">Storm Call</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Forelhostmap.webp"
-              target="_blank"
-              rel="noopener noreferrer">Forelhost</a
-            >
-          </li>
-          <li>
-            <a
-              href="images/Highgate_ruins_map.webp"
-              target="_blank"
-              rel="noopener noreferrer">High Gate Ruins</a
-            >
-          </li>
+          <li>Forelhost</li>
+          <li>High Gate Ruins</li>
           <li>Skuldafn (main quest)</li>
         </ul>
       </div>
@@ -685,13 +525,7 @@
         <p class="fw-bold">Throw Voice</p>
 
         <ul>
-          <li>
-            <a
-              href="images/Shearpoint_Location.webp"
-              target="_blank"
-              rel="noopener noreferrer">Shearpoint</a
-            >
-          </li>
+          <li>Shearpoint</li>
         </ul>
       </div>
     </div>
@@ -707,21 +541,9 @@
         <p class="fw-bold">Whirlwind Sprint</p>
 
         <ul>
-          <li>
-            <a
-              href="images/respite.webp"
-              target="_blank"
-              rel="noopener noreferrer">Dead Men's Respite</a
-            >
-          </li>
+          <li>Dead Men's Respite</li>
           <li>Main Quest</li>
-          <li>
-            <a
-              href="images/Volskygge_Maplocation.webp"
-              target="_blank"
-              rel="noopener noreferrer">Volskygge</a
-            >
-          </li>
+          <li>Volskygge</li>
         </ul>
       </div>
     </div>
@@ -731,75 +553,48 @@
     <h4>Dragon Priest Masks</h4>
 
     <div class="d-flex">
-      <div class="d-flex flex-column ms-5 me-5">
+      <div class="d-flex flex-column">
         <p>Hevnoraak = Valthume</p>
-        <a href="images/Valthume_Map.webp" target="_blank"
-          ><img src="images/Valthume_Map.webp" alt="mask" /></a
-        >
       </div>
 
       <div class="d-flex flex-column">
         <p>Krosis = Shearpoint</p>
-        <a href="images/Shearpoint_Location.webp" target="_blank"
-          ><img src="images/Shearpoint_Location.webp" alt="mask" /></a
-        >
       </div>
     </div>
     <div class="d-flex align-items-center">
-      <div class="d-flex flex-column ms-5 me-5">
+      <div class="d-flex flex-column">
         <p>Moroei = Labyrinthian</p>
-        <a href="images/Labyrinthian_Map.webp" target="_blank">
-          <img src="images/Labyrinthian_Map.webp" alt="mask" /></a
-        >
       </div>
 
-      <p>Nahkriin = Skuldafn, Main Quest</p>
+      <div class="flex-column"><p>Nahkriin = Skuldafn, Main Quest</p></div>
     </div>
     <div class="d-flex">
-      <div class="d-flex flex-column ms-5 me-5">
+      <div class="d-flex flex-column">
         <p>Otar = Ragnvald</p>
-        <a href="images/Ragnvald_Dungeon_-_Overland_Map.webp" target="_blank">
-          <img src="images/Ragnvald_Dungeon_-_Overland_Map.webp" alt="mask" />
-        </a>
       </div>
       <div class="d-flex flex-column">
         <p>Rahgot = Forelhost</p>
-        <a href="images/Forelhostmap.webp" target="_blank"
-          ><img src="images/Forelhostmap.webp" alt="mask" /></a
-        >
       </div>
     </div>
 
     <div class="d-flex">
-      <div class="d-flex flex-column ms-5 me-5">
+      <div class="d-flex flex-column">
         <p>Vokun = High Gate Ruins</p>
-        <a href="images/Highgate_ruins_map.webp" target="_blank"
-          ><img src="images/Highgate_ruins_map.webp" alt="mask" /></a
-        >
       </div>
 
       <div class="flex-column">
         <p>Volsung = Volskygge</p>
-        <a href="images/Volskygge_Maplocation.webp" target="_blank">
-          <img src="images/Volskygge_Maplocation.webp" alt="mask" />
-        </a>
       </div>
     </div>
     <h4>Dragonborn: Masks</h4>
 
     <div class="d-flex">
-      <div class="flex-column ms-5 me-5">
+      <div class="flex-column">
         <p>Ahzidal = Kolbjorn Barrow</p>
-        <a href="images/Kolbjorn_Barrow_DB_Map.webp" target="_blank"
-          ><img src="images/Kolbjorn_Barrow_DB_Map.webp" alt="mask" /></a
-        >
       </div>
 
       <div class="flex-column">
         <p>Dulkaan = White Ridge Barrow</p>
-        <a href="images/White_Ridge_Barrow.webp" target="_blank"
-          ><img src="images/White_Ridge_Barrow.webp" alt="mask" /></a
-        >
       </div>
     </div>
 
@@ -820,5 +615,9 @@
   .shout ul {
     text-align: center;
     list-style-type: none;
+  }
+
+  .priests .flex-column {
+    width: 50%;
   }
 </style>
