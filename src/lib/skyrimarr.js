@@ -20,6 +20,15 @@ import sunderstone from "$lib/images/skyrim/Sunderstone.webp";
 import folg from "$lib/images/skyrim/Folgunthur.webp";
 import skyborn from "$lib/images/skyrim/Skyborn.webp";
 import bone from "$lib/images/skyrim/Bonestrewn.webp";
+import anthor from "$lib/images/skyrim/Anthor.webp";
+import frostmere from "$lib/images/skyrim/Frostmere.webp";
+import rag from "$lib/images/skyrim/Ragnvald.webp";
+import rann from "$lib/images/skyrim/Rannveig.webp";
+import shroud from "$lib/images/skyrim/Shroud.webp";
+import autm from "$lib/images/skyrim/Autmn.webp";
+import forsaken from "$lib/images/skyrim/Forsaken.webp";
+import forel from "$lib/images/skyrim/Forelhost.webp";
+import hgate from "$lib/images/skyrim/Highgate.webp";
 
 export {
   ascent,
@@ -44,4 +53,13 @@ export {
   folg,
   skyborn,
   bone,
+  anthor,
+  frostmere,
+  rag,
+  rann,
+  shroud,
+  autm,
+  forsaken,
+  forel,
+  hgate,
 };

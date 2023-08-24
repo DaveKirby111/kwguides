@@ -464,8 +464,8 @@
         <p class="fw-bold">Ice Form</p>
 
         <ul>
-          <li>Frostmere Crypt</li>
-          <li>Mount Anthor</li>
+          <li><a href={components.frostmere}>Frostmere Crypt</a></li>
+          <li><a href={components.anthor}>Mount Anthor</a></li>
           <li>Saarthal(mage's quest)</li>
         </ul>
       </div>
@@ -473,18 +473,18 @@
         <p class="fw-bold">Kyne's Peace</p>
 
         <ul>
-          <li>Ragnvald</li>
-          <li>Ranngeig's Fast</li>
-          <li>Shroud Hearth Barrow</li>
+          <li><a href={components.rag}>Ragnvald</a></li>
+          <li><a href={components.rann}>Rannveig's Fast</a></li>
+          <li><a href={components.shroud}>Shroud Hearth Barrow</a></li>
         </ul>
       </div>
       <div class="shout">
         <p class="fw-bold">Marked For Death</p>
 
         <ul>
-          <li>Autumnwatch Tower</li>
+          <li><a href={components.autm}>Autumnwatch Tower</a></li>
           <li>Dark Brotherhood Sanctuary</li>
-          <li>Forsaken Cave</li>
+          <li><a href={components.forsaken}>Forsaken Cave</a></li>
         </ul>
       </div>
     </div>
@@ -509,8 +509,8 @@
         <p class="fw-bold">Storm Call</p>
 
         <ul>
-          <li>Forelhost</li>
-          <li>High Gate Ruins</li>
+          <li><a href={components.forel}>Forelhost</a></li>
+          <li><a href={components.hgate}>High Gate Ruins</a></li>
           <li>Skuldafn (main quest)</li>
         </ul>
       </div>
