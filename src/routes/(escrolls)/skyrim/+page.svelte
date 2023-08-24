@@ -555,15 +555,18 @@
     <div class="d-flex">
       <div class="d-flex flex-column">
         <p>Hevnoraak = Valthume</p>
+        <img src={components.valthume} alt="mask" />
       </div>
 
       <div class="d-flex flex-column">
         <p>Krosis = Shearpoint</p>
+        <img src={components.shearpoint} alt="mask" />
       </div>
     </div>
     <div class="d-flex align-items-center">
       <div class="d-flex flex-column">
         <p>Moroei = Labyrinthian</p>
+        <img src={components.lab} alt="mask" />
       </div>
 
       <div class="flex-column"><p>Nahkriin = Skuldafn, Main Quest</p></div>
@@ -571,19 +574,23 @@
     <div class="d-flex">
       <div class="d-flex flex-column">
         <p>Otar = Ragnvald</p>
+        <img src={components.rag} alt="mask" />
       </div>
       <div class="d-flex flex-column">
         <p>Rahgot = Forelhost</p>
+        <img src={components.forel} alt="mask" />
       </div>
     </div>
 
     <div class="d-flex">
       <div class="d-flex flex-column">
         <p>Vokun = High Gate Ruins</p>
+        <img src={components.hgate} alt="mask" />
       </div>
 
       <div class="flex-column">
         <p>Volsung = Volskygge</p>
+        <img src={components.vol} alt="mask" />
       </div>
     </div>
     <h4>Dragonborn: Masks</h4>
@@ -591,10 +598,12 @@
     <div class="d-flex">
       <div class="flex-column">
         <p>Ahzidal = Kolbjorn Barrow</p>
+        <img src={components.kol} alt="mask" />
       </div>
 
       <div class="flex-column">
         <p>Dulkaan = White Ridge Barrow</p>
+        <img src={components.wridge} alt="mask" />
       </div>
     </div>
 
@@ -619,5 +628,11 @@
 
   .priests .flex-column {
     width: 50%;
+    padding: 30px;
+  }
+
+  .priests img {
+    width: 100%;
+    height: auto;
   }
 </style>

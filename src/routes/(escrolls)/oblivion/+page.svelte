@@ -2,6 +2,8 @@
   import { pageTitle } from "$lib/stores.js";
   $pageTitle = "elder scrolls IV: oblivion";
   import Sections from "$lib/sections.svelte";
+  import umbra from "$lib/images/oblivion/umbra.webp";
+  import goldbrand from "$lib/images/oblivion/goldbrand.webp";
 
   const sections = [
     {
@@ -124,7 +126,7 @@
   <div class="umbra mb-5">
     <h4>umbra</h4>
 
-    <img src="images/umbra.webp" alt="umbra" />
+    <img src={umbra} alt="umbra" />
 
     <p class="fw-bold">Clavicus Vile's Shrine (quest)</p>
 
@@ -146,7 +148,7 @@
   <div class="goldbrand mb-5">
     <h4>goldbrand</h4>
 
-    <img src="images/goldbrand.webp" alt="goldbrand" />
+    <img src={goldbrand} alt="goldb" />
 
     <p class="fw-bold">Boethiah's Shrine</p>
 
@@ -216,3 +218,10 @@
     </table>
   </div>
 </div>
+
+<style>
+  img {
+    display: block;
+    margin: auto;
+  }
+</style>

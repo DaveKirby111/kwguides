@@ -29,6 +29,9 @@ import autm from "$lib/images/skyrim/Autmn.webp";
 import forsaken from "$lib/images/skyrim/Forsaken.webp";
 import forel from "$lib/images/skyrim/Forelhost.webp";
 import hgate from "$lib/images/skyrim/Highgate.webp";
+import shearpoint from "$lib/images/skyrim/Shearpoint.webp";
+import lab from "$lib/images/skyrim/Labyrinthian.webp";
+import vol from "$lib/images/skyrim/Volskygge.webp";
 
 export {
   ascent,
@@ -62,4 +65,7 @@ export {
   forsaken,
   forel,
   hgate,
+  shearpoint,
+  lab,
+  vol,
 };

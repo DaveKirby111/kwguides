@@ -2,6 +2,8 @@
   import { pageTitle } from "$lib/stores.js";
   $pageTitle = "elder scrolls III: morrowind";
   import Sections from "$lib/sections.svelte";
+  import abanabi from "$lib/images/morrowind/Abanabi.png";
+  import umbra from "$lib/images/morrowind/umbra.jpg";
 
   const sections = [
     {
@@ -186,7 +188,7 @@
 
     <p>In the cave of Abanabi, south of Sadrith Mora.</p>
 
-    <img src="images/Abanabi Map Location.png" alt="abanabi" />
+    <img src={abanabi} alt="map" />
   </div>
 
   <div class="umbra mb-5">
@@ -251,7 +253,7 @@
 
     <p>You can also go around the mountains past the manor.</p>
 
-    <img src="images/umbra-location.jpg" alt="umbra" />
+    <img src={umbra} alt="map" />
   </div>
 
   <div class="attacks">
@@ -264,3 +266,10 @@
     </p>
   </div>
 </div>
+
+<style>
+  img {
+    display: block;
+    margin: auto;
+  }
+</style>

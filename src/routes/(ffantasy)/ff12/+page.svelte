@@ -2,6 +2,7 @@
   import { pageTitle } from "$lib/stores.js";
   $pageTitle = "final fantasy XII";
   import Sections from "$lib/sections.svelte";
+  import gcrystal from "$lib/images/ff12/GreatCrystal.png";
 
   const sections = [
     {
@@ -27,12 +28,8 @@
 
   <div class="greatcrystal mb-5">
     <h4>Great Crystal</h4>
-    <a
-      href="images/The-Great-Crystal.png"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img src="images/The-Great-Crystal.png" alt="crystal" class="g-crystal" />
+    <a href={gcrystal} target="_blank" rel="noopener noreferrer">
+      <img src={gcrystal} alt="crystal" class="crystal" />
     </a>
   </div>
 
@@ -156,3 +153,15 @@
     <p>Sage's Monograph = 25,000 gil, talk to any shop owner 100 times</p>
   </div>
 </div>
+
+<style>
+  .crystal {
+    width: 300px;
+    height: 450px;
+  }
+
+  .greatcrystal img {
+    display: block;
+    margin: auto;
+  }
+</style>
