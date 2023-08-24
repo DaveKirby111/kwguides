@@ -2,6 +2,8 @@
   import { pageTitle } from "$lib/stores.js";
   $pageTitle = "final fantasy VII";
   import Sections from "$lib/sections.svelte";
+  import harp1 from "$lib/images/ff7/harp1.png";
+  import harp2 from "$lib/images/ff7/harp2.png";
 
   const sections = [
     {
@@ -647,7 +649,21 @@
       upper level of the village.
     </p>
 
-    <img src="images/harp1.png" alt="harp" />
-    <img src="images/harp2.png" alt="harp" />
+    <div class="d-flex">
+      <img src={harp1} alt="harp" />
+      <img src={harp2} alt="harp" />
+    </div>
   </div>
 </div>
+
+<style>
+  img {
+    width: 700px;
+    height: 500px;
+  }
+
+  .harp img {
+    display: block;
+    margin: auto;
+  }
+</style>

@@ -3,6 +3,14 @@
   $pageTitle = "resident evil 2 remake";
   import Sections from "$lib/sections.svelte";
 
+  import claire1 from "$lib/images/re2/claire1.webp";
+  import claire2 from "$lib/images/re2/claire2.webp";
+  import leon1 from "$lib/images/re2/leon1.webp";
+  import leon2 from "$lib/images/re2/leon2.webp";
+  import lion from "$lib/images/re2/lion.jpg";
+  import maiden from "$lib/images/re2/maiden.jpg";
+  import unicorn from "$lib/images/re2/unicorn.jpg";
+
   const sections = [
     {
       name: "guides",
@@ -24,19 +32,19 @@
       <li>Police Station 1F, Main Hall</li>
       <li>Lion, Twig, Eagle / Crown, Flame, Flying Bird (B Scenario)</li>
     </ul>
-    <img src="images/lion.jpg" alt="statue" />
+    <img src={lion} alt="statue" />
     <h5 class="text-center">Unicorn</h5>
     <ul class="list-unstyled">
       <li>Station 2F, Lounge</li>
       <li>Fish, Scorpion, Aquarius / Twins, Scale, Worm (B Scenario)</li>
     </ul>
-    <img src="images/unicorn.jpg" alt="statue" />
+    <img src={unicorn} alt="statue" />
     <h5 class="text-center">Maiden</h5>
     <ul class="list-unstyled">
       <li>Police Station 3F, West Storage Room</li>
       <li>Woman, Bow, Snake / Ram, Harp, Bird (B Scenario)</li>
     </ul>
-    <img src="images/maiden.jpg" alt="statue" />
+    <img src={maiden} alt="statue" />
   </div>
 
   <div class="combinations">
@@ -67,29 +75,29 @@
   <div class="panels">
     <h4>Electric Panels</h4>
 
-    <h5>Leon</h5>
+    <h5 class="text-center">Leon</h5>
 
-    <div class="d-flex w-75 m-auto">
+    <div class="d-flex w-75 mb-5 m-auto">
       <div class="flex-column ms-5 me-5">
         <p class="fw-bold text-center">1st run</p>
-        <img src="images/leon1.webp" alt="panel" />
+        <img src={leon1} alt="panel" />
       </div>
       <div class="flex-column">
         <p class="fw-bold text-center">2nd run</p>
-        <img src="images/leon2.webp" alt="panel" />
+        <img src={leon2} alt="panel" />
       </div>
     </div>
 
-    <h5>Claire</h5>
+    <h5 class="text-center">Claire</h5>
 
     <div class="d-flex w-75 m-auto">
       <div class="flex-column ms-5 me-5">
         <p class="fw-bold text-center">1st run</p>
-        <img src="images/claire1.webp" alt="panel" />
+        <img src={claire1} alt="panel" />
       </div>
       <div class="flex-column">
         <p class="fw-bold text-center">2nd run</p>
-        <img src="images/claire2.webp" alt="panel" />
+        <img src={claire2} alt="panel" />
       </div>
     </div>
   </div>
@@ -97,29 +105,41 @@
   <div class="chess">
     <h4>Chess Door Puzzle</h4>
 
-    <p class="fw-bold">1st run</p>
-    <ul>
-      <li>Knight - King</li>
-      <li>Rook - Queen</li>
-      <li>Bishop - Pawn</li>
-    </ul>
+    <div class="d-flex justify-content-center">
+      <div>
+        <p class="fw-bold">1st run</p>
+        <ul>
+          <li>Knight - King</li>
+          <li>Rook - Queen</li>
+          <li>Bishop - Pawn</li>
+        </ul>
+      </div>
 
-    <p class="fw-bold">2nd run</p>
-    <ul>
-      <li>King - Knight</li>
-      <li>Bishop - Rook</li>
-      <li>Queen - Pawn</li>
-    </ul>
+      <div>
+        <p class="fw-bold">2nd run</p>
+        <ul>
+          <li>King - Knight</li>
+          <li>Bishop - Rook</li>
+          <li>Queen - Pawn</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="labcode">
     <h4>Lab Code</h4>
 
-    <p class="fw-bold">1st run</p>
-    <p>3123 <br /> 2067</p>
+    <div class="d-flex justify-content-center">
+      <div>
+        <p class="fw-bold">1st run</p>
+        <p>3123 <br /> 2067</p>
+      </div>
 
-    <p class="fw-bold">2nd run</p>
-    <p>2048 <br /> 5831</p>
+      <div>
+        <p class="fw-bold">2nd run</p>
+        <p>2048 <br /> 5831</p>
+      </div>
+    </div>
   </div>
 
   <div class="synthesis">
@@ -220,3 +240,10 @@
     </ol>
   </div>
 </div>
+
+<style>
+  .panels img {
+    width: 100%;
+    height: auto;
+  }
+</style>

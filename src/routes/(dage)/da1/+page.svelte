@@ -3,6 +3,10 @@
   $pageTitle = "dragon age: origins";
   import Sections from "$lib/sections.svelte";
 
+  import bridge1 from "$lib/images/dao/bridge1.jpg";
+  import bridge2 from "$lib/images/dao/bridge2.jpg";
+  import bridge3 from "$lib/images/dao/bridge3.jpg";
+
   const sections = [
     {
       name: "mods",
@@ -523,9 +527,30 @@
     <p>Answer : The mountains</p>
     <hr />
     <p>Lady Vasilia</p>
-    <p>
+    <p class="mb-5">
       Riddle : An eye for an eye, a tooth for a tooth. The debt of blood must be
       paid in full. Of what do I speak?
     </p>
+
+    <h5>bridge puzzle</h5>
+    <p class="fw-bold">step 1:</p>
+    <img src={bridge1} alt="bridge" />
+    <p class="fw-bold">step 2:</p>
+    <img src={bridge2} alt="bridge" />
+    <p class="fw-bold">step 3:</p>
+    <img src={bridge3} alt="bridge" />
   </div>
 </div>
+
+<style>
+  p.fw-bold {
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+</style>
