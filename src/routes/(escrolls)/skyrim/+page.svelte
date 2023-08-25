@@ -76,7 +76,9 @@
 <div id="console" class="console">
   <h2>console commands</h2>
 
-  <table class="table table-responsive">
+  <table
+    class="table table-borderless table-striped table-responsive text-capitalize"
+  >
     <thead class="text-capitalize">
       <tr>
         <th>name</th>
@@ -94,6 +96,7 @@
       {/each}
     </tbody>
   </table>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="bat" class="bat">
@@ -104,6 +107,7 @@
     root folder. Bringing up the console in game and using the input bat
     (filename) will execute the console commands in that .txt file.
   </p>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="mods" class="mods">
@@ -290,7 +294,9 @@
       </p>
     </div>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
+
 <div id="guides" class="guides">
   <h2>guides</h2>
 
@@ -610,6 +616,7 @@
     <p>Zahkriisos = Bloodskal Barrow, in Raven Rock Mine</p>
     <p>Miraak = Main Quest</p>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>

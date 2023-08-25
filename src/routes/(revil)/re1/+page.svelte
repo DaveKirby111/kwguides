@@ -66,4 +66,5 @@
     <h4>Lab Number Panel</h4>
     <p>Code: 8462</p>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>

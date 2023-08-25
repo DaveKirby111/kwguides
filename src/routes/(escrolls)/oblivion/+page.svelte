@@ -89,7 +89,9 @@
 <div id="console" class="console">
   <h2>console commands</h2>
 
-  <table class="table table-responsive">
+  <table
+    class="table table-borderless table-striped table-responsive text-capitalize"
+  >
     <thead class="text-capitalize">
       <tr>
         <th>name</th>
@@ -107,6 +109,7 @@
       {/each}
     </tbody>
   </table>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="bat" class="bat">
@@ -117,9 +120,50 @@
     root folder. Bringing up the console in game and using the input bat
     (filename) will execute the console commands in that .txt file.
   </p>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
-<div id="mods" class="mods" />
+<div id="mods" class="mods">
+  <h2>mods</h2>
+
+  <div class="d-flex justify-content-center">
+    <div class="d-flex flex-column me-5 text-center">
+      <p>Oblivion Script Extender</p>
+      <p>
+        <a
+          href="https://github.com/llde/xOBSE/releases/tag/22.6.1"
+          target="_blank">Github Page</a
+        >
+      </p>
+    </div>
+    <div class="d-flex flex-column me-5 text-center">
+      <p>MenuQue - OBSE Plugin</p>
+      <p>
+        <a href="https://www.nexusmods.com/oblivion/mods/32200?tab=description"
+          >Nexus Page</a
+        >
+      </p>
+    </div>
+    <div class="d-flex flex-column me-5 text-center">
+      <p>All +5 Attribute Modifiers</p>
+      <p>
+        <a href="https://www.nexusmods.com/oblivion/mods/2691" target="_blank"
+          >Nexus Page</a
+        >
+      </p>
+    </div>
+    <div class="d-flex flex-column text-center">
+      <p>Oblivion XP Update (requires OBSE and MenuQue)</p>
+      <p>
+        <a
+          href="https://www.nexusmods.com/oblivion/mods/51817?tab=description"
+          target="_blank">Nexus Page</a
+        >
+      </p>
+    </div>
+  </div>
+  <a href="#top" class="skiplink">Top</a>
+</div>
 <div id="guides" class="guides">
   <h2>guides</h2>
 
@@ -217,6 +261,7 @@
       </tbody>
     </table>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>

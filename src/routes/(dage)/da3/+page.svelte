@@ -283,4 +283,5 @@
       <li>Banish them = Leliana -5, Cassandra +5, Vivienne +1</li>
     </ul>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>

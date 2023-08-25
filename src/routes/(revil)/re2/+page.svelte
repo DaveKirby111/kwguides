@@ -239,6 +239,7 @@
       </p>
     </ol>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>

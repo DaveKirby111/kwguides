@@ -30,9 +30,9 @@
           target="_blank">Nexus Page</a
         >
       </p>
-      <p><a href="assets/ff8/hyne-5-1-11-1-1591375927.zip">Download</a></p>
     </div>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="guides" class="guides">
@@ -449,4 +449,5 @@
       Ability.
     </p>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>

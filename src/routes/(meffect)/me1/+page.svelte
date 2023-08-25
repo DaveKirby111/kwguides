@@ -19,16 +19,161 @@
       link: "#guides",
     },
   ];
+
+  const commands = [
+    {
+      name: "credits",
+      input: "initcredits amount",
+      desc: "give credits",
+    },
+
+    {
+      name: "omni-gel",
+      input: "initsalvage",
+      desc: "give omni-gel",
+    },
+
+    {
+      name: "experience",
+      input: "givexp amount",
+      desc: "give experience points",
+    },
+
+    {
+      name: "talent points",
+      input: "givetalentpoints amount",
+      desc: "give talent points",
+    },
+  ];
 </script>
 
 <Sections {sections} />
 
 <div id="mods" class="mods">
   <h2>mods</h2>
+
+  <h4>OG ME 1 mods</h4>
+  <div class="d-flex mb-5 justify-content-center">
+    <div class="me-5 text-center">
+      <p>Trilogy Save Editor for OG and LE</p>
+      <p>
+        <a
+          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/20?tab=description"
+          target="_blank"
+          rel="noopener noreferrer">Nexus Page</a
+        >
+      </p>
+    </div>
+    <div class="me-5 text-center">
+      <p>ME3Tweaks Mod Manager</p>
+      <p>
+        <a
+          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/2?tab=description"
+          target="_blank"
+          rel="noopener noreferrer">Nexus Page</a
+        >
+      </p>
+    </div>
+    <div class="me-5 text-center">
+      <p>Keepers Finders</p>
+      <p>
+        <a
+          href="https://www.nexusmods.com/masseffect/mods/205?tab=description"
+          target="_blank"
+          rel="noopener noreferrer">Nexus Page</a
+        >
+      </p>
+    </div>
+    <div class="me-5 text-center">
+      <p>Galaxy Map Trackers</p>
+      <p>
+        <a
+          href="https://www.nexusmods.com/masseffect/mods/186?tab=description"
+          target="_blank"
+          rel="noopener noreferrer">Nexus Page</a
+        >
+      </p>
+    </div>
+    <div class="me-5 text-center">
+      <p>Mako - Improved Controls Mod</p>
+      <p>
+        <a
+          href="https://www.nexusmods.com/masseffect/mods/59?tab=description"
+          target="_blank"
+          rel="noopener noreferrer">Nexus Page</a
+        >
+      </p>
+    </div>
+  </div>
+
+  <h4>Legendary Edition Mods</h4>
+  <div class="d-flex justify-content-center">
+    <div class="me-5 text-center">
+      <p>Keepers Finders</p>
+      <p>
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          >Nexus Page</a
+        >
+      </p>
+    </div>
+    <div class="me-5 text-center">
+      <p>Galaxy Map Trackers</p>
+      <p>
+        <a
+          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/426?tab=description"
+          target="_blank"
+          rel="noopener noreferrer">Nexus Page</a
+        >
+      </p>
+    </div>
+    <div class="me-5 text-center">
+      <p>Breather Helmet for LE1</p>
+      <p>
+        <a
+          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/1843?tab=description"
+          target="_blank"
+          rel="noopener noreferrer">Nexus Page</a
+        >
+      </p>
+    </div>
+    <div class="me-5 text-center">
+      <p>LE1 Community Patch</p>
+      <p>
+        <a
+          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/23?tab=description"
+          target="_blank"
+          rel="noopener noreferrer">Nexus Page</a
+        >
+      </p>
+    </div>
+  </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="console" class="console">
   <h2>console commands</h2>
+
+  <table
+    class="table table-borderless table-striped table-responsive text-capitalize"
+  >
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>input</th>
+        <th>function</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each commands as command}
+        <tr>
+          <td>{command.name}</td>
+          <td>{command.input}</td>
+          <td>{command.desc}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="guides" class="guides">
@@ -152,7 +297,7 @@
   </div>
 
   <div class="peak15">
-    <h3>Peak 15 Puzzles</h3>
+    <h4>Peak 15 Puzzles</h4>
     <h5>Memory Core</h5>
     <div class="core">
       <p>
@@ -162,4 +307,5 @@
       </p>
     </div>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>

@@ -268,6 +268,7 @@
   <div class="keycodes text-center">
     <h4>keycodes</h4>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>

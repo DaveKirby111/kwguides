@@ -33,9 +33,9 @@
           rel="noopener noreferrer">Visit Site</a
         >
       </p>
-      <p><a href="assets/ff7/Black_Chocobo-1.10.0-win32.zip">Download</a></p>
     </div>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="guides" class="guides">
@@ -654,6 +654,7 @@
       <img src={harp2} alt="harp" />
     </div>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>

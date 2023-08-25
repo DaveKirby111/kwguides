@@ -4,7 +4,7 @@
   import Title from "$lib/title.svelte";
 </script>
 
-<header>
+<header id="top">
   <div class="title d-flex">
     <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
     <Nav />
@@ -17,5 +17,9 @@
     width: 200px;
     height: 90px;
     margin-left: 10px;
+  }
+
+  .title {
+    padding: 10px;
   }
 </style>

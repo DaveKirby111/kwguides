@@ -19,10 +19,6 @@
 
 <Sections {sections} />
 
-<div id="mods" class="mods">
-  <h2>mods</h2>
-</div>
-
 <div id="guides" class="guides">
   <h2>guides</h2>
 
@@ -152,6 +148,7 @@
     </p>
     <p>Sage's Monograph = 25,000 gil, talk to any shop owner 100 times</p>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>

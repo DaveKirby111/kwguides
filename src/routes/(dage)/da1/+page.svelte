@@ -33,6 +33,7 @@
       rel="noopener noreferrer">nexus page</a
     >
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="guides" class="guides">
@@ -540,6 +541,7 @@
     <p class="fw-bold">step 3:</p>
     <img src={bridge3} alt="bridge" />
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>

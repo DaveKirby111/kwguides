@@ -19,6 +19,26 @@
       link: "#guides",
     },
   ];
+
+  const commands = [
+    {
+      name: "credits",
+      input: "initcredits amount",
+      desc: "give credits",
+    },
+
+    {
+      name: "experience",
+      input: "givexp amount",
+      desc: "give experience points",
+    },
+
+    {
+      name: "talent points",
+      input: "givetalentpoints amount",
+      desc: "give talent points",
+    },
+  ];
 </script>
 
 <Sections {sections} />
@@ -98,10 +118,33 @@
       </div>
     </div>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div class="console" id="console">
   <h2>console commands</h2>
+
+  <table
+    class="table table-borderless table-striped table-responsive text-capitalize"
+  >
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>input</th>
+        <th>function</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each commands as command}
+        <tr>
+          <td>{command.name}</td>
+          <td>{command.input}</td>
+          <td>{command.desc}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="guides" class="guides">
@@ -345,4 +388,5 @@
       </tbody>
     </table>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>

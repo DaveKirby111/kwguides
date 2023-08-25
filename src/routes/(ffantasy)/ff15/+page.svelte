@@ -30,6 +30,7 @@
     <h3 class="text-center">royal tombs</h3>
     <img src={tombs} alt="tombs" />
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>

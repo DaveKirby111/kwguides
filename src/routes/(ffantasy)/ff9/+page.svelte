@@ -31,9 +31,6 @@
           rel="noopener noreferrer">Nexus Page</a
         >
       </p>
-      <p>
-        <a href="assets/ff9/Memoria-3-v2021-01-18-1610991566.zip">Download</a>
-      </p>
     </div>
     <div class="me-5 text-center">
       <p>Memoria Save Editor</p>
@@ -43,7 +40,6 @@
           target="_blank">Visit Site</a
         >
       </p>
-      <p><a href="assets/ff9/Memoria_0.5.1b.zip">Download</a></p>
     </div>
   </div>
 </div>
@@ -274,4 +270,5 @@
       combo.
     </p>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>

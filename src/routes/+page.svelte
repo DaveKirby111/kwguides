@@ -36,7 +36,7 @@
   ];
 </script>
 
-<div>
+<div class="page-img">
   <img src={ttg} alt="ttg" class="ttg" />
 </div>
 

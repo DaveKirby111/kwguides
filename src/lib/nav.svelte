@@ -27,6 +27,7 @@
 <style>
   nav ul {
     margin-right: 20px;
+    text-align: center;
   }
 
   nav ul li a {
@@ -34,7 +35,6 @@
   }
 
   .dropdown-menu {
-    width: 200px;
     text-align: center;
   }
 

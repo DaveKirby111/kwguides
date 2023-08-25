@@ -33,7 +33,11 @@ h5 {
     text-decoration: underline;
 }
 
-.ttg {
+.guides, .mods, .console, .bat {
+    padding: 30px;
+}
+
+.page-img img {
     width: 100%;
     height: auto;
 }

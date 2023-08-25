@@ -31,6 +31,50 @@
       link: "#guides",
     },
   ];
+
+  const commands = [
+    {
+      name: "god mode",
+      input: "tgm",
+      desc: "toggle god mode",
+    },
+
+    {
+      name: "money",
+      input: "player->additem gold_001 amount",
+      desc: "give gold",
+    },
+
+    {
+      name: "fill map",
+      input: "fillmap",
+      desc: "shows all towns on the map",
+    },
+
+    {
+      name: "reset actors",
+      input: "ra",
+      desc: "reset the location of every npc",
+    },
+
+    {
+      name: "unlock",
+      input: "unlock",
+      desc: "unlocks currently selected lock",
+    },
+
+    {
+      name: "exquisite amulet",
+      input: "player->additem exquisite_amulet_01 1",
+      desc: "enchant 120",
+    },
+
+    {
+      name: "golden saint soul gem",
+      input: 'player->additem "golden saint" misc_soulgem_grand 1',
+      desc: "filled grand soul gem",
+    },
+  ];
 </script>
 
 <Sections {sections} />
@@ -118,8 +162,34 @@
       </p>
     </div>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
-<div id="console" class="console" />
+
+<div id="console" class="console">
+  <h2>console commands</h2>
+
+  <table
+    class="table table-borderless table-striped table-responsive text-capitalize"
+  >
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>input</th>
+        <th>function</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each commands as command}
+        <tr>
+          <td>{command.name}</td>
+          <td>{command.input}</td>
+          <td>{command.desc}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+  <a href="#top" class="skiplink">Top</a>
+</div>
 <div id="mods" class="mods">
   <h2>mods</h2>
 
@@ -142,6 +212,7 @@
       </p>
     </div>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <div id="builds" class="builds">
@@ -179,7 +250,9 @@
       <li>Mage</li>
     </ul>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
+
 <div id="guides" class="guides">
   <h2>guides</h2>
 
@@ -265,6 +338,7 @@
       This is part of the Tribunal dlc.
     </p>
   </div>
+  <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>
