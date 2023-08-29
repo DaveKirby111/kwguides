@@ -41,4 +41,12 @@
   .dropdown:hover .dropdown-menu {
     display: block;
   }
+
+  .dropdown-menu li {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .dropdown-menu li:last-child {
+    border-bottom: none;
+  }
 </style>

@@ -1,0 +1,4 @@
+player.additem 6ee68 1
+player.additem 6ee64 1
+player.additem 6ee66 1
+player.additem 6ee6a 1

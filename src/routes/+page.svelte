@@ -60,3 +60,9 @@
     </tbody>
   </table>
 </div>
+
+<style>
+  table {
+    table-layout: fixed;
+  }
+</style>

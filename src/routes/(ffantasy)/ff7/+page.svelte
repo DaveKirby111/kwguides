@@ -4,6 +4,8 @@
   import Sections from "$lib/sections.svelte";
   import harp1 from "$lib/images/ff7/harp1.png";
   import harp2 from "$lib/images/ff7/harp2.png";
+  import key1 from "$lib/images/ff7/key1.png";
+  import key2 from "$lib/images/ff7/key2.png";
 
   const sections = [
     {
@@ -498,8 +500,8 @@
       found near the smashed up plane on the main level of the dig site.
     </p>
 
-    <img src="images/key1.png" alt="key" />
-    <img src="images/key2.png" alt="key" />
+    <img src={key1} alt="key" />
+    <img src={key2} alt="key" />
 
     <p>
       Final Heaven = Use the Final Heaven item on Tifa after she has learned all

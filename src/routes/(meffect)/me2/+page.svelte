@@ -303,4 +303,8 @@
   h3 {
     text-align: center;
   }
+
+  table {
+    table-layout: fixed;
+  }
 </style>

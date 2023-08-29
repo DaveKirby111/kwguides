@@ -6,11 +6,6 @@
 
   const sections = [
     {
-      name: "mods",
-      link: "#mods",
-    },
-
-    {
       name: "guides",
       link: "#guides",
     },

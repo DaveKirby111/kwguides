@@ -4,6 +4,11 @@
   import Sections from "$lib/sections.svelte";
   import * as components from "$lib/skyrimarr.js";
 
+  import daspect from "$lib/docs/skyrimbats/dragonaspect.txt";
+  import dsouls from "$lib/docs/skyrimbats/dragonsouls.txt";
+  import grandgems from "$lib/docs/skyrimbats/grandgems.txt";
+  import ulthealing from "$lib/docs/skyrimbats/ulthealing.txt";
+
   const sections = [
     {
       name: "console",
@@ -107,6 +112,26 @@
     root folder. Bringing up the console in game and using the input bat
     (filename) will execute the console commands in that .txt file.
   </p>
+
+  <div class="bat-files d-flex">
+    <div class="flex-column">
+      <p class="fw-bold">dragonaspect.txt</p>
+      <a href={daspect} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">dragonsouls.txt</p>
+      <a href={dsouls} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">grandgems.txt</p>
+      <a href={grandgems} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">ulthealing.txt</p>
+      <a href={ulthealing} download>download</a>
+    </div>
+  </div>
+
   <a href="#top" class="skiplink">Top</a>
 </div>
 
@@ -641,5 +666,15 @@
   .priests img {
     width: 100%;
     height: auto;
+  }
+
+  .bat-files div {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  table {
+    table-layout: fixed;
   }
 </style>

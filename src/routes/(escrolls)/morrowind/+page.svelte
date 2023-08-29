@@ -82,7 +82,6 @@
 <div id="setup" class="setup">
   <h2>setup</h2>
 
-  <h3>setup</h3>
   <p class="mb-5">
     These are two seperate ways to improve the experience of playing Morrowind
     on PC. I have played the game without any of these installs, with MSE + etc.
@@ -119,7 +118,7 @@
     </ol>
     <div class="d-flex justify-content-center">
       <div class="d-flex flex-column me-5">
-        <p>MSE</p>
+        <p class="text-center">MSE</p>
         <p>
           <a
             href="https://www.nexusmods.com/morrowind/mods/45468?tab=description"
@@ -128,7 +127,7 @@
         </p>
       </div>
       <div class="d-flex flex-column me-5">
-        <p>MCP</p>
+        <p class="text-center">MCP</p>
         <p>
           <a
             href="https://www.nexusmods.com/morrowind/mods/19510?tab=description"
@@ -137,7 +136,7 @@
         </p>
       </div>
       <div class="d-flex flex-column">
-        <p>MGE</p>
+        <p class="text-center">MGE</p>
         <p>
           <a
             href="https://www.nexusmods.com/morrowind/mods/41102?tab=description"
@@ -247,7 +246,11 @@
     </ul>
     <h5>Birthsign</h5>
     <ul>
-      <li>Mage</li>
+      <li>Mage: +50 magicka</li>
+      <li>Apprentice: +100 magicka, 50% weakness to magicka</li>
+      <li>Atronach: +150 magicka, stunted magicka</li>
+      <li>Lover: +25 agility</li>
+      <li>Lady: +25 personality and endurance</li>
     </ul>
   </div>
   <a href="#top" class="skiplink">Top</a>
@@ -345,5 +348,9 @@
   img {
     display: block;
     margin: auto;
+  }
+
+  table {
+    table-layout: fixed;
   }
 </style>

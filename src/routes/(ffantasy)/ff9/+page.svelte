@@ -272,3 +272,9 @@
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>
+
+<style>
+  .stellazio div {
+    justify-content: center;
+  }
+</style>

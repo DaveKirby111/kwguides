@@ -25,6 +25,8 @@ h3 {
 h4 {
     text-align: center;
     text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 h5 {
@@ -33,7 +35,19 @@ h5 {
     text-decoration: underline;
 }
 
-.guides, .mods, .console, .bat {
+img {
+    margin-bottom: 40px;
+}
+
+.mods a {
+    text-decoration: none;
+}
+
+.mods div {
+    padding: 10px;
+}
+
+.guides, .mods, .console, .bat, .setup, .builds {
     padding: 30px;
 }
 
@@ -41,3 +55,21 @@ h5 {
     width: 100%;
     height: auto;
 }
+
+.builds {
+    display: flex;
+    flex-direction: column;
+}
+
+.builds div {
+    margin: auto;
+}
+
+.skiplink {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.guides div {
+    padding: 30px;
+  }

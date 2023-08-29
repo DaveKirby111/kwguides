@@ -309,3 +309,9 @@
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>
+
+<style>
+  table {
+    table-layout: fixed;
+  }
+</style>

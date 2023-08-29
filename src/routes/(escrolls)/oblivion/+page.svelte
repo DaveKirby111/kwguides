@@ -4,6 +4,8 @@
   import Sections from "$lib/sections.svelte";
   import umbra from "$lib/images/oblivion/umbra.webp";
   import goldbrand from "$lib/images/oblivion/goldbrand.webp";
+  import bbounding from "$lib/docs/oblivionbats/bbounding.txt";
+  import alchemy from "$lib/docs/oblivionbats/alchemy.txt";
 
   const sections = [
     {
@@ -19,6 +21,11 @@
     {
       name: "mods",
       link: "#mods",
+    },
+
+    {
+      name: "builds",
+      link: "#builds",
     },
 
     {
@@ -118,8 +125,20 @@
   <p>
     Bat files are .txt files containing console commands and placed in the games
     root folder. Bringing up the console in game and using the input bat
-    (filename) will execute the console commands in that .txt file.
+    (filename.txt) will execute the console commands in that .txt file.
   </p>
+
+  <div class="bat-files d-flex">
+    <div class="flex-column">
+      <p class="fw-bold">bbounding.txt</p>
+      <a href={bbounding} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">alchemy.txt</p>
+      <a href={alchemy} download>download</a>
+    </div>
+  </div>
+
   <a href="#top" class="skiplink">Top</a>
 </div>
 
@@ -164,6 +183,43 @@
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>
+
+<div id="builds" class="builds">
+  <h2>builds</h2>
+
+  <div class="witcher">
+    <h4>Witcher</h4>
+    <h5>Specialization</h5>
+    <ul>
+      <li>Magic</li>
+    </ul>
+    <h5>Attributes</h5>
+    <ul>
+      <li>Willpower</li>
+      <li>Endurance</li>
+    </ul>
+    <h5>Major</h5>
+    <ul>
+      <li>Blade</li>
+      <li>Alchemy</li>
+      <li>Alteration</li>
+      <li>Block</li>
+      <li>Destruction</li>
+      <li>Restoration</li>
+      <li>Heavy Armor</li>
+    </ul>
+    <h5>Birthsign</h5>
+    <ul>
+      <li>Mage: +50 magicka</li>
+      <li>Apprentice: +100 magicka, -100% magic resistance</li>
+      <li>Atronach: +150 magicka, stunted magicka regen</li>
+      <li>Lady: +10 to willpower and endurance</li>
+      <li>Warriar: +10 to strength and endurance</li>
+    </ul>
+  </div>
+  <a href="#top" class="skiplink">Top</a>
+</div>
+
 <div id="guides" class="guides">
   <h2>guides</h2>
 
@@ -268,5 +324,20 @@
   img {
     display: block;
     margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .bat-files div {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .bat-files {
+    justify-content: center;
+  }
+
+  table {
+    table-layout: fixed;
   }
 </style>
