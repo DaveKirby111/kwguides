@@ -65,4 +65,8 @@
   table {
     table-layout: fixed;
   }
+
+  img {
+    margin-bottom: 0;
+  }
 </style>

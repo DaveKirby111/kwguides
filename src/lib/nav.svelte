@@ -30,6 +30,10 @@
     text-align: center;
   }
 
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+
   nav ul li a {
     width: 200px;
   }

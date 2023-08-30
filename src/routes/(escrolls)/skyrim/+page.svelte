@@ -81,9 +81,7 @@
 <div id="console" class="console">
   <h2>console commands</h2>
 
-  <table
-    class="table table-borderless table-striped table-responsive text-capitalize"
-  >
+  <table class="table table-borderless table-striped table-responsive">
     <thead class="text-capitalize">
       <tr>
         <th>name</th>
@@ -676,5 +674,13 @@
 
   table {
     table-layout: fixed;
+  }
+
+  table td:first-child {
+    text-transform: capitalize;
+  }
+
+  img {
+    margin-bottom: 0;
   }
 </style>

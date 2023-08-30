@@ -2,6 +2,8 @@
   import { pageTitle } from "$lib/stores.js";
   $pageTitle = "deus ex: mankind divided";
   import Sections from "$lib/sections.svelte";
+  import keycodes from "$lib/docs/Keycodes.pdf";
+  import passwords from "$lib/docs/Passwords.pdf";
 
   const sections = [
     {
@@ -117,166 +119,22 @@
     </ol>
   </div>
 
-  <div class="passwords mb-5">
-    <h4>Passwords</h4>
+  <div class="key-pass d-flex">
+    <div class="passwords text-center">
+      <h4>Passwords</h4>
+      <a href={passwords} target="_blank" rel="noopener noreferrer">Open PDF</a>
+    </div>
 
-    <div class="pw-1 d-flex">
-      <div>
-        <p class="fw-bold text-capitalize">zelen apartments</p>
-        <ul>
-          <li>apt. 41 = thevoidwhichbinds</li>
-          <li>apt. 32 = Ouroboros</li>
-          <li>apt. 31 = starlight</li>
-          <li>apt. 23 = krodine</li>
-          <li>apt. 22 = DobraNoc</li>
-        </ul>
-      </div>
-      <div>
-        <p class="fw-bold text-capitalize">other</p>
-        <ul>
-          <li>Time Machine front desk = Ubik</li>
-          <li>Time Machine back room = heartofdarkness</li>
-          <li>Toys factory = 1980</li>
-          <li>Helena Volin's computer = KEPLER432B</li>
-          <li>Felice Ullman's computer = LEPTONS</li>
-          <li>Capek Fountain Station = Messier43</li>
-          <li>Pawn Shop = VCORPP03L</li>
-          <li>Neon Lab = ImCarcosa</li>
-        </ul>
-      </div>
-      <div>
-        <p class="fw-bold text-capitalize">church of the MachineGod</p>
-        <ul>
-          <li>security hubs = ascension</li>
-          <li>Katjusa Vent = ElectricSpirit</li>
-          <li>Dagmar Pala = FaithInU</li>
-          <li>Allison Stanek = absolution</li>
-        </ul>
-      </div>
-      <div>
-        <p class="fw-bold text-capitalize">33 hlavni apartments</p>
-        <ul>
-          <li>apt. 202 = devotchka</li>
-          <li>apt. 203 = Messier43</li>
-          <li>apt. 203 = E4E5QH5</li>
-          <li>apt. 302 = 1977</li>
-        </ul>
-      </div>
+    <div class="keycodes text-center">
+      <h4>keycodes</h4>
+      <a href={keycodes} target="_blank" rel="noopener noreferrer">Open PDF</a>
     </div>
-    <div class="pw-2 d-flex">
-      <div>
-        <p class="fw-bold text-capitalize">stores</p>
-        <ul>
-          <li>Hemingway Fine Spirits = FURVENT6</li>
-          <li>Sobchak Security = NOFATE</li>
-          <li>Tubehouse Electronics = MASKEDCYBORG</li>
-        </ul>
-      </div>
-      <div>
-        <p class="fw-bold text-capitalize">apartments</p>
-        <ul>
-          <li>Stana Tomasek = May2020</li>
-          <li>Oleg Drago = OCTAVARIUM</li>
-          <li>Marta Babik = TheFinalCut</li>
-          <li>Julien Bartek = MUSTBREAKU</li>
-          <li>Milos Awadalla = NOMORE</li>
-          <li>Enro Gozeyn = VENUS</li>
-          <li>Madame Photograghe, Vadim Orlov = OL519xanadu</li>
-          <li>Otar Botkoveli casino sec hub = otarminator</li>
-          <li>Cassian Valente = ELEFSIS</li>
-        </ul>
-      </div>
-      <div>
-        <p class="fw-bold text-capitalize">misc</p>
-        <ul>
-          <li>Otar Botkoveli = NEBUKED</li>
-          <li>Registration Office = samithedog</li>
-          <li>Policie comp = Almeisan</li>
-          <li>
-            Sec terminal checkpoint (during martial law only) = AugBuster003
-          </li>
-          <li>Sec hub (martial law) = 1FreeWish</li>
-        </ul>
-      </div>
-    </div>
-    <div>
-      <p class="fw-bold text-capitalize text-center">task force 29 HQ</p>
-      <div class="d-flex">
-        <div class="d-flex mx-auto">
-          <ul>
-            <li>Aria Argento = tuscany2023</li>
-            <li>Peter Chang = Aphasia5689, Cha12f5g9e</li>
-            <li>Duncan MacReady = Sharp007, McCr49f0eF</li>
-            <li>Vincent Black = Origami1870, Bla14f5ku6</li>
-            <li>Dr. Delara Auzenne = AUZ1LU51AT1</li>
-            <li>Dr. Jennifer Phillips = Neuropozyne</li>
-            <li>Dr. Daniel Fletcher = BertiLLon1870</li>
-          </ul>
-          <ul>
-            <li>Jim Miller = E4E5QH5</li>
-            <li>Server Admin = Clod04SFD8S</li>
-            <li>NSN = JJKPOXZ774</li>
-            <li>Security Holding Cells = NMKKHJ223</li>
-            <li>Briefing Room = paulwestlind</li>
-            <li>Aidan Green = withstrangeaeons</li>
-            <li>Strickland Hall = ELVIRA88</li>
-          </ul>
-          <ul>
-            <li>Ethan King = FrakkingUpTheA</li>
-            <li>Benjamin Scott = dormata</li>
-            <li>Meredith Yang = mcsteamy</li>
-            <li>Robert Allen = T1000</li>
-            <li>Alison Walchuck = ebert</li>
-            <li>Ryan Baker = saveprivateroy</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <p class="fw-bold text-capitalize text-center">palisade property bank</p>
-    <div class="d-flex">
-      <div class="d-flex mx-auto">
-        <ul>
-          <li>Parking garage = copyreport00</li>
-          <li>PPB garage security = PALSEC6579AT</li>
-          <li>Ivana Drahos = highdata001</li>
-          <li>Thomas Romanek = Egypt2030</li>
-          <li>Security office, level 2 = KLMVP9951</li>
-          <li>Level 1 sec office sec hub = AKLVD6681</li>
-          <li>Level 1 sec office = P34T45WF</li>
-          <li>Level 1 Exec safes A = hjtrv8865</li>
-          <li>Level 1 Exec safes B = AKLVD6681</li>
-          <li>Level 3 sec office sec hub = clemenza</li>
-          <li>Level 3 IT services = linox2014</li>
-        </ul>
-        <ul>
-          <li>Pavel Karmoni = nardinemorano</li>
-          <li>Level 3 conference room = safeandsecure22</li>
-          <li>Ashani Talwar = scheherezade</li>
-          <li>Masaaki Oshiro = tycoon999</li>
-          <li>Level 3 CEO/CTO = brtvz5524</li>
-          <li>Picus Group corporate vault = n3wsm4ker</li>
-          <li>Tarvos sec services = LKMN01259KNML</li>
-          <li>Tai Yong Medical = GBNM45KLP53</li>
-          <li>Corporate Vault (M12: The Heist) = VIPsec487Tv</li>
-          <li>Corporate Vault (M12: The Heist) = PALSEC4654TI</li>
-          <li>VersaLife = 5896KLM01BN</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="keycodes text-center">
-    <h4>keycodes</h4>
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>
 
 <style>
-  .pw-1 div {
-    width: 25%;
-  }
-
-  .pw-2 div {
-    width: 33.3%;
+  .key-pass div {
+    width: 50%;
   }
 </style>

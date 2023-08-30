@@ -3,6 +3,10 @@
 </footer>
 
 <style>
+  footer {
+    text-align: center;
+  }
+
   footer p {
     text-transform: capitalize;
   }
