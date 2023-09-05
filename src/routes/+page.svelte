@@ -5,6 +5,11 @@
 
   const games = [
     {
+      title: "assassin's creed",
+      games: "odyssey",
+    },
+
+    {
       title: "deus ex",
       games: "human revolution, mankind divided",
     },

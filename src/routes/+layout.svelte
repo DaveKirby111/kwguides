@@ -23,7 +23,7 @@
   </script>
 </svelte:head>
 
-<div class="container-fluid d-flex flex-column min-vh-100 m-0 p-0">
+<div class="container-fluid d-flex flex-column min-vh-100 m-0 p-0 flex-wrap">
   <Header />
 
   <main class="flex-grow-1">

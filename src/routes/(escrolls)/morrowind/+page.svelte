@@ -167,9 +167,7 @@
 <div id="console" class="console">
   <h2>console commands</h2>
 
-  <table
-    class="table table-borderless table-striped table-responsive text-capitalize"
-  >
+  <table class="table table-borderless table-striped table-responsive">
     <thead>
       <tr>
         <th>name</th>

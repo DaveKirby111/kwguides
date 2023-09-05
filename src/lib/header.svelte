@@ -4,13 +4,16 @@
   import Title from "$lib/title.svelte";
 </script>
 
-<header id="top">
-  <div class="title d-flex">
+<header id="top" class="d-flex flex-column flex-md-row">
+  <div class="title d-flex justify-content-center">
     <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
-    <Nav />
   </div>
-  <Title />
+  <div class="mx-auto w-100"><Nav /></div>
 </header>
+
+<div class="page">
+  <Title />
+</div>
 
 <style>
   .logo {
@@ -18,9 +21,5 @@
     height: 90px;
     margin-left: 10px;
     margin-top: 10px;
-  }
-
-  .title {
-    padding: 10px;
   }
 </style>

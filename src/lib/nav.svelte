@@ -2,13 +2,13 @@
   import { links } from "./nav.js";
 </script>
 
-<nav class="navbar navbar-expand-sm ms-auto">
+<nav class="navbar navbar-expand-sm d-flex justify-content-center">
   <ul class="navbar-nav text-capitalize">
     {#each links as link}
       <li class="nav-item dropdown" id={link.id}>
         <a
           href={link.url}
-          class="nav-link dropdown-toggle"
+          class="nav-link dropdown-toggle mb-3 mb-md-0"
           role="button"
           data-bs-toggle="dropdown">{link.title}</a
         >
@@ -34,8 +34,8 @@
     text-decoration: underline;
   }
 
-  nav ul li a {
-    width: 200px;
+  .dropdown {
+    margin-left: 20px;
   }
 
   .dropdown-menu {
