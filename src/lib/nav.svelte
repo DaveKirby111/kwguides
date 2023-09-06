@@ -2,7 +2,7 @@
   import { links } from "./nav.js";
 </script>
 
-<nav class="navbar navbar-expand-sm d-flex justify-content-center">
+<nav class="navbar navbar-expand-sm d-flex justify-content-center p-0">
   <ul class="navbar-nav text-capitalize">
     {#each links as link}
       <li class="nav-item dropdown" id={link.id}>
@@ -26,8 +26,9 @@
 
 <style>
   nav ul {
-    margin-right: 20px;
+    margin: auto;
     text-align: center;
+    width: 100%;
   }
 
   .nav-item:hover {
@@ -35,7 +36,8 @@
   }
 
   .dropdown {
-    margin-left: 20px;
+    border: 2px solid black;
+    width: 100%;
   }
 
   .dropdown-menu {
@@ -52,5 +54,15 @@
 
   .dropdown-menu li:last-child {
     border-bottom: none;
+  }
+
+  @media screen and (max-width: 400px) {
+    nav ul {
+      width: 100%;
+    }
+
+    .dropdown {
+      width: 100%;
+    }
   }
 </style>

@@ -5,10 +5,10 @@
 </script>
 
 <header id="top" class="d-flex flex-column flex-md-row">
-  <div class="title d-flex justify-content-center">
+  <div class="title d-flex justify-content-center p-3">
     <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
   </div>
-  <div class="mx-auto w-100"><Nav /></div>
+  <div class="w-100"><Nav /></div>
 </header>
 
 <div class="page">

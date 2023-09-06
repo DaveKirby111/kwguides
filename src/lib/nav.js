@@ -5,6 +5,11 @@ export const links = [
     url: "#",
     subitems: [
       {
+        page: "origins",
+        url: "/origins",
+      },
+
+      {
         page: "odyssey",
         url: "/odyssey",
       },
@@ -34,17 +39,17 @@ export const links = [
     url: "#",
     subitems: [
       {
-        page: "dragon age: origins",
+        page: "DA: origins",
         url: "/da1",
       },
 
       {
-        page: "dragon age II",
+        page: "DA II",
         url: "/da2",
       },
 
       {
-        page: "dragon age: inquisition",
+        page: "DA: inquisition",
         url: "/da3",
       },
     ],
