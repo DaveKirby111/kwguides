@@ -71,7 +71,8 @@
     table-layout: fixed;
   }
 
-  img {
+  img,
+  div {
     margin-bottom: 0;
   }
 </style>

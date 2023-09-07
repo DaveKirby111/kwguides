@@ -136,7 +136,7 @@
 <div id="mods" class="mods">
   <h2>mods</h2>
 
-  <div class="d-flex mb-5 justify-content-center">
+  <div class="d-flex mb-5 justify-content-center flex-wrap">
     <div class="d-flex flex-column me-5 text-center">
       <p>Skyrim Script Extender</p>
       <p>

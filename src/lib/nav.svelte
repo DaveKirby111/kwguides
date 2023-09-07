@@ -31,17 +31,24 @@
     width: 100%;
   }
 
-  .nav-item:hover {
-    text-decoration: underline;
+  .dropdown-item:hover {
+    background-color: green;
+    color: red;
+    text-shadow: 2px 2px 2px black;
   }
 
   .dropdown {
-    border: 2px solid black;
     width: 100%;
+  }
+
+  .dropdown a {
+    color: rgb(0, 176, 0);
   }
 
   .dropdown-menu {
     text-align: center;
+    /* background: rgba(0, 0, 0, 0.1); */
+    background-color: black;
   }
 
   .dropdown:hover .dropdown-menu {
@@ -49,7 +56,7 @@
   }
 
   .dropdown-menu li {
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid rgb(0, 176, 0);
   }
 
   .dropdown-menu li:last-child {

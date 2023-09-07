@@ -1,17 +1,9 @@
-header,
-main,
-nav,
-footer,
-div {
-  border: 2px solid black;
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  width: fit-content;
+  width: 100%;
 }
 
 h1 {
@@ -23,9 +15,19 @@ h1 {
 h2 {
   text-transform: capitalize;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 50px;
+  font-size: 100px;
+  margin-bottom: 40px;
+  background-color: red;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 30px !important;
+  }
 }
 
 h3 {
@@ -49,6 +51,15 @@ img {
   margin-bottom: 40px;
   width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red !important;
+  text-shadow: 2px 2px 2px black;
 }
 
 .mods a {
