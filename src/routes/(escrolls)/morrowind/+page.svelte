@@ -167,7 +167,9 @@
 <div id="console" class="console">
   <h2>console commands</h2>
 
-  <table class="table table-borderless table-striped table-responsive">
+  <table
+    class="table table-borderless table-dark table-striped table-responsive"
+  >
     <thead>
       <tr>
         <th>name</th>
@@ -350,5 +352,15 @@
 
   table {
     table-layout: fixed;
+  }
+
+  @media screen and (max-width: 600px) {
+    table td {
+      padding: 30px;
+    }
+
+    div {
+      width: 100%;
+    }
   }
 </style>

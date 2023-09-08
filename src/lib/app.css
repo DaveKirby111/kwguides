@@ -6,6 +6,15 @@ body {
   width: 100%;
 }
 
+main {
+  background-color: rgb(188, 182, 182);
+  border: 15px double black;
+}
+
+div {
+  flex-wrap: wrap;
+}
+
 h1 {
   text-transform: capitalize;
   font-size: 80px;
@@ -17,17 +26,14 @@ h2 {
   text-align: center;
   font-size: 100px;
   margin-bottom: 40px;
-  background-color: red;
+  /* background-color: red; */
   height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media screen and (max-width: 600px) {
-  h2 {
-    font-size: 30px !important;
-  }
+  background-image: url("$lib/images/space.webp");
+  background-size: 100% 100%;
+  color: rgb(0, 176, 0);
 }
 
 h3 {

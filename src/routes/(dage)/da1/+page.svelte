@@ -42,7 +42,9 @@
   <div class="gifts mb-5">
     <h4>gifts</h4>
     <p>Alistair Gifts</p>
-    <table class="table table-bordered table-responsive">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive"
+    >
       <thead>
         <tr>
           <th>gift</th>
@@ -94,7 +96,9 @@
       </tbody>
     </table>
     <p>Morrigan Gifts</p>
-    <table class="table table-bordered table-responsive">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive"
+    >
       <thead>
         <tr>
           <th>gift</th>
@@ -161,7 +165,9 @@
       </tbody>
     </table>
     <p>Leliana Gifts</p>
-    <table class="table table-bordered table-responsive">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive"
+    >
       <thead>
         <tr>
           <th>gift</th>
@@ -217,7 +223,9 @@
       </tbody>
     </table>
     <p>Sten Gifts</p>
-    <table class="table table-bordered table-responsive">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive"
+    >
       <thead>
         <tr>
           <th>gift</th>
@@ -259,7 +267,9 @@
       </tbody>
     </table>
     <p>Wynne Gifts</p>
-    <table class="table table-bordered table-responsive">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive"
+    >
       <thead>
         <tr>
           <th>gift</th>
@@ -301,7 +311,9 @@
       </tbody>
     </table>
     <p>Zevran Gifts</p>
-    <table class="table table-bordered table-responsive">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive"
+    >
       <thead>
         <tr>
           <th>gift</th>
@@ -343,7 +355,9 @@
       </tbody>
     </table>
     <p>Oghren Gifts</p>
-    <table class="table table-bordered table-responsive">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive"
+    >
       <thead>
         <tr>
           <th>gift</th>
@@ -554,5 +568,11 @@
     display: block;
     margin: auto;
     margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 600px) {
+    div {
+      width: 100%;
+    }
   }
 </style>

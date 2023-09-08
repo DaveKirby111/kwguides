@@ -47,7 +47,7 @@
 
 <div class="games">
   <table
-    class="table table-borderless table-striped table-responsive text-capitalize"
+    class="table table-borderless table-dark table-striped table-responsive text-capitalize"
   >
     <thead>
       <tr>

@@ -661,12 +661,13 @@
 
 <style>
   img {
-    width: 700px;
-    height: 500px;
+    width: 100%;
+    height: auto;
   }
 
   .harp img {
     display: block;
     margin: auto;
+    margin-bottom: 30px;
   }
 </style>

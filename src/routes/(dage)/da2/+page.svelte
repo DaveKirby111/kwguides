@@ -149,4 +149,16 @@
     width: 33.3%;
     padding: 30px;
   }
+
+  @media screen and (max-width: 600px) {
+    .aveline,
+    .fenris,
+    .varric,
+    .merrill,
+    .bethany,
+    .carver {
+      width: 100%;
+      padding: 0;
+    }
+  }
 </style>

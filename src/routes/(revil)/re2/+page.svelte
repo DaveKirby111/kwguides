@@ -77,8 +77,8 @@
 
     <h5 class="text-center">Leon</h5>
 
-    <div class="d-flex w-75 mb-5 m-auto">
-      <div class="flex-column ms-5 me-5">
+    <div class="d-flex mb-5 m-auto">
+      <div class="flex-column">
         <p class="fw-bold text-center">1st run</p>
         <img src={leon1} alt="panel" />
       </div>
@@ -90,8 +90,8 @@
 
     <h5 class="text-center">Claire</h5>
 
-    <div class="d-flex w-75 m-auto">
-      <div class="flex-column ms-5 me-5">
+    <div class="d-flex m-auto">
+      <div class="flex-column">
         <p class="fw-bold text-center">1st run</p>
         <img src={claire1} alt="panel" />
       </div>
@@ -246,5 +246,8 @@
   .panels img {
     width: 100%;
     height: auto;
+  }
+
+  @media screen and (max-width: 600px) {
   }
 </style>

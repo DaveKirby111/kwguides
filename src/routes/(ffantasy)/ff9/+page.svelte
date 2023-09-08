@@ -59,7 +59,7 @@
       false.
     </p>
 
-    <table class="table table-responsive">
+    <table class="table table-dark table-striped table-responsive">
       <thead>
         <tr>
           <th>Question</th>

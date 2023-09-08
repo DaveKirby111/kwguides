@@ -36,4 +36,22 @@
   .page {
     background-color: rgb(0, 206, 0);
   }
+
+  @media screen and (max-width: 600px) {
+    .title img {
+      display: block;
+      margin: auto;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    header {
+      flex-direction: column !important;
+    }
+
+    .title img {
+      display: block;
+      margin: auto;
+    }
+  }
 </style>

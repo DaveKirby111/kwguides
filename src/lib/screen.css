@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+  * {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  div {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  table {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mods div {
+    width: 100%;
+  }
+
+  table {
+    display: flex;
+    flex-direction: column;
+  }
+
+  table th,
+  table td {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  * {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 50px !important;
+  }
+
+  div {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  table {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mods div {
+    width: 100%;
+  }
+
+  table {
+    display: flex;
+    flex-direction: column;
+  }
+
+  table th,
+  table td {
+    width: 100%;
+  }
+}

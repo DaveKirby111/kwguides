@@ -55,7 +55,7 @@
   <div class="dolls">
     <h4>Charlie Dolls</h4>
 
-    <div class="w-25 mx-auto">
+    <div class="mx-auto">
       <ol>
         <li>Outside subway after joining Carlos</li>
         <li>In warehouse with a safe inside</li>
@@ -82,3 +82,8 @@
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>
+
+<style>
+  @media screen and (max-width: 600px) {
+  }
+</style>

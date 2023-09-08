@@ -11,3 +11,34 @@
     {/each}
   </ul>
 </div>
+
+<style>
+  .sections {
+    background-image: url("$lib/images/space.webp");
+    background-size: 100% 100%;
+  }
+
+  .sections li a {
+    color: rgb(0, 176, 0);
+  }
+
+  @media screen and (max-width: 600px) {
+    ul li {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .sections ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .sections li {
+      text-align: center;
+      flex: 0 0 33.33%;
+      margin: 10px;
+    }
+  }
+</style>

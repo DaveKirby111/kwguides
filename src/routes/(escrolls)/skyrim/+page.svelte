@@ -81,7 +81,9 @@
 <div id="console" class="console">
   <h2>console commands</h2>
 
-  <table class="table table-borderless table-striped table-responsive">
+  <table
+    class="table table-borderless table-dark table-striped table-responsive"
+  >
     <thead class="text-capitalize">
       <tr>
         <th>name</th>
@@ -682,5 +684,13 @@
 
   img {
     margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .priests div,
+    .shouts div,
+    .bat-files div {
+      width: 100% !important;
+    }
   }
 </style>

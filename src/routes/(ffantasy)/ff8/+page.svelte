@@ -42,7 +42,7 @@
     <h4>SeeD Tests</h4>
 
     <div class="d-flex mb-5">
-      <table class="table table-responsive">
+      <table class="table table-dark table-striped table-responsive">
         <thead>
           <tr>
             <th>Rank</th>
@@ -92,7 +92,7 @@
           </tr>
         </tbody>
       </table>
-      <table class="table table-responsive">
+      <table class="table table-dark table-striped table-responsive">
         <thead>
           <tr>
             <th>Rank</th>
@@ -142,7 +142,7 @@
           </tr>
         </tbody>
       </table>
-      <table class="table table-responsive">
+      <table class="table table-dark table-striped table-responsive">
         <thead>
           <tr>
             <th>Rank</th>
@@ -198,7 +198,7 @@
       </table>
     </div>
     <div class="d-flex">
-      <table class="table table-responsive">
+      <table class="table table-dark table-striped table-responsive">
         <thead>
           <tr>
             <th>Exam</th>
@@ -248,7 +248,7 @@
           </tr>
         </tbody>
       </table>
-      <table class="table">
+      <table class="table table-dark table-striped">
         <thead>
           <tr>
             <th>Exam</th>
@@ -298,7 +298,7 @@
           </tr>
         </tbody>
       </table>
-      <table class="table table-responsive">
+      <table class="table table-dark table-striped table-responsive">
         <thead>
           <tr>
             <th>Exam</th>
@@ -451,3 +451,17 @@
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>
+
+<style>
+  @media screen and (max-width: 600px) {
+    table {
+      display: flex;
+      flex-direction: column;
+    }
+
+    table th,
+    table td {
+      width: 100%;
+    }
+  }
+</style>

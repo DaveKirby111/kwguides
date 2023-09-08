@@ -33,7 +33,6 @@
 
   .dropdown-item:hover {
     background-color: green;
-    color: red;
     text-shadow: 2px 2px 2px black;
   }
 
@@ -63,9 +62,20 @@
     border-bottom: none;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 600px) {
     nav ul {
       width: 100%;
+    }
+
+    .dropdown {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    nav ul {
+      width: 100%;
+      flex-direction: column;
     }
 
     .dropdown {

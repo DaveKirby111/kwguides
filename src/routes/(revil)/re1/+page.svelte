@@ -26,7 +26,7 @@
   <div class="v-jolt">
     <h4>Making V-Jolt</h4>
 
-    <div class="w-25 mx-auto">
+    <div class="mx-auto">
       <ol>
         <li>Water + chem 3 = chem 4</li>
         <li>chem 4 + chem 6 = chem 10</li>
@@ -40,7 +40,7 @@
   <div class="sharks">
     <h4>Aqua Ring</h4>
 
-    <div class="w-25 mx-auto">
+    <div class="mx-auto">
       <ol>
         <li>Check center console</li>
         <li>Check right console</li>

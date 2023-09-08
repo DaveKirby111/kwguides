@@ -96,7 +96,9 @@
 <div id="console" class="console">
   <h2>console commands</h2>
 
-  <table class="table table-borderless table-striped table-responsive">
+  <table
+    class="table table-borderless table-dark table-striped table-responsive"
+  >
     <thead class="text-capitalize">
       <tr>
         <th>name</th>
@@ -259,7 +261,9 @@
   <div class="hatreds-soul">
     <h4>hatred's soul</h4>
 
-    <table class="table table-bordered table-responsive mb-5 w-75 m-auto">
+    <table
+      class="table table-bordered table-dark table-responsive mb-5 d-flex flex-wrap"
+    >
       <thead>
         <tr class="text-center">
           <th>Level</th>
@@ -337,9 +341,13 @@
 
   table {
     table-layout: fixed;
+    flex-direction: column;
   }
 
   table td:first-child {
     text-transform: capitalize;
+  }
+
+  @media screen and (max-width: 600px) {
   }
 </style>

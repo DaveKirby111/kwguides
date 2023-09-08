@@ -125,7 +125,7 @@
   <h2>console commands</h2>
 
   <table
-    class="table table-borderless table-striped table-responsive text-capitalize"
+    class="table table-borderless table-dark table-striped table-responsive text-capitalize"
   >
     <thead>
       <tr>
@@ -153,7 +153,9 @@
   <div class="standoff">
     <h4>priority: citadel II - standoff</h4>
 
-    <table class="table table-bordered table-responsive">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive"
+    >
       <thead>
         <tr>
           <th>Factor</th>
@@ -244,7 +246,9 @@
     <h4>Endings</h4>
 
     <h5>Legendary Edition</h5>
-    <table class="table table-bordered table-responsive mb-5">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive mb-5"
+    >
       <thead>
         <tr>
           <th>War Assets</th>
@@ -316,7 +320,9 @@
     </table>
 
     <h5>OG ME3 (with Extended Cut)</h5>
-    <table class="table table-bordered table-responsive">
+    <table
+      class="table table-dark table-striped table-bordered table-responsive"
+    >
       <thead>
         <tr>
           <th>War Assets</th>
@@ -394,5 +400,13 @@
 <style>
   table {
     table-layout: fixed;
+  }
+
+  @media screen and (max-width: 600px) {
+    .mods div,
+    .console,
+    .guides div {
+      flex-wrap: wrap;
+    }
   }
 </style>
