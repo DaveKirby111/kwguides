@@ -179,7 +179,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="assignments">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#assignments">assignments</a></li>
+    <li><a href="#peak15">peak 15</a></li>
+  </ul>
+
+  <div class="assignments" id="assignments">
     <h4>assignments</h4>
     <h5>citadel</h5>
     <ul>
@@ -296,7 +302,7 @@
     </ul>
   </div>
 
-  <div class="peak15">
+  <div class="peak15" id="peak15">
     <h4>Peak 15 Puzzles</h4>
     <h5>Memory Core</h5>
     <div class="core">

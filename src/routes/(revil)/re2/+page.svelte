@@ -24,7 +24,17 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="statues text-center">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#statues">statues</a></li>
+    <li><a href="#combinations">combinations</a></li>
+    <li><a href="#panels">electric panels</a></li>
+    <li><a href="#chess">chess door puzzle</a></li>
+    <li><a href="#lab">lab</a></li>
+    <li><a href="#racoons">mr. racoon locations</a></li>
+  </ul>
+
+  <div class="statues text-center" id="statues">
     <h4>Statues</h4>
 
     <h5 class="text-center">Lion</h5>
@@ -47,7 +57,7 @@
     <img src={maiden} alt="statue" />
   </div>
 
-  <div class="combinations">
+  <div class="combinations" id="combinations">
     <h4>Combinations</h4>
 
     <h5>Safes</h5>
@@ -72,7 +82,7 @@
     </ul>
   </div>
 
-  <div class="panels">
+  <div class="panels" id="panels">
     <h4>Electric Panels</h4>
 
     <h5 class="text-center">Leon</h5>
@@ -102,7 +112,7 @@
     </div>
   </div>
 
-  <div class="chess">
+  <div class="chess" id="chess">
     <h4>Chess Door Puzzle</h4>
 
     <div class="d-flex justify-content-center">
@@ -126,7 +136,7 @@
     </div>
   </div>
 
-  <div class="labcode">
+  <div class="labcode" id="lab">
     <h4>Lab Code</h4>
 
     <div class="d-flex justify-content-center">
@@ -151,7 +161,7 @@
     <p>Blue, Red, Green, Red, Blue, Red, Blue, Green, Blue, Red, Green</p>
   </div>
 
-  <div class="racoons">
+  <div class="racoons" id="racoons">
     <h4>Mr. Racoon Locations</h4>
 
     <ol>

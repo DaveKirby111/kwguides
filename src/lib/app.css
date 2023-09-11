@@ -8,7 +8,6 @@ body {
 
 main {
   background-color: rgb(188, 182, 182);
-  border: 15px double black;
 }
 
 div {
@@ -26,13 +25,14 @@ h2 {
   text-align: center;
   font-size: 100px;
   margin-bottom: 40px;
-  /* background-color: red; */
+  background-color: black;
+  text-shadow: 2px 2px 2px red;
   height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("$lib/images/space.webp");
-  background-size: 100% 100%;
+  /* background-image: url("$lib/images/space.webp");
+  background-size: 100% 100%; */
   color: rgb(0, 176, 0);
 }
 
@@ -51,6 +51,19 @@ h5 {
   text-transform: capitalize;
   margin-bottom: 20px;
   text-decoration: underline;
+}
+
+.skip {
+  text-transform: capitalize;
+  /* list-style-type: none; */
+}
+
+.skip li a {
+  color: black !important;
+}
+
+.skip li a:hover {
+  color: red !important;
 }
 
 img {
@@ -106,4 +119,8 @@ a:hover {
 
 .guides div {
   padding: 30px;
+}
+
+table th {
+  font-size: 25px;
 }

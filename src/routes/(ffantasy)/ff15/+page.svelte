@@ -6,11 +6,6 @@
 
   const sections = [
     {
-      name: "mods",
-      link: "#mods",
-    },
-
-    {
       name: "guides",
       link: "#guides",
     },
@@ -19,14 +14,15 @@
 
 <Sections {sections} />
 
-<div id="mods" class="mods">
-  <h2>mods</h2>
-</div>
-
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="tombs">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#tombs">tombs</a></li>
+  </ul>
+
+  <div class="tombs" id="tombs">
     <h3 class="text-center">royal tombs</h3>
     <img src={tombs} alt="tombs" />
   </div>

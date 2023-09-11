@@ -150,7 +150,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="standoff">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#standoff">standoff</a></li>
+    <li><a href="#rannoch">rannoch</a></li>
+    <li><a href="#endings">endings</a></li>
+  </ul>
+
+  <div class="standoff" id="standoff">
     <h4>priority: citadel II - standoff</h4>
 
     <table
@@ -221,7 +228,7 @@
     <p>4 or higher = They side with Shepard</p>
   </div>
 
-  <div class="peace">
+  <div class="peace" id="rannoch">
     <h4>Rannoch: Geth/Quarian Peace</h4>
 
     <p>You need 5 to 7 points to broker peace.</p>
@@ -242,7 +249,7 @@
     </ul>
   </div>
 
-  <div class="endings">
+  <div class="endings" id="endings">
     <h4>Endings</h4>
 
     <h5>Legendary Edition</h5>

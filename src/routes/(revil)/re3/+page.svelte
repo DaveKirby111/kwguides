@@ -16,17 +16,25 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="route text-center mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#route">train station route</a></li>
+    <li><a href="#vaccine">lab vaccine</a></li>
+    <li><a href="#codes">codes</a></li>
+    <li><a href="#dolls">charlie dolls</a></li>
+  </ul>
+
+  <div class="route text-center mb-5" id="route">
     <h4>Train Station Route</h4>
     <p>RE 01 – FA 02 – RA 03 – SA 02 – FO 01</p>
   </div>
 
-  <div class="vaccine text-center">
+  <div class="vaccine text-center" id="vaccine">
     <h4>Lab Vaccine</h4>
     <p>Mid - High - Low</p>
   </div>
 
-  <div class="codes">
+  <div class="codes" id="codes">
     <h4>Codes</h4>
 
     <div class="d-flex justify-content-center">
@@ -52,7 +60,7 @@
     </div>
   </div>
 
-  <div class="dolls">
+  <div class="dolls" id="dolls">
     <h4>Charlie Dolls</h4>
 
     <div class="mx-auto">

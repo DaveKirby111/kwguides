@@ -43,7 +43,16 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="yuffie mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#yuffie">yuffie</a></li>
+    <li><a href="#vincent">vincent</a></li>
+    <li><a href="#date">gold saucer date</a></li>
+    <li><a href="#ultimate">ultimate weapons/limits</a></li>
+    <li><a href="#harp">lunar harp</a></li>
+  </ul>
+
+  <div class="yuffie mb-5" id="yuffie">
     <h5>how to get Yuffie</h5>
     <p>
       Yuffie is found in any of the game's forests. The forests near Junon seem
@@ -78,7 +87,7 @@
     </ul>
   </div>
 
-  <div class="vincent mb-5">
+  <div class="vincent mb-5" id="vincent">
     <h5>how to get Vincent</h5>
 
     <p>
@@ -141,7 +150,7 @@
     </p>
   </div>
 
-  <div class="date mb-5">
+  <div class="date mb-5" id="date">
     <h5>Gold Saucer Date</h5>
 
     <p>
@@ -446,7 +455,7 @@
     </ul>
   </div>
 
-  <div class="ult-weapons">
+  <div class="ult-weapons" id="ultimate">
     <h5>Ultimate Weapons and Limit Breaks</h5>
 
     <p class="fw-bold">Cloud = Ultimate Weapon</p>
@@ -633,7 +642,7 @@
     <p>Slots = Defeat 40 enemies in battle.</p>
   </div>
 
-  <div class="harp">
+  <div class="harp" id="harp">
     <h5>Lunar Harp</h5>
 
     <p>

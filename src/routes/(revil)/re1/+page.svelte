@@ -16,14 +16,22 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="weathervane text-center">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#wvane">weathervane</a></li>
+    <li><a href="#vjolt">V-Jolt</a></li>
+    <li><a href="#sharks">aqua ring</a></li>
+    <li><a href="#lab">lab</a></li>
+  </ul>
+
+  <div class="weathervane text-center" id="wvane">
     <h4>weathervane puzzle</h4>
 
     <p>red = west</p>
     <p>blue = north</p>
   </div>
 
-  <div class="v-jolt">
+  <div class="v-jolt" id="vjolt">
     <h4>Making V-Jolt</h4>
 
     <div class="mx-auto">
@@ -37,7 +45,7 @@
     </div>
   </div>
 
-  <div class="sharks">
+  <div class="sharks" id="sharks">
     <h4>Aqua Ring</h4>
 
     <div class="mx-auto">
@@ -53,7 +61,7 @@
     </div>
   </div>
 
-  <div class="login text-center">
+  <div class="login text-center" id="lab">
     <h4>Lab Username and Password</h4>
 
     <p>Username: JOHN</p>

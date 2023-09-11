@@ -39,7 +39,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="gifts mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#gifts">gifts</a></li>
+    <li><a href="#romance">romance</a></li>
+    <li><a href="#urn">urn of sacred ashes</a></li>
+  </ul>
+
+  <div class="gifts mb-5" id="gifts">
     <h4>gifts</h4>
     <p>Alistair Gifts</p>
     <table
@@ -400,7 +407,7 @@
     </table>
   </div>
 
-  <div class="romance mb-5">
+  <div class="romance mb-5" id="romance">
     <h4>romance</h4>
     <div class="leliana mb-5">
       <h5>leliana</h5>
@@ -494,7 +501,7 @@
     </div>
   </div>
 
-  <div class="urn">
+  <div class="urn" id="urn">
     <h4>urn of sacred ashes</h4>
     <h5>riddles:</h5>
     <p>Brona</p>
@@ -560,7 +567,6 @@
 
 <style>
   p.fw-bold {
-    text-align: center;
     text-transform: capitalize;
   }
 

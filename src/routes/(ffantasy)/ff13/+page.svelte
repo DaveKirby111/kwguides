@@ -16,14 +16,21 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="chocobos">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#chocobos">chocobos</a></li>
+    <li><a href="#egg">growth egg</a></li>
+    <li><a href="#characters">characters</a></li>
+  </ul>
+
+  <div class="chocobos" id="chocobos">
     <h4>chocobos</h4>
 
     <p class="fw-bold">How to unlock them</p>
     <p>Missions 1-8 then 12-14</p>
   </div>
 
-  <div class="egg">
+  <div class="egg" id="egg">
     <h4>growth egg</h4>
     <p class="text-center">doubles CP</p>
 
@@ -31,7 +38,7 @@
     <p>Mission 55 - complete mission 14 and unlock crystarium stage 9</p>
   </div>
 
-  <div class="characters">
+  <div class="characters" id="characters">
     <h4>characters</h4>
 
     <div class="lightning">

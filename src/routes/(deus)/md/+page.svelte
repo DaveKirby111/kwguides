@@ -18,8 +18,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="praxis">
-    <h4>Praxis Kiets</h4>
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#praxis">praxis</a></li>
+    <li><a href="#passkey">passwords/kecodes</a></li>
+  </ul>
+
+  <div class="praxis" id="praxis">
+    <h4>Praxis Kits</h4>
 
     <h5>prague</h5>
     <ol>
@@ -119,7 +125,7 @@
     </ol>
   </div>
 
-  <div class="key-pass d-flex">
+  <div class="key-pass d-flex" id="passkey">
     <div class="passwords text-center">
       <h4>Passwords</h4>
       <a href={passwords} target="_blank" rel="noopener noreferrer">Open PDF</a>

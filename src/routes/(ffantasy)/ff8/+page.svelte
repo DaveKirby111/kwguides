@@ -38,165 +38,17 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="seed mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#tests">SeeD Tests</a></li>
+    <li><a href="#deep">deep sea research center</a></li>
+    <li><a href="#esthar">esthar</a></li>
+    <li><a href="#gf">guardian forces</a></li>
+  </ul>
+
+  <div class="seed mb-5" id="tests">
     <h4>SeeD Tests</h4>
 
-    <div class="d-flex mb-5">
-      <table class="table table-dark table-striped table-responsive">
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Salary</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>500</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>1000</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>1500</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>2000</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>3000</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>4000</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>5000</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>6000</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>7000</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>8000</td>
-          </tr>
-        </tbody>
-      </table>
-      <table class="table table-dark table-striped table-responsive">
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Salary</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>11</td>
-            <td>9000</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>10000</td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>11000</td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td>12000</td>
-          </tr>
-          <tr>
-            <td>15</td>
-            <td>12500</td>
-          </tr>
-          <tr>
-            <td>16</td>
-            <td>13000</td>
-          </tr>
-          <tr>
-            <td>17</td>
-            <td>13500</td>
-          </tr>
-          <tr>
-            <td>18</td>
-            <td>14000</td>
-          </tr>
-          <tr>
-            <td>19</td>
-            <td>14500</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>15000</td>
-          </tr>
-        </tbody>
-      </table>
-      <table class="table table-dark table-striped table-responsive">
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Salary</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>21</td>
-            <td>15500</td>
-          </tr>
-          <tr>
-            <td>22</td>
-            <td>16000</td>
-          </tr>
-          <tr>
-            <td>23</td>
-            <td>16500</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>17000</td>
-          </tr>
-          <tr>
-            <td>25</td>
-            <td>17500</td>
-          </tr>
-          <tr>
-            <td>26</td>
-            <td>18000</td>
-          </tr>
-          <tr>
-            <td>27</td>
-            <td>18500</td>
-          </tr>
-          <tr>
-            <td>28</td>
-            <td>19000</td>
-          </tr>
-          <tr>
-            <td>29</td>
-            <td>19500</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>20000</td>
-          </tr>
-          <tr>
-            <td>A</td>
-            <td>30000</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
     <div class="d-flex">
       <table class="table table-dark table-striped table-responsive">
         <thead>
@@ -351,7 +203,7 @@
     </div>
   </div>
 
-  <div class="center mb-5">
+  <div class="center mb-5" id="deep">
     <h4>Deep Sea Research Center</h4>
 
     <h5>Fixed Encounters with Tri-faces:</h5>
@@ -390,7 +242,7 @@
     </p>
   </div>
 
-  <div class="esthar mb-5">
+  <div class="esthar mb-5" id="esthar">
     <h4>Esthar</h4>
 
     <h5>Fixed Encounters with Elnoyles</h5>
@@ -415,7 +267,7 @@
     </p>
   </div>
 
-  <div class="gf">
+  <div class="gf" id="gf">
     <h4>Guardian Forces</h4>
 
     <h5>Doomtrain</h5>

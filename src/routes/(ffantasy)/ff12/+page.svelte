@@ -17,14 +17,21 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="greatcrystal mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#crystal">great crystal</a></li>
+    <li><a href="#ultima">ultima</a></li>
+    <li><a href="#monographs">monographs</a></li>
+  </ul>
+
+  <div class="greatcrystal mb-5" id="crystal">
     <h4>Great Crystal</h4>
     <a href={gcrystal} target="_blank" rel="noopener noreferrer">
       <img src={gcrystal} alt="crystal" class="crystal" />
     </a>
   </div>
 
-  <div class="ultima mb-5">
+  <div class="ultima mb-5" id="crystal">
     <h4>Ultima</h4>
 
     <p>
@@ -56,7 +63,7 @@
       <li>Subterra</li>
     </ol>
 
-    <div class="ultima-boss p-3">
+    <div class="ultima-boss p-3" id="ultima">
       <h5 class="text-center">Boss Battle: Ultima</h5>
 
       <ul>
@@ -123,7 +130,7 @@
     </div>
   </div>
 
-  <div class="monographs">
+  <div class="monographs" id="monographs">
     <h4 class="mb-5">Monographs</h4>
 
     <p>

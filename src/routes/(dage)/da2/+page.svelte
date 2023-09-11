@@ -16,7 +16,12 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="companions">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#companions">companions</a></li>
+  </ul>
+
+  <div class="companions" id="companions">
     <h3>companions</h3>
 
     <div class="d-flex">

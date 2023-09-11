@@ -16,7 +16,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="romance mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#romance">romance</a></li>
+    <li><a href="#election">divine election</a></li>
+  </ul>
+
+  <div class="romance mb-5" id="romance">
     <h4>Romance</h4>
 
     <div class="cassandra">
@@ -78,7 +84,7 @@
     </div>
   </div>
 
-  <div class="divine">
+  <div class="divine" id="election">
     <h4>Divine Election</h4>
 
     <p>

@@ -5,8 +5,8 @@ export const links = [
     url: "#",
     subitems: [
       {
-        page: "origins",
-        url: "/origins",
+        page: "AC II",
+        url: "/ac2",
       },
 
       {

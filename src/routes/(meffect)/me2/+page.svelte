@@ -145,7 +145,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="assignments">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#assignments">assignments</a></li>
+    <li><a href="#suicide">suicide mission</a></li>
+  </ul>
+
+  <div class="assignments" id="assignments">
     <h4>assignments</h4>
     <h5>Galaxy</h5>
     <ul>
@@ -228,7 +234,7 @@
     </ul>
   </div>
 
-  <div class="s-mission">
+  <div class="s-mission" id="suicide">
     <h4>suicide mission</h4>
 
     <h5>normandy upgrades</h5>

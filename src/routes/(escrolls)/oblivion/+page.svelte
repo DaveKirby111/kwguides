@@ -223,7 +223,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="umbra mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#umbra">umbra</a></li>
+    <li><a href="#goldbrand">goldbrand</a></li>
+    <li><a href="#hatred">hatred's soul</a></li>
+  </ul>
+
+  <div class="umbra mb-5" id="umbra">
     <h4>umbra</h4>
 
     <img src={umbra} alt="umbra" />
@@ -245,7 +252,7 @@
     </ul>
   </div>
 
-  <div class="goldbrand mb-5">
+  <div class="goldbrand mb-5" id="goldbrand">
     <h4>goldbrand</h4>
 
     <img src={goldbrand} alt="goldb" />
@@ -258,7 +265,7 @@
     </ul>
   </div>
 
-  <div class="hatreds-soul">
+  <div class="hatreds-soul" id="hatred">
     <h4>hatred's soul</h4>
 
     <table

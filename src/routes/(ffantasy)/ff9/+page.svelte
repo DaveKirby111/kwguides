@@ -47,7 +47,15 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="ragtime mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#ragtime">ragtime mouse</a></li>
+    <li><a href="#ramuh">ramuh</a></li>
+    <li><a href="#stellazio">stellazio</a></li>
+    <li><a href="#cards">tetra master</a></li>
+  </ul>
+
+  <div class="ragtime mb-5" id="ragtime">
     <h4>Ragtime Mouse</h4>
 
     <p>
@@ -138,7 +146,7 @@
     </table>
   </div>
 
-  <div class="ramuh mb-5">
+  <div class="ramuh mb-5" id="ramuh">
     <h4>Pinnacle Rocks and Ramuh</h4>
 
     <p>
@@ -154,7 +162,7 @@
     </ul>
   </div>
 
-  <div class="stellazio mb-5">
+  <div class="stellazio mb-5" id="stellazio">
     <h4 class="mb-5">stellazio</h4>
 
     <div class="d-flex">
@@ -203,7 +211,7 @@
     </div>
   </div>
 
-  <div class="cards">
+  <div class="cards" id="cards">
     <h4 class="mb-5">Tetra Master</h4>
 
     <p>

@@ -138,8 +138,8 @@
 <div id="mods" class="mods">
   <h2>mods</h2>
 
-  <div class="d-flex mb-5 justify-content-center flex-wrap">
-    <div class="d-flex flex-column me-5 text-center">
+  <div class="div d-flex mb-5 justify-content-center flex-wrap">
+    <div class="d-flex flex-column text-center">
       <p>Skyrim Script Extender</p>
       <p>
         <a
@@ -148,7 +148,7 @@
         >
       </p>
     </div>
-    <div class="d-flex flex-column me-5 text-center">
+    <div class="d-flex flex-column text-center">
       <p>SkyUI</p>
       <p>
         <a
@@ -157,7 +157,7 @@
         >
       </p>
     </div>
-    <div class="d-flex flex-column me-5 text-center">
+    <div class="d-flex flex-column text-center">
       <p>Unofficial Skyrim Special Edition Patch</p>
       <p>
         <a
@@ -166,7 +166,7 @@
         >
       </p>
     </div>
-    <div class="d-flex flex-column me-5 text-center">
+    <div class="d-flex flex-column text-center">
       <p>Unofficial Skyrim Creation Club Patches</p>
       <p>
         <a
@@ -175,7 +175,9 @@
         >
       </p>
     </div>
-    <div class="d-flex flex-column me-5 text-center">
+  </div>
+  <div class="div d-flex mb-5 justify-content-center">
+    <div class="d-flex flex-column text-center">
       <p>SkyHud</p>
       <p>
         <a
@@ -184,7 +186,7 @@
         >
       </p>
     </div>
-    <div class="d-flex flex-column me-5 text-center">
+    <div class="d-flex flex-column text-center">
       <p>Nordic UI Overhaul</p>
       <p>
         <a
@@ -194,9 +196,7 @@
         >
       </p>
     </div>
-  </div>
-  <div class="d-flex mb-5 justify-content-center">
-    <div class="d-flex flex-column me-5 text-center">
+    <div class="d-flex flex-column text-center">
       <p>Werewolf Perks Expanded</p>
       <p>
         <a
@@ -206,7 +206,7 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+    <div class=" text-center">
       <p>Dragon Aspect (Mage Version)</p>
       <p>
         <a
@@ -216,7 +216,9 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+  </div>
+  <div class="div d-flex mb-5 justify-content-center">
+    <div class=" text-center">
       <p>My home is your home</p>
       <p>
         <a
@@ -226,7 +228,7 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+    <div class=" text-center">
       <p>Paarthurnax Quest Expansion</p>
       <p>
         <a
@@ -235,7 +237,7 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+    <div class=" text-center">
       <p>Cloaks of Skyrim</p>
       <p>
         <a
@@ -245,7 +247,7 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+    <div class=" text-center">
       <p>Armor Variants Expansion</p>
       <p>
         <a
@@ -256,8 +258,8 @@
       </p>
     </div>
   </div>
-  <div class="d-flex justify-content-center">
-    <div class="me-5 text-center">
+  <div class="div d-flex justify-content-center">
+    <div class=" text-center">
       <p>Convenient Horses</p>
       <p>
         <a
@@ -267,7 +269,7 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+    <div class="text-center">
       <p>Sleek Wolf Armor</p>
       <p>
         <a
@@ -277,7 +279,7 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+    <div class=" text-center">
       <p>Perk Point Book</p>
       <p>
         <a
@@ -287,7 +289,7 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+    <div class=" text-center">
       <p>Magic Training</p>
       <p>
         <a
@@ -297,7 +299,10 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+  </div>
+
+  <div class="div d-flex mb-5 justify-content-center">
+    <div class=" text-center">
       <p>Alternate Start - Live Another Life</p>
       <p style="color: red;">* Requires Unofficial Patch *</p>
       <p>
@@ -308,7 +313,7 @@
         >
       </p>
     </div>
-    <div class="me-5 text-center">
+    <div class=" text-center">
       <p>A Quality World Map</p>
       <p>
         <a
@@ -325,7 +330,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="goldbrand">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#goldbrand">goldbrand</a></li>
+    <li><a href="#shouts">dragon shouts</a></li>
+    <li><a href="#masks">dragon priest masks</a></li>
+  </ul>
+
+  <div class="goldbrand" id="goldbrand">
     <h4>A Matter of Pride: Goldbrand</h4>
 
     <ol>
@@ -341,10 +353,10 @@
     </ol>
   </div>
 
-  <div class="shouts">
+  <div class="shouts" id="shouts">
     <h4>Dragon Shouts</h4>
 
-    <div class="d-flex">
+    <div class=" d-flex">
       <div class="shout">
         <p class="fw-bold">Animal Allegiance</p>
 
@@ -379,15 +391,15 @@
           <li>Ustengrav (main quest)</li>
         </ul>
       </div>
+    </div>
+
+    <div class="d-flex">
       <div class="shout">
         <p class="fw-bold">Bend Will</p>
-
         <ul>
           <li>Dragonborn- Main Quest</li>
         </ul>
       </div>
-    </div>
-    <div class="d-flex">
       <div class="shout">
         <p class="fw-bold">Call Dragon</p>
 
@@ -409,6 +421,9 @@
           <li>High Hrothgar - Main Quest</li>
         </ul>
       </div>
+    </div>
+
+    <div class="d-flex">
       <div class="shout">
         <p class="fw-bold">Cyclone</p>
 
@@ -420,15 +435,12 @@
       </div>
       <div class="shout">
         <p class="fw-bold">Disarm</p>
-
         <ul>
           <li><a href={components.eldersblood}>Eldersblood Peak</a></li>
           <li><a href={components.silverdrift}>Silverdrift Lair</a></li>
           <li>Snow Veil Sanctum (thieves guild)</li>
         </ul>
       </div>
-    </div>
-    <div class="d-flex">
       <div class="shout">
         <p class="fw-bold">Dismay</p>
 
@@ -440,13 +452,14 @@
       </div>
       <div class="shout">
         <p class="fw-bold">Dragon Aspect</p>
-
         <ul>
           <li>Raven Rock Mine</li>
           <li>Temple of Miraak</li>
           <li>Apocrypha</li>
         </ul>
       </div>
+    </div>
+    <div class="d-flex">
       <div class="shout">
         <p class="fw-bold">Dragonrend</p>
 
@@ -471,8 +484,6 @@
           <li>Statue of Meridia</li>
         </ul>
       </div>
-    </div>
-    <div class="d-flex">
       <div class="shout">
         <p class="fw-bold">Fire Breath</p>
 
@@ -482,6 +493,8 @@
           <li>Main Quest</li>
         </ul>
       </div>
+    </div>
+    <div class="d-flex">
       <div class="shout">
         <p class="fw-bold">Frost Breath</p>
 
@@ -552,6 +565,8 @@
           <li>Soul Cairn</li>
         </ul>
       </div>
+    </div>
+    <div class="d-flex">
       <div class="shout">
         <p class="fw-bold">Throw Voice</p>
 
@@ -559,16 +574,14 @@
           <li>Shearpoint</li>
         </ul>
       </div>
-    </div>
-    <div class="d-flex">
-      <div class="shout w-50">
+      <div class="shout">
         <p class="fw-bold">Unrelenting Force</p>
 
         <ul>
           <li>Main Quest</li>
         </ul>
       </div>
-      <div class="shout w-50">
+      <div class="shout">
         <p class="fw-bold">Whirlwind Sprint</p>
 
         <ul>
@@ -580,7 +593,7 @@
     </div>
   </div>
 
-  <div class="priests text-center">
+  <div class="priests text-center" id="masks">
     <h4>Dragon Priest Masks</h4>
 
     <div class="d-flex">
@@ -647,6 +660,10 @@
 <style>
   .shout {
     width: 20%;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+    height: 200px;
   }
 
   .shout p {
@@ -656,6 +673,7 @@
   .shout ul {
     text-align: center;
     list-style-type: none;
+    font-size: 15px;
   }
 
   .priests .flex-column {
@@ -672,6 +690,9 @@
     width: 25%;
     text-align: center;
     padding: 10px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
   }
 
   table {
@@ -686,11 +707,23 @@
     margin-bottom: 0;
   }
 
+  .div div {
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    height: 200px;
+    width: 20%;
+  }
+
   @media screen and (max-width: 600px) {
     .priests div,
     .shouts div,
     .bat-files div {
       width: 100% !important;
+    }
+
+    .div div {
+      width: 100%;
     }
   }
 </style>

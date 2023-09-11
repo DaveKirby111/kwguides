@@ -259,7 +259,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="chrysamere mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#chrysamere">chrysamere</a></li>
+    <li><a href="#umbra">umbra</a></li>
+  </ul>
+
+  <div class="chrysamere mb-5" id="chrysamere">
     <h4>Chrysamere</h4>
 
     <p>In the cave of Abanabi, south of Sadrith Mora.</p>
@@ -267,7 +273,7 @@
     <img src={abanabi} alt="map" />
   </div>
 
-  <div class="umbra mb-5">
+  <div class="umbra mb-5" id="umbra">
     <h4>umbra</h4>
 
     <p>

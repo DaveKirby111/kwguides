@@ -18,7 +18,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="praxis mb-5">
+  <ul class="skip">
+    <p class="fw-bold text-decoration-underline">Sections</p>
+    <li><a href="#praxis">praxis</a></li>
+    <li><a href="#passkey">passwords/kecodes</a></li>
+  </ul>
+
+  <div class="praxis mb-5" id="praxis">
     <h4>praxis kits</h4>
 
     <h5>Saif Manufacturing Plant</h5>
@@ -179,7 +185,7 @@
     </ul>
   </div>
 
-  <div class="pw-kc d-flex">
+  <div class="pw-kc d-flex" id="passkey">
     <div class="passwords">
       <h4>Passwords</h4>
       <a href={pwords} target="_blank" rel="noopener noreferrer">Open PDF</a>
