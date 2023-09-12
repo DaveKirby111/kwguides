@@ -25,7 +25,7 @@
 <div id="mods" class="mods">
   <h2>mods</h2>
 
-  <div class="d-flex justify-content-center">
+  <div class="d-flex div justify-content-center">
     <div class="me-5 text-center">
       <p>Black Chocobo Save Editor</p>
       <p>
@@ -160,7 +160,7 @@
       starts off with the following number of points.
     </p>
 
-    <ul class="list-group w-25 mb-3">
+    <ul class="list-group mb-3">
       <li class="list-group-item">Aeris: 50</li>
       <li class="list-group-item">Tifa: 30</li>
       <li class="list-group-item">Yuffie: 10</li>
@@ -678,5 +678,29 @@
     display: block;
     margin: auto;
     margin-bottom: 30px;
+  }
+
+  .list-group {
+    width: 25%;
+  }
+
+  .div div {
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    height: 200px;
+    width: 20%;
+    border-top: 55px solid black;
+    border-bottom: 15px double black;
+  }
+
+  @media screen and (max-width: 600px) {
+    .div div {
+      width: 100%;
+    }
+
+    .list-group {
+      width: 100%;
+    }
   }
 </style>

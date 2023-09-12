@@ -185,7 +185,7 @@
     </ul>
   </div>
 
-  <div class="pw-kc d-flex" id="passkey">
+  <div class="pw-kc d-flex justify-content-center" id="passkey">
     <div class="passwords">
       <h4>Passwords</h4>
       <a href={pwords} target="_blank" rel="noopener noreferrer">Open PDF</a>
@@ -201,7 +201,12 @@
 
 <style>
   .pw-kc div {
-    width: 50%;
+    width: 250px;
     text-align: center;
+    background-color: white;
+    border-top: 15px solid black;
+    border-bottom: 15px double black;
+    border-radius: 15px;
+    margin: 5px;
   }
 </style>

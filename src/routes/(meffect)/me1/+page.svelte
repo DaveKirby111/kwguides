@@ -53,7 +53,7 @@
   <h2>mods</h2>
 
   <h4>OG ME 1 mods</h4>
-  <div class="d-flex mb-5 justify-content-center">
+  <div class="d-flex div mb-5 justify-content-center">
     <div class="me-5 text-center">
       <p>Trilogy Save Editor for OG and LE</p>
       <p>
@@ -107,7 +107,7 @@
   </div>
 
   <h4>Legendary Edition Mods</h4>
-  <div class="d-flex justify-content-center">
+  <div class="d-flex div justify-content-center">
     <div class="me-5 text-center">
       <p>Keepers Finders</p>
       <p>
@@ -319,5 +319,21 @@
 <style>
   table {
     table-layout: fixed;
+  }
+
+  .div div {
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    height: 200px;
+    width: 20%;
+    border-top: 55px solid black;
+    border-bottom: 15px double black;
+  }
+
+  @media screen and (max-width: 600px) {
+    .div div {
+      width: 100%;
+    }
   }
 </style>

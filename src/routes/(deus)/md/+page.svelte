@@ -125,7 +125,7 @@
     </ol>
   </div>
 
-  <div class="key-pass d-flex" id="passkey">
+  <div class="key-pass d-flex justify-content-center" id="passkey">
     <div class="passwords text-center">
       <h4>Passwords</h4>
       <a href={passwords} target="_blank" rel="noopener noreferrer">Open PDF</a>
@@ -141,6 +141,12 @@
 
 <style>
   .key-pass div {
-    width: 50%;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    border-top: 15px solid black;
+    border-bottom: 15px double black;
+    border-radius: 15px;
+    margin: 5px;
   }
 </style>

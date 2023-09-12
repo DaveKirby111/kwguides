@@ -113,7 +113,7 @@
     (filename) will execute the console commands in that .txt file.
   </p>
 
-  <div class="bat-files d-flex">
+  <div class="bat-files d-flex justify-content-center">
     <div class="flex-column">
       <p class="fw-bold">dragonaspect.txt</p>
       <a href={daspect} download>download</a>
@@ -141,163 +141,147 @@
   <div class="div d-flex mb-5 justify-content-center flex-wrap">
     <div class="d-flex flex-column text-center">
       <p>Skyrim Script Extender</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=description"
-          target="_blank">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=description"
+        target="_blank">Nexus Page</a
+      >
     </div>
     <div class="d-flex flex-column text-center">
       <p>SkyUI</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=description"
-          target="_blank">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=description"
+        target="_blank">Nexus Page</a
+      >
     </div>
     <div class="d-flex flex-column text-center">
       <p>Unofficial Skyrim Special Edition Patch</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=392477"
-          target="_blank">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=392477"
+        target="_blank">Nexus Page</a
+      >
     </div>
     <div class="d-flex flex-column text-center">
       <p>Unofficial Skyrim Creation Club Patches</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/18975?tab=description"
-          target="_blank">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/18975?tab=description"
+        target="_blank">Nexus Page</a
+      >
     </div>
   </div>
   <div class="div d-flex mb-5 justify-content-center">
     <div class="d-flex flex-column text-center">
       <p>SkyHud</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/463?tab=description"
-          target="_blank">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/463?tab=description"
+        target="_blank">Nexus Page</a
+      >
     </div>
     <div class="d-flex flex-column text-center">
       <p>Nordic UI Overhaul</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/49881?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/49881?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
     <div class="d-flex flex-column text-center">
       <p>Werewolf Perks Expanded</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/1285?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/1285?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
     <div class=" text-center">
       <p>Dragon Aspect (Mage Version)</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/22763?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/22763?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
   </div>
   <div class="div d-flex mb-5 justify-content-center">
     <div class=" text-center">
       <p>My home is your home</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/7096?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/7096?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
     <div class=" text-center">
       <p>Paarthurnax Quest Expansion</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/51711?tab=description"
-          target="_blank">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/51711?tab=description"
+        target="_blank">Nexus Page</a
+      >
     </div>
     <div class=" text-center">
       <p>Cloaks of Skyrim</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/6369?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/6369?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
     <div class=" text-center">
       <p>Armor Variants Expansion</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/34100?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/34100?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
   </div>
   <div class="div d-flex justify-content-center">
     <div class=" text-center">
       <p>Convenient Horses</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/9519?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/9519?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
     <div class="text-center">
       <p>Sleek Wolf Armor</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/44812?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/44812?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
     <div class=" text-center">
       <p>Perk Point Book</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/2254?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/2254?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
     <div class=" text-center">
       <p>Magic Training</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/40000?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/40000?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
   </div>
 
@@ -305,23 +289,21 @@
     <div class=" text-center">
       <p>Alternate Start - Live Another Life</p>
       <p style="color: red;">* Requires Unofficial Patch *</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/272?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/272?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
     <div class=" text-center">
       <p>A Quality World Map</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
+
+      <a
+        href="https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=description"
+        target="_blank"
+        rel="noopener noreferrer">Nexus Page</a
+      >
     </div>
   </div>
   <a href="#top" class="skiplink">Top</a>
@@ -664,6 +646,8 @@
     margin: 10px;
     border-radius: 15px;
     height: 200px;
+    border-top: 15px solid black;
+    border-bottom: 15px double black;
   }
 
   .shout p {
@@ -687,12 +671,14 @@
   }
 
   .bat-files div {
-    width: 25%;
+    width: 200px;
     text-align: center;
     padding: 10px;
     background-color: white;
     margin: 5px;
     border-radius: 15px;
+    border-top: 15px solid black;
+    border-bottom: 15px double black;
   }
 
   table {
@@ -713,6 +699,8 @@
     border-radius: 15px;
     height: 200px;
     width: 20%;
+    border-top: 55px solid black;
+    border-bottom: 15px double black;
   }
 
   @media screen and (max-width: 600px) {
@@ -720,6 +708,10 @@
     .shouts div,
     .bat-files div {
       width: 100% !important;
+    }
+
+    .shout {
+      height: 250px;
     }
 
     .div div {

@@ -145,7 +145,7 @@
 <div id="mods" class="mods">
   <h2>mods</h2>
 
-  <div class="d-flex justify-content-center">
+  <div class="d-flex div justify-content-center">
     <div class="d-flex flex-column me-5 text-center">
       <p>Oblivion Script Extender</p>
       <p>
@@ -268,9 +268,7 @@
   <div class="hatreds-soul" id="hatred">
     <h4>hatred's soul</h4>
 
-    <table
-      class="table table-bordered table-dark table-responsive mb-5 d-flex flex-wrap"
-    >
+    <table class="table table-bordered table-dark table-responsive mb-5">
       <thead>
         <tr class="text-center">
           <th>Level</th>
@@ -337,24 +335,41 @@
   }
 
   .bat-files div {
-    width: 25%;
+    width: 200px;
     text-align: center;
     padding: 10px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    border-top: 15px solid black;
+    border-bottom: 15px double black;
   }
 
   .bat-files {
     justify-content: center;
   }
 
-  table {
-    table-layout: fixed;
-    flex-direction: column;
-  }
-
   table td:first-child {
     text-transform: capitalize;
   }
 
+  .div div {
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    height: 200px;
+    width: 20%;
+    border-top: 55px solid black;
+    border-bottom: 15px double black;
+  }
+
   @media screen and (max-width: 600px) {
+    .bat-files div {
+      width: 100%;
+    }
+
+    .div div {
+      width: 100%;
+    }
   }
 </style>

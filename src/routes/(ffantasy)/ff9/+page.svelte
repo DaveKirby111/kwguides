@@ -21,7 +21,7 @@
 <div id="mods" class="mods">
   <h2>mods</h2>
 
-  <div class="d-flex justify-content-center">
+  <div class="d-flex div justify-content-center">
     <div class="me-5 text-center">
       <p>Memoria Engine</p>
       <p>

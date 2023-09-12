@@ -47,7 +47,7 @@
   <h2>mods</h2>
 
   <h3>OG ME 2 mods</h3>
-  <div class="d-flex mb-5 justify-content-center">
+  <div class="d-flex div mb-5 justify-content-center">
     <div class="me-5 text-center">
       <p>New Game Plus Improved</p>
       <p>
@@ -81,7 +81,7 @@
   </div>
 
   <h3>Legendary Edition Mods</h3>
-  <div class="d-flex justify-content-center">
+  <div class="d-flex div justify-content-center">
     <div class="me-5 text-center">
       <p>LE2 New Game Plus Upgraded</p>
       <p>
@@ -312,5 +312,21 @@
 
   table {
     table-layout: fixed;
+  }
+
+  .div div {
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    height: 200px;
+    width: 20%;
+    border-top: 55px solid black;
+    border-bottom: 15px double black;
+  }
+
+  @media screen and (max-width: 600px) {
+    .div div {
+      width: 100%;
+    }
   }
 </style>

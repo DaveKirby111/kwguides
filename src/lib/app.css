@@ -16,8 +16,25 @@ div {
 
 h1 {
   text-transform: capitalize;
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
+  font-weight: bolder;
+}
+
+span {
+  background: url("$lib/images/space.webp") -20px -20px no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.div div {
+  background-color: white;
+  margin: 5px;
+  border-radius: 15px;
+  height: 200px;
+  width: 20%;
+  border-top: 55px solid black;
+  border-bottom: 15px double black;
 }
 
 h2 {

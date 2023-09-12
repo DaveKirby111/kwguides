@@ -25,13 +25,15 @@
 <div id="mods" class="mods">
   <h2>mods</h2>
 
-  <div class="text-center">
-    <p>Skip the Fade</p>
-    <a
-      href="https://www.nexusmods.com/dragonage/mods/816"
-      target="_blank"
-      rel="noopener noreferrer">nexus page</a
-    >
+  <div class="div d-flex justify-content-center">
+    <div class="text-center">
+      <p>Skip the Fade</p>
+      <a
+        href="https://www.nexusmods.com/dragonage/mods/816"
+        target="_blank"
+        rel="noopener noreferrer">nexus page</a
+      >
+    </div>
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>

@@ -46,7 +46,7 @@
 <div id="mods" class="mods">
   <h2>mods</h2>
 
-  <div class="d-flex justify-content-center">
+  <div class="d-flex div justify-content-center">
     <div class="me-5 text-center">
       <p>LE3 Community Patch</p>
       <p>
@@ -95,7 +95,7 @@
 
   <div class="egm d-flex flex-column text-center">
     <h3>expanded galaxy mod (LE)</h3>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex div justify-content-center">
       <div class="me-5 text-center">
         <p>Main File</p>
         <p>
@@ -409,11 +409,25 @@
     table-layout: fixed;
   }
 
+  .div div {
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    height: 200px;
+    width: 20%;
+    border-top: 55px solid black;
+    border-bottom: 15px double black;
+  }
+
   @media screen and (max-width: 600px) {
     .mods div,
     .console,
     .guides div {
       flex-wrap: wrap;
+    }
+
+    .div div {
+      width: 100%;
     }
   }
 </style>

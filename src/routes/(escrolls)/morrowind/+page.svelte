@@ -116,7 +116,7 @@
       </ul>
       <li>Extrace MSE to Morrowind directory and run MWSE-Update.exe</li>
     </ol>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex div justify-content-center text-center">
       <div class="d-flex flex-column me-5">
         <p class="text-center">MSE</p>
         <p>
@@ -192,7 +192,7 @@
 <div id="mods" class="mods">
   <h2>mods</h2>
 
-  <div class="d-flex justify-content-center">
+  <div class="d-flex div justify-content-center">
     <div class="d-flex flex-column me-5 text-center">
       <p>Multiple Teleport Marking</p>
       <p>
@@ -360,12 +360,26 @@
     table-layout: fixed;
   }
 
+  .div div {
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    height: 200px;
+    width: 20%;
+    border-top: 55px solid black;
+    border-bottom: 15px double black;
+  }
+
   @media screen and (max-width: 600px) {
     table td {
       padding: 30px;
     }
 
     div {
+      width: 100%;
+    }
+
+    .div div {
       width: 100%;
     }
   }

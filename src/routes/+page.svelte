@@ -69,6 +69,7 @@
 <style>
   table {
     table-layout: fixed;
+    margin-bottom: 0;
   }
 
   img,

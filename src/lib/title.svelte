@@ -2,4 +2,4 @@
   import { pageTitle } from "$lib/stores.js";
 </script>
 
-<h1>{$pageTitle}</h1>
+<h1><span>{$pageTitle}</span></h1>

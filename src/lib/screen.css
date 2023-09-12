@@ -35,6 +35,10 @@
   table td {
     width: 100%;
   }
+
+  .div div {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -63,6 +67,11 @@
 
   .mods div {
     width: 100%;
+  }
+
+  .div div,
+  .shout {
+    width: 100% !important;
   }
 
   table {
