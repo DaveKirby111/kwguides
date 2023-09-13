@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "mass effect";
+  $pageTitle = "Mass Effect";
   import Sections from "$lib/sections.svelte";
 
   const sections = [
@@ -179,11 +179,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#assignments">assignments</a></li>
-    <li><a href="#peak15">peak 15</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#assignments">assignments</a></li>
+      <li><a href="#peak15">peak 15</a></li>
+    </ul>
+  </div>
 
   <div class="assignments" id="assignments">
     <h4>assignments</h4>
@@ -334,6 +336,11 @@
   @media screen and (max-width: 600px) {
     .div div {
       width: 100%;
+    }
+
+    .div {
+      width: 100%;
+      padding: 5px;
     }
   }
 </style>

@@ -1,34 +1,9 @@
 <script>
   import { links } from "./nav.js";
-
-  let isMobileMenuOpen = false;
-
-  function toggleMobileMenu() {
-    isMobileMenuOpen = !isMobileMenuOpen;
-  }
 </script>
 
 <nav class="navbar navbar-expand-sm d-flex justify-content-center p-0">
-  <!-- Hamburger Menu Button -->
-  <button class="hamburger" on:click={toggleMobileMenu}>
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke="currentColor"
-      class="w-6 h-6"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-      />
-    </svg>
-  </button>
-
-  <!-- Navigation Links -->
-  <ul class="navbar-nav text-capitalize" class:open={isMobileMenuOpen}>
+  <ul class="navbar-nav text-capitalize">
     {#each links as link}
       <li class="nav-item dropdown" id={link.id}>
         <a
@@ -71,7 +46,7 @@
 
   .dropdown-menu {
     text-align: center;
-
+    /* background: rgba(0, 0, 0, 0.1); */
     background-color: black;
   }
 
@@ -87,42 +62,12 @@
     border-bottom: none;
   }
 
-  .hamburger {
-    display: none;
-    cursor: pointer;
-    padding: 10px;
-    background: transparent;
-    border: none;
-    outline: none;
-    z-index: 1000;
-  }
-
-  .hamburger svg {
-    height: 60px;
-    color: rgb(0, 176, 0);
-  }
-
   @media screen and (max-width: 600px) {
     nav ul {
       width: 100%;
     }
 
     .dropdown {
-      width: 100%;
-    }
-
-    .hamburger {
-      display: block;
-    }
-
-    .navbar-nav {
-      display: none;
-    }
-
-    .navbar-nav.open {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
       width: 100%;
     }
   }
@@ -133,26 +78,7 @@
       flex-direction: column;
     }
 
-    nav {
-      flex-direction: column;
-    }
-
     .dropdown {
-      width: 100%;
-    }
-
-    .hamburger {
-      display: block;
-    }
-
-    .navbar-nav {
-      display: none;
-    }
-
-    .navbar-nav.open {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
       width: 100%;
     }
   }

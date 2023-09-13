@@ -3,10 +3,11 @@
   import "$lib/screen.css";
   import Header from "$lib/header.svelte";
   import Footer from "$lib/footer.svelte";
+  import { pageTitle } from "$lib/stores.js";
 </script>
 
 <svelte:head>
-  <title>KWorld Game Guides</title>
+  <title>{$pageTitle}</title>
 
   <script>
     $(document).ready(function () {

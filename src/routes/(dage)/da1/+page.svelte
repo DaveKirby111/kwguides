@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "dragon age: origins";
+  $pageTitle = "Dragon Age: Origins";
   import Sections from "$lib/sections.svelte";
 
   import bridge1 from "$lib/images/dao/bridge1.jpg";
@@ -41,12 +41,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#gifts">gifts</a></li>
-    <li><a href="#romance">romance</a></li>
-    <li><a href="#urn">urn of sacred ashes</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#gifts">gifts</a></li>
+      <li><a href="#romance">romance</a></li>
+      <li><a href="#urn">urn of sacred ashes</a></li>
+    </ul>
+  </div>
 
   <div class="gifts mb-5" id="gifts">
     <h4>gifts</h4>
@@ -581,6 +583,7 @@
   @media screen and (max-width: 600px) {
     div {
       width: 100%;
+      padding: 5px;
     }
   }
 </style>

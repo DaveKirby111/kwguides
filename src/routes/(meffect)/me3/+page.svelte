@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "mass effect 3";
+  $pageTitle = "Mass Effect 3";
   import Sections from "$lib/sections.svelte";
 
   const sections = [
@@ -150,12 +150,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#standoff">standoff</a></li>
-    <li><a href="#rannoch">rannoch</a></li>
-    <li><a href="#endings">endings</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#standoff">standoff</a></li>
+      <li><a href="#rannoch">rannoch</a></li>
+      <li><a href="#endings">endings</a></li>
+    </ul>
+  </div>
 
   <div class="standoff" id="standoff">
     <h4>priority: citadel II - standoff</h4>

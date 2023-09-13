@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "final fantasy XV";
+  $pageTitle = "Final Fantasy XV";
   import Sections from "$lib/sections.svelte";
   import tombs from "$lib/images/ff15/15tombs.jpg";
 
@@ -17,10 +17,12 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#tombs">tombs</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#tombs">tombs</a></li>
+    </ul>
+  </div>
 
   <div class="tombs" id="tombs">
     <h3 class="text-center">royal tombs</h3>

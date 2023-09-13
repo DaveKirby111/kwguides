@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "dragon age: inquisition";
+  $pageTitle = "Dragon Age: Inquisition";
   import Sections from "$lib/sections.svelte";
 
   const sections = [
@@ -16,11 +16,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#romance">romance</a></li>
-    <li><a href="#election">divine election</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#romance">romance</a></li>
+      <li><a href="#election">divine election</a></li>
+    </ul>
+  </div>
 
   <div class="romance mb-5" id="romance">
     <h4>Romance</h4>
@@ -291,3 +293,12 @@
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>
+
+<style>
+  @media screen and (max-width: 600px) {
+    div {
+      width: 100%;
+      padding: 5px;
+    }
+  }
+</style>

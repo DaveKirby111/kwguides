@@ -1,42 +1,146 @@
 <script>
   import ttg from "$lib/images/TTG.png";
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "KWorld game guides";
+  pageTitle.set("KWorld Game Guides");
 
   const games = [
     {
       title: "assassin's creed",
-      games: "odyssey",
+      games: [
+        {
+          title: "assassin's creed 2, ",
+          url: "/ac2",
+        },
+        {
+          title: "odyssey",
+          url: "/odyssey",
+        },
+      ],
     },
-
     {
       title: "deus ex",
-      games: "human revolution, mankind divided",
-    },
+      games: [
+        {
+          title: "human revolution, ",
+          url: "/hr",
+        },
 
+        {
+          title: "manking divided",
+          url: "/md",
+        },
+      ],
+    },
     {
       title: "dragon age",
-      games: "DA Origins, DA 2, DA Inquisition",
+      games: [
+        {
+          title: "DA Origins, ",
+          url: "/da1",
+        },
+
+        {
+          title: "DA II, ",
+          url: "/da2",
+        },
+
+        {
+          title: "DA Inquisition",
+          url: "/da3",
+        },
+      ],
     },
 
     {
       title: "elder scrolls",
-      games: "morrowind, oblivion, skyrim",
-    },
+      games: [
+        {
+          title: "morrowind, ",
+          url: "/morrowind",
+        },
 
+        {
+          title: "oblivion, ",
+          url: "/oblivion",
+        },
+
+        {
+          title: "skyrim",
+          url: "/skyrim",
+        },
+      ],
+    },
     {
       title: "final fantasy",
-      games: "VII, VIII, IX, XII, XIII, XV",
-    },
+      games: [
+        {
+          title: "VII, ",
+          url: "/ff7",
+        },
 
+        {
+          title: "VIII, ",
+          url: "/ff8",
+        },
+
+        {
+          title: "IX, ",
+          url: "/ff9",
+        },
+
+        {
+          title: "XII, ",
+          url: "/ff12",
+        },
+
+        {
+          title: "XIII, ",
+          url: "/ff13",
+        },
+
+        {
+          title: "XV",
+          url: "/ff15",
+        },
+      ],
+    },
     {
       title: "mass effect",
-      games: "mass effect, mass effect 2, mass effect 3",
-    },
+      games: [
+        {
+          title: "mass effect, ",
+          url: "/me1",
+        },
 
+        {
+          title: "mass effect 2, ",
+          url: "/me2",
+        },
+
+        {
+          title: "mass effect 3",
+          url: "/me3",
+        },
+      ],
+    },
     {
       title: "resident evil",
-      games: "RE 1 remake, RE 2 remake, RE 3 remake",
+      games: [
+        {
+          title: "RE 1 Remake, ",
+          url: "/re1",
+        },
+
+        {
+          title: "RE 2 Remake, ",
+          url: "/re2",
+        },
+
+        {
+          title: "RE 3 Remake",
+          url: "/re3",
+        },
+      ],
     },
   ];
 </script>
@@ -59,7 +163,11 @@
       {#each games as game}
         <tr>
           <td>{game.title}</td>
-          <td>{game.games}</td>
+          <td>
+            {#each game.games as entry}
+              <a href={entry.url}>{entry.title}</a>
+            {/each}
+          </td>
         </tr>
       {/each}
     </tbody>

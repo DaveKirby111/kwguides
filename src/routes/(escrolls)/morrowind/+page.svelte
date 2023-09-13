@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "elder scrolls III: morrowind";
+  $pageTitle = "Elder Scrolls III: Morrowind";
   import Sections from "$lib/sections.svelte";
   import abanabi from "$lib/images/morrowind/Abanabi.png";
   import umbra from "$lib/images/morrowind/umbra.jpg";
@@ -217,7 +217,7 @@
 <div id="builds" class="builds">
   <h2>builds</h2>
 
-  <div class="witcher w-25">
+  <div class="witcher">
     <h4>Witcher</h4>
     <h5>Specialization</h5>
     <ul>
@@ -259,11 +259,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#chrysamere">chrysamere</a></li>
-    <li><a href="#umbra">umbra</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#chrysamere">chrysamere</a></li>
+      <li><a href="#umbra">umbra</a></li>
+    </ul>
+  </div>
 
   <div class="chrysamere mb-5" id="chrysamere">
     <h4>Chrysamere</h4>
@@ -377,9 +379,19 @@
 
     div {
       width: 100%;
+      padding: 5px;
+    }
+
+    .builds {
+      display: flex;
+      flex-direction: column;
     }
 
     .div div {
+      width: 100%;
+    }
+
+    .builds div {
       width: 100%;
     }
   }

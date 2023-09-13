@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "final fantasy XIII";
+  $pageTitle = "Final Fantasy XIII";
   import Sections from "$lib/sections.svelte";
 
   const sections = [
@@ -16,12 +16,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#chocobos">chocobos</a></li>
-    <li><a href="#egg">growth egg</a></li>
-    <li><a href="#characters">characters</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#chocobos">chocobos</a></li>
+      <li><a href="#egg">growth egg</a></li>
+      <li><a href="#characters">characters</a></li>
+    </ul>
+  </div>
 
   <div class="chocobos" id="chocobos">
     <h4>chocobos</h4>
@@ -127,3 +129,11 @@
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>
+
+<style>
+  @media screen and (max-width: 600px) {
+    div {
+      padding: 5px;
+    }
+  }
+</style>

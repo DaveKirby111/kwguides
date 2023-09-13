@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "final fantasy IX";
+  $pageTitle = "Final Fantasy IX";
   import Sections from "$lib/sections.svelte";
 
   const sections = [
@@ -47,13 +47,15 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#ragtime">ragtime mouse</a></li>
-    <li><a href="#ramuh">ramuh</a></li>
-    <li><a href="#stellazio">stellazio</a></li>
-    <li><a href="#cards">tetra master</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#ragtime">ragtime mouse</a></li>
+      <li><a href="#ramuh">ramuh</a></li>
+      <li><a href="#stellazio">stellazio</a></li>
+      <li><a href="#cards">tetra master</a></li>
+    </ul>
+  </div>
 
   <div class="ragtime mb-5" id="ragtime">
     <h4>Ragtime Mouse</h4>
@@ -284,5 +286,11 @@
 <style>
   .stellazio div {
     justify-content: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    div {
+      padding: 5px;
+    }
   }
 </style>

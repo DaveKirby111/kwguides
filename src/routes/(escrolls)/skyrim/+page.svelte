@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "elder scrolls V: skyrim";
+  $pageTitle = "Elder Scrolls V: Skyrim";
   import Sections from "$lib/sections.svelte";
   import * as components from "$lib/skyrimarr.js";
 
@@ -312,12 +312,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#goldbrand">goldbrand</a></li>
-    <li><a href="#shouts">dragon shouts</a></li>
-    <li><a href="#masks">dragon priest masks</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#goldbrand">goldbrand</a></li>
+      <li><a href="#shouts">dragon shouts</a></li>
+      <li><a href="#masks">dragon priest masks</a></li>
+    </ul>
+  </div>
 
   <div class="goldbrand" id="goldbrand">
     <h4>A Matter of Pride: Goldbrand</h4>

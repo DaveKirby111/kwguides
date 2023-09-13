@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "elder scrolls IV: oblivion";
+  $pageTitle = "Elder Scrolls IV: Oblivion";
   import Sections from "$lib/sections.svelte";
   import umbra from "$lib/images/oblivion/umbra.webp";
   import goldbrand from "$lib/images/oblivion/goldbrand.webp";
@@ -223,12 +223,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#umbra">umbra</a></li>
-    <li><a href="#goldbrand">goldbrand</a></li>
-    <li><a href="#hatred">hatred's soul</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#umbra">umbra</a></li>
+      <li><a href="#goldbrand">goldbrand</a></li>
+      <li><a href="#hatred">hatred's soul</a></li>
+    </ul>
+  </div>
 
   <div class="umbra mb-5" id="umbra">
     <h4>umbra</h4>

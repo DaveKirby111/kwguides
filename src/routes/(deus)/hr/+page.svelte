@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "deus ex: human revolution";
+  $pageTitle = "Deus Ex: Human Revolution";
   import Sections from "$lib/sections.svelte";
   import pwords from "$lib/docs/HRpw.pdf";
   import kcodes from "$lib/docs/HRkc.pdf";
@@ -18,11 +18,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#praxis">praxis</a></li>
-    <li><a href="#passkey">passwords/kecodes</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#praxis">praxis</a></li>
+      <li><a href="#passkey">passwords/kecodes</a></li>
+    </ul>
+  </div>
 
   <div class="praxis mb-5" id="praxis">
     <h4>praxis kits</h4>

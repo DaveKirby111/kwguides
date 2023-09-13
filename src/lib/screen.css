@@ -15,6 +15,7 @@
   div {
     flex-direction: column;
     width: 100%;
+    padding: 5px;
   }
 
   table {
@@ -38,6 +39,14 @@
 
   .div div {
     width: 100%;
+  }
+
+  .skip {
+    flex-direction: column;
+  }
+
+  .skip li {
+    margin-bottom: 20px;
   }
 }
 

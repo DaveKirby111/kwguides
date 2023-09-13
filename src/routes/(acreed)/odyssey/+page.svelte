@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "assassin's creed odyssey";
+  $pageTitle = "Assassin's Creed Odyssey";
   import Sections from "$lib/sections.svelte";
 
   import * as components from "$lib/odysseyarr.js";
@@ -18,11 +18,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#pilgrim">pilgrim set</a></li>
-    <li><a href="#tombs">tombs</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#pilgrim">pilgrim set</a></li>
+      <li><a href="#tombs">tombs</a></li>
+    </ul>
+  </div>
 
   <div class="pilgrim" id="pilgrim">
     <h4>pilgrim set</h4>

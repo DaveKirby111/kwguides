@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "final fantasy VII";
+  $pageTitle = "Final Fantasy VII";
   import Sections from "$lib/sections.svelte";
   import harp1 from "$lib/images/ff7/harp1.png";
   import harp2 from "$lib/images/ff7/harp2.png";
@@ -43,14 +43,16 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#yuffie">yuffie</a></li>
-    <li><a href="#vincent">vincent</a></li>
-    <li><a href="#date">gold saucer date</a></li>
-    <li><a href="#ultimate">ultimate weapons/limits</a></li>
-    <li><a href="#harp">lunar harp</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#yuffie">yuffie</a></li>
+      <li><a href="#vincent">vincent</a></li>
+      <li><a href="#date">gold saucer date</a></li>
+      <li><a href="#ultimate">ultimate weapons/limits</a></li>
+      <li><a href="#harp">lunar harp</a></li>
+    </ul>
+  </div>
 
   <div class="yuffie mb-5" id="yuffie">
     <h5>how to get Yuffie</h5>

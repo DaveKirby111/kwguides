@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "final fantasy XII";
+  $pageTitle = "Final Fantasy XII";
   import Sections from "$lib/sections.svelte";
   import gcrystal from "$lib/images/ff12/GreatCrystal.png";
 
@@ -17,12 +17,14 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#crystal">great crystal</a></li>
-    <li><a href="#ultima">ultima</a></li>
-    <li><a href="#monographs">monographs</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#crystal">great crystal</a></li>
+      <li><a href="#ultima">ultima</a></li>
+      <li><a href="#monographs">monographs</a></li>
+    </ul>
+  </div>
 
   <div class="greatcrystal mb-5" id="crystal">
     <h4>Great Crystal</h4>
@@ -162,5 +164,11 @@
   .greatcrystal img {
     display: block;
     margin: auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    div {
+      padding: 5px;
+    }
   }
 </style>

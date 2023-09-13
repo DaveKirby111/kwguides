@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "assassin's creed II";
+  $pageTitle = "Assassin's Creed II";
   import Sections from "$lib/sections.svelte";
 
   import glyph1 from "$lib/images/ac/ac2/florence.jpg";
@@ -22,11 +22,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#statues">statues</a></li>
-    <li><a href="#glyphs">glyphs</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#statues">statues</a></li>
+      <li><a href="#glyphs">glyphs</a></li>
+    </ul>
+  </div>
 
   <div class="statues" id="statues">
     <h4>statue locations</h4>

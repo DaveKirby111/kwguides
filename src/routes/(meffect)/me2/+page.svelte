@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "mass effect 2";
+  $pageTitle = "Mass Effect 2";
   import Sections from "$lib/sections.svelte";
 
   const sections = [
@@ -145,11 +145,13 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#assignments">assignments</a></li>
-    <li><a href="#suicide">suicide mission</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#assignments">assignments</a></li>
+      <li><a href="#suicide">suicide mission</a></li>
+    </ul>
+  </div>
 
   <div class="assignments" id="assignments">
     <h4>assignments</h4>

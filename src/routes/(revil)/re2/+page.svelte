@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "resident evil 2 remake";
+  $pageTitle = "Resident Evil 2 Remake";
   import Sections from "$lib/sections.svelte";
 
   import claire1 from "$lib/images/re2/claire1.webp";
@@ -24,15 +24,17 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#statues">statues</a></li>
-    <li><a href="#combinations">combinations</a></li>
-    <li><a href="#panels">electric panels</a></li>
-    <li><a href="#chess">chess door puzzle</a></li>
-    <li><a href="#lab">lab</a></li>
-    <li><a href="#racoons">mr. racoon locations</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#statues">statues</a></li>
+      <li><a href="#combinations">combinations</a></li>
+      <li><a href="#panels">electric panels</a></li>
+      <li><a href="#chess">chess door puzzle</a></li>
+      <li><a href="#lab">lab</a></li>
+      <li><a href="#racoons">mr. racoon locations</a></li>
+    </ul>
+  </div>
 
   <div class="statues text-center" id="statues">
     <h4>Statues</h4>
@@ -259,5 +261,8 @@
   }
 
   @media screen and (max-width: 600px) {
+    div {
+      padding: 5px;
+    }
   }
 </style>

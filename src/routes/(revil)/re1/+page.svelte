@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "resident evil 1 remake";
+  $pageTitle = "Resident Evil 1 Remake";
   import Sections from "$lib/sections.svelte";
 
   const sections = [
@@ -16,13 +16,15 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#wvane">weathervane</a></li>
-    <li><a href="#vjolt">V-Jolt</a></li>
-    <li><a href="#sharks">aqua ring</a></li>
-    <li><a href="#lab">lab</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#wvane">weathervane</a></li>
+      <li><a href="#vjolt">V-Jolt</a></li>
+      <li><a href="#sharks">aqua ring</a></li>
+      <li><a href="#lab">lab</a></li>
+    </ul>
+  </div>
 
   <div class="weathervane text-center" id="wvane">
     <h4>weathervane puzzle</h4>
@@ -76,3 +78,11 @@
   </div>
   <a href="#top" class="skiplink">Top</a>
 </div>
+
+<style>
+  @media screen and (max-width: 600px) {
+    div {
+      padding: 5px;
+    }
+  }
+</style>

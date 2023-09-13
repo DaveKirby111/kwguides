@@ -1,6 +1,6 @@
 <script>
   import { pageTitle } from "$lib/stores.js";
-  $pageTitle = "final fantasy VIII";
+  $pageTitle = "Final Fantasy VIII";
   import Sections from "$lib/sections.svelte";
 
   const sections = [
@@ -38,13 +38,15 @@
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <ul class="skip">
+  <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
-    <li><a href="#tests">SeeD Tests</a></li>
-    <li><a href="#deep">deep sea research center</a></li>
-    <li><a href="#esthar">esthar</a></li>
-    <li><a href="#gf">guardian forces</a></li>
-  </ul>
+    <ul class="skip">
+      <li><a href="#tests">SeeD Tests</a></li>
+      <li><a href="#deep">deep sea research center</a></li>
+      <li><a href="#esthar">esthar</a></li>
+      <li><a href="#gf">guardian forces</a></li>
+    </ul>
+  </div>
 
   <div class="seed mb-5" id="tests">
     <h4>SeeD Tests</h4>
