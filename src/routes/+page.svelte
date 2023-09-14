@@ -26,7 +26,7 @@
         },
 
         {
-          title: "manking divided",
+          title: "mankind divided",
           url: "/md",
         },
       ],
