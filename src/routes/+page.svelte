@@ -8,7 +8,7 @@
       title: "assassin's creed",
       games: [
         {
-          title: "assassin's creed 2, ",
+          title: "assassin's creed 2,  ",
           url: "/ac2",
         },
         {
@@ -21,7 +21,7 @@
       title: "deus ex",
       games: [
         {
-          title: "human revolution, ",
+          title: "human revolution,  ",
           url: "/hr",
         },
 
@@ -35,12 +35,12 @@
       title: "dragon age",
       games: [
         {
-          title: "DA Origins, ",
+          title: "DA Origins,  ",
           url: "/da1",
         },
 
         {
-          title: "DA II, ",
+          title: "DA II,  ",
           url: "/da2",
         },
 
@@ -55,12 +55,12 @@
       title: "elder scrolls",
       games: [
         {
-          title: "morrowind, ",
+          title: "morrowind,  ",
           url: "/morrowind",
         },
 
         {
-          title: "oblivion, ",
+          title: "oblivion,  ",
           url: "/oblivion",
         },
 
@@ -74,27 +74,27 @@
       title: "final fantasy",
       games: [
         {
-          title: "VII, ",
+          title: "VII,  ",
           url: "/ff7",
         },
 
         {
-          title: "VIII, ",
+          title: "VIII,  ",
           url: "/ff8",
         },
 
         {
-          title: "IX, ",
+          title: "IX,  ",
           url: "/ff9",
         },
 
         {
-          title: "XII, ",
+          title: "XII,  ",
           url: "/ff12",
         },
 
         {
-          title: "XIII, ",
+          title: "XIII,  ",
           url: "/ff13",
         },
 
@@ -108,12 +108,12 @@
       title: "mass effect",
       games: [
         {
-          title: "mass effect, ",
+          title: "mass effect,  ",
           url: "/me1",
         },
 
         {
-          title: "mass effect 2, ",
+          title: "mass effect 2,  ",
           url: "/me2",
         },
 
@@ -127,12 +127,12 @@
       title: "resident evil",
       games: [
         {
-          title: "RE 1 Remake, ",
+          title: "RE 1 Remake,  ",
           url: "/re1",
         },
 
         {
-          title: "RE 2 Remake, ",
+          title: "RE 2 Remake,  ",
           url: "/re2",
         },
 
