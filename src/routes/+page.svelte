@@ -99,9 +99,14 @@
         },
 
         {
-          title: "XV",
+          title: "XV, ",
           url: "/ff15",
         },
+
+        {
+          title: "Crisis Core",
+          url: "/ccore"
+        }
       ],
     },
     {

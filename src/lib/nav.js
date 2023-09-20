@@ -111,6 +111,11 @@ export const links = [
         page: "XV",
         url: "/ff15",
       },
+
+      {
+        page: "crisis core",
+        url: "/ccore",
+      },
     ],
   },
 
