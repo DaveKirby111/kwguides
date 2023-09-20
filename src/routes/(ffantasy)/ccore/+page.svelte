@@ -70,7 +70,7 @@
       <li>M7-2-2 Search and Destroy II = Keychain (acc 1)</li>
       <li>M7-2-3 Operation Mako Reactor I = Thunder Armlet</li>
       <li>M7-2-4 Operation Mako Reactor II = Dragon Armlet</li>
-      <li>M7-2-5 Operation Mako Reactor III = Backpack (acc 2)</li>
+      <li>M7-2-5 Operation Mako Reactor III = Backpack (acc 2ç)</li>
       <li>M7-2-6 Assessories Recall = Paralyzing Shock</li>
     </ul>
   </div>
