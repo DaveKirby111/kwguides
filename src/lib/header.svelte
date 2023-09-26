@@ -31,6 +31,7 @@
   header {
     background-image: url("$lib/images/space.webp");
     background-size: 100% 100%;
+    flex-direction: column !important;
   }
 
   .page {

@@ -162,4 +162,26 @@ export const links = [
       },
     ],
   },
+
+  {
+    id: 8,
+    title: "tomb raider",
+    url: "#",
+    subitems: [
+      {
+        page: "tomb raider",
+        url: "/traider",
+      },
+
+      {
+        page: "rise of the tomb raider",
+        url: "/rise",
+      },
+
+      {
+        page: "shadow of the tomb raider",
+        url: "/shadow",
+      },
+    ],
+  },
 ];

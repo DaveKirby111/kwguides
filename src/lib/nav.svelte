@@ -8,7 +8,7 @@
   }
 </script>
 
-<nav class="navbar navbar-expand-sm d-flex justify-content-center p-0">
+<nav class="navbar d-flex justify-content-center p-0">
   <!-- Hamburger Menu Button -->
   <button class="hamburger" on:click={toggleMobileMenu}>
     <svg
@@ -49,6 +49,7 @@
   </ul>
 </nav>
 
+
 <style>
   nav ul {
     margin: auto;
@@ -71,13 +72,13 @@
 
   .dropdown-menu {
     text-align: center;
-
+    width: 250px;
     background-color: black;
   }
 
-  .dropdown:hover .dropdown-menu {
+  /* .dropdown:hover .dropdown-menu {
     display: block;
-  }
+  } */
 
   .dropdown-menu li {
     border-bottom: 1px solid rgb(0, 176, 0);
@@ -88,18 +89,29 @@
   }
 
   .hamburger {
-    display: none;
+    /* display: none; */
     cursor: pointer;
     padding: 10px;
     background: transparent;
     border: none;
     outline: none;
     z-index: 1000;
+    /* margin-left: auto;  */
+    margin-top: 20px;
   }
 
   .hamburger svg {
     height: 60px;
     color: rgb(0, 176, 0);
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .navbar-nav.open {
+    display: block;
+    margin-bottom: 20px;
   }
 
   @media screen and (max-width: 600px) {

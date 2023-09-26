@@ -147,6 +147,26 @@
         },
       ],
     },
+
+    {
+      title: "tomb raider",
+      games: [
+        {
+          title: "tomb raider,  ",
+          url: "/traider",
+        },
+
+        {
+          title: "rise of the tomb raider,  ",
+          url: "/rise",
+        },
+
+        {
+          title: "shadow of the tomb raider",
+          url: "/shadow",
+        },
+      ],
+    },
   ];
 </script>
 

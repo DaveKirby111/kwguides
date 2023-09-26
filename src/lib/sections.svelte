@@ -14,7 +14,7 @@
 
 <style>
   .sections {
-    background-image: url("$lib/images/space.webp");
+    background-image: url("$lib/images/space2.jpg");
     background-size: 100% 100%;
   }
 
