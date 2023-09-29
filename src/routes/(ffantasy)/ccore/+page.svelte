@@ -20,11 +20,130 @@
   <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
+      <li><a href="#trophies">trophies</a></li>
       <li><a href="#clubs">fan clubs</a></li>
       <li><a href="#slots">accessory slots</a></li>
       <li><a href="#banora">banora treasure</a></li>
       <li><a href="#wonders">seven wonders</a></li>
     </ul>
+  </div>
+
+  <div id="trophies">
+    <h4>trophies</h4>
+    <h5>100% completion</h5>
+    <div class="d-flex">
+      <div>
+        <ul>
+          <li>my living legacy</li>
+          <p>Acquired all trophies.</p>
+          <li>Embrace Your Dreams</li>
+          <p>Cleared the Prologue.</p>
+          <li>He Wouldn't Betray Us</li>
+          <p>Cleared Chapter 1</p>
+          <li>we're not monsters</li>
+          <p>Cleared Chapter 2</p>
+          <li>Angels Dream of One Thing</li>
+          <p>Cleared Chapter 3</p>
+          <li>Where Did Everyone Go?</li>
+          <p>Cleared Chapter 4</p>
+          <li>Protect Your SOLDIER Honor</li>
+          <p>Cleared Chapter 5</p>
+          <li>Did Genesis Really Die?</li>
+          <p>Cleared Chapter 6</p>
+          <li>I May Abandon Shinra</li>
+          <p>Cleared Chapter 7</p>
+          <li>I'll Come Visit</li>
+          <p>Cleared Chapter 8</p>
+          <li>We'll All Be Heroes</li>
+          <p>Cleared Chapter 9</p>
+          <li>Thanks to You, Zack</li>
+          <p>Cleared Chapter 10</p>
+          <li>come and get it</li>
+          <p>Won a battle for the first time.</p>
+          <li>Prove Your Honor to Me</li>
+          <p>Performed a limit break for the first time.</p>
+          <li>Got Materia Fusion Down</li>
+          <p>Performed materia fusion for the first time.</p>
+          <li>overpowered</li>
+          <p>Dealt 99,999 damage to an enemy.</p>
+          <li>Limit Break Collector</li>
+          <p>Obtained all DMW images.</p>
+          <li>DMW master</li>
+          <p>Achieved 100% progress for all DMW.</p>
+          <li>Missions Completed: 25%</li>
+          <p>Completed 25% of all missions.</p>
+          <li>Missions Completed: 50%</li>
+          <p>Completed 50% of all missions.</p>
+          <li>Missions Completed: 75%</li>
+          <p>Completed 75% of all missions.</p>
+          <li>mission completionist</li>
+          <p>Completed 100% of all missions.</p>
+          <li>shop completionist</li>
+          <p>Unlocked all shops.</p>
+          <li>mail completionist</li>
+          <p>Received mail from all senders.</p>
+          <li>genji equipment</li>
+          <p>Collected all Genji equipment.</p>
+          <li>Hero of the Wutai War?</li>
+          <p>Received highest evaluation from Lazard for Assault on Fort Tamblin.</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Fan Club Aficionado</li>
+          <p>Joined every fan club.</p>
+          <li>Master Mako Stone Miner</li>
+          <p>Prevented the Materia Room from being shut down.</p>
+          <li>Banora Treasures</li>
+          <p>Collected all items and arrived at Angeal's house before the Banora airstrike.</p>
+          <li>Everyone's Hero</li>
+          <p>Saved everyone calling for help during the assault on the Shinra Building in Chapter 3.</p>
+          <li>First-Rate SOLDIER</li>
+          <p>Defeated all virtual data in the Training Room.</p>
+          <li>Precise Restoration</li>
+          <p>Achieved 100% recovery with the Mako Recovery Unit.</p>
+          <li>Of Significant Worth</li>
+          <p>Judged by Hojo to be a "SOLDIER member of significant worth" in the Fusion Chamber.</p>
+          <li>cell raider</li>
+          <p>Checked all cells on the 67th floor of the Shinra Building.</p>
+          <li>wutai's nemesis</li>
+          <p>Caught all the Wutai spies that had infiltrated Midgar.</p>
+          <li>fan club savior</li>
+          <p>Helped every fan club continue their activities.</p>
+          <li>Midgar Full of Flowers</li>
+          <p>Constructed every flower wagon type.</p>
+          <li>Seven Wonders Expert</li>
+          <p>Learned about all of Nibelheim's Seven Wonders.</p>
+          <li>cage opener</li>
+          <p>Opened the path to the Cage of Binding.</p>
+          <li>slicin' SOLDIER</li>
+          <p>Cut down every incoming shell.</p>
+          <li>master blender</li>
+          <p>Blended a perfume with the perfect amount of oil.</p>
+          <li>bingo!</li>
+          <p>Guessed the exact number in the number-guessing game.</p>
+          <li>godlike</li>
+          <p>Rated to have "godlike speed" in collecting materia.</p>
+          <li>Shinra's Squats Champion</li>
+          <p>Achieved victory against the SOLDIER 2nd Class in the physical fitness test.</p>
+          <li>master infiltrator</li>
+          <p>Infiltrated the mako excavation facility without being discovered once.</p>
+          <li>immovable object</li>
+          <p>Defeated all enemies in Defense of the Junon Perimeter.</p>
+          <li>zack the sniper</li>
+          <p>Did not allow a single gun bull head to escape while sniping.</p>
+          <li>waterfall chaser</li>
+          <p>Collected ten chests coming down the waterfall in the hills of Gongaga.</p>
+          <li>good match for aerith</li>
+          <p>Told by Bruno that you and Aerith "make a good couple."</p>
+          <li>divine rule broken</li>
+          <p>Defeated Minerva.</p>
+          <li>SOLDIER of Legend</li>
+          <p>Cleared the game in Hard Mode.</p>
+        </ul>
+      </div>
+      
+    </div>
   </div>
 
   <div id="clubs">
@@ -148,6 +267,13 @@
 
 <style>
 
- 
+ul li {
+      text-transform: capitalize;
+    }
+
+    ul p {
+      text-transform: capitalize;
+      font-size: 12px;
+    } 
   
 </style>

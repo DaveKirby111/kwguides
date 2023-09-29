@@ -148,9 +148,115 @@
   <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
+      <li><a href="#trophies">trophies</a></li>
       <li><a href="#assignments">assignments</a></li>
       <li><a href="#suicide">suicide mission</a></li>
     </ul>
+  </div>
+
+  <div id="trophies">
+    <h4>trophies</h4>
+    <h5>100% completion</h5>
+    <div class="d-flex">
+      <div>
+        <ul>
+          <li>n7 elite</li>
+          <p>ME2: Acquire all trophies</p>
+          <li>mission accomplished</li>
+          <p>ME2: Save humanity from certain annihilation</p>
+          <li>missing in action</li>
+          <p>ME2: Save your crew from an overwhelming attack</p>
+          <li>very elusive</li>
+          <p>ME2: Return to active duty</p>
+          <li>colony defense</li>
+          <p>ME2: Defend a human colony from attack</p>
+          <li>ghost ship</li>
+          <p>ME2: Complete the investigation of a derelict alien vessel</p>
+          <li>suicide mission</li>
+          <p>ME2: Use the Omega 4 Relay</p>
+          <li>against all odds</li>
+          <p>ME2: Survive suicide mission</p>
+          <li>no one left behind</li>
+          <p>ME2: Keep your team alive through the suicide mission</p>
+          <li>friend or foe</li>
+          <p>ME2: Obtain geth technology</p>
+          <li>the archangel</li>
+          <p>ME2: recruit Archangel</p>
+          <li>the assassin</li>
+          <p>ME2: recruit the Assassin</p>
+          <li>the convict</li>
+          <p>ME2: recruit the biotic Convict</p>
+          <li>the justicar</li>
+          <p>ME2: recruit the Justicar</p>
+          <li>the krogan</li>
+          <p>ME2: recruit the krogan</p>
+          <li>the professor</li>
+          <p>ME2: recruit the Professor</p>
+          <li>the quarian</li>
+         <p>ME2: recruit the quarian</p>
+          <li>a house divided</li>
+          <p>ME2: Hack a geth collective</p>
+          <li>battlemaster</li>
+          <p>ME2: Gain the loyalty of the krogan</p>
+          <li>cat's in the cradle</li>
+          <p>ME2: Gain the loyalty of the Assassin</p>
+          <li>catharsis</li>
+          <p>ME2: Gain the loyalty of the biotic Convict</p>
+          <li>doppelganger</li>
+          <p>ME2: Help the Justicar resolve her mission</p>
+          <li>fade away</li>
+          <p>ME2: Gain the loyalty of Archangel</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>ghost of the father</li>
+          <p>ME2: Gain the loyalty of the Cerberus Operative</p>
+          <li>the cure</li>
+          <p>ME2: Gain the loyalty of the Professor</p>
+          <li>the prodigal</li>
+          <p>ME2: Gain the loyalty of the Cerberus Officer</p>
+          <li>treason</li>
+          <p>ME2: Gain the loyalty of the quarian</p>
+          <li>big game hunter</li>
+          <p>ME2: Thresher Maw defeated</p>
+          <li>head hunter</li>
+          <p>ME2: Perform 30 headshot kills with any weapon on humanoid targets</p>
+          <li>incineration specialist</li>
+          <p>ME2: Incinerate the armor of 25 enemies</p>
+          <li>merciless</li>
+          <p>ME2: Make 20 enemies scream as they fall or are set on fire</p>
+          <li>overload specialist</li>
+          <p>ME2: Disrupt the shields of 25 enemies</p>
+          <li>tactician</li>
+          <p>ME2: Hit 20 different targets with multiple biotic combos</p>
+          <li>warp specialist</li>
+          <p>ME2: Warp the barriers of 25 enemies</p>
+          <li>agent</li>
+          <p>ME2: Complete 5 missions discovered by scanning unexplored worlds</p>
+          <li>galactic explorer</li>
+          <p>ME2: Visit 100% of the planets in an unexplored cluster</p>
+          <li>operative</li>
+          <p>ME2: Complete a mission discovered by scanning an unexplored world</p>
+          <li>scientist</li>
+          <p>ME2: Complete any research project in the Normandy's laboratory</p>
+          <li>weapon specialist</li>
+          <p>ME2: Fully upgrade a weapon</p>
+          <li>scholar</li>
+          <p>ME2: Unlock 15 new Mass Effect 2 codex entries</p>
+          <li>power full</li>
+          <p>ME2: Evolve any power</p>
+          <li>revenge!</li>
+          <p>ME2: Gain the loyalty of the mercenary</p>
+          <li>broke, blind and bedlam</li>
+          <p>ME2: Gain the loyalty of the thief</p>
+          <li>digital exorcist</li>
+          <p>ME2: Successfully shut down the rogue VI</p>
+          <li>heart of darkness</li>
+          <p>ME2: Confront the Shadow Broker</p>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="assignments" id="assignments">
@@ -325,6 +431,15 @@
     border-top: 55px solid black;
     border-bottom: 15px double black;
   }
+
+  ul li {
+      text-transform: capitalize;
+    }
+
+    ul p {
+      text-transform: capitalize;
+      font-size: 12px;
+    }
 
   @media screen and (max-width: 600px) {
     .div div {

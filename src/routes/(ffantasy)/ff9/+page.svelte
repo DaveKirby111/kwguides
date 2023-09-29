@@ -50,11 +50,131 @@
   <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
+      <li><a href="#trophies">trophies</a></li>
       <li><a href="#ragtime">ragtime mouse</a></li>
       <li><a href="#ramuh">ramuh</a></li>
       <li><a href="#stellazio">stellazio</a></li>
       <li><a href="#cards">tetra master</a></li>
     </ul>
+  </div>
+
+  <div id="trophies">
+    <h4>trophies</h4>
+    <h5>100% completion</h5>
+    <div class="d-flex">
+      <div>
+        <ul>
+          <li>heroes of gaia</li>
+          <p>Collect all trophies.</p>
+          <li>bloodlust</li>
+          <p>Defeat 10000 enemies.</p>
+          <li>Driving the Hard Bargain</li>
+          <p>Purchase all items available from Stiltzkin.</p>
+          <li>cracking the code</li>
+          <p>Uncover the secret of the Eidolon Wall.</p>
+          <li>one nag too many</li>
+          <p>Cause Moguo to have a tantrum.</p>
+          <li>follow your nose</li>
+          <p>Raise your chocobo's beak level to 99.</p>
+          <li>beach bum</li>
+          <p>Visit every beach in Gaia.</p>
+          <li>diggin' it</li>
+          <p>Locate all hidden treasures on the world map.</p>
+          <li>back online</li>
+          <p>Repair the machine at Mognet Central.</p>
+          <li>well lubricated</li>
+          <p>Obtain a bottle of Superslick.</p>
+          <li>frog wrangler</li>
+          <p>Successfully catch 99 frogs.</p>
+          <li>going for the gold</li>
+          <p>Successfully catch a golden frog.</p>
+          <li>auctioneer</li>
+          <p>Win 10 items at the Treno Auction House.</p>
+          <li>sword of kings</li>
+          <p>Obtain the sacred blade Excalibur.</p>
+          <li>Beating the Ragtime Blues</li>
+          <p>Correctly answer all the questions in Ragtime Mouse's pop quiz.</p>
+          <li>mister nice guy</li>
+          <p>Gain the favor of all friendly enemies.</p>
+          <li>to ozma and back</li>
+          <p>Defeat Ozma.</p>
+          <li>my little airship</li>
+          <p>Obtain a miniature copy of the Prima Vista.</p>
+          <li>Earning the Queen's Favor</li>
+          <p>Receive 10 rewards from Queen Stella.</p>
+          <li>What's Your Sign?</li>
+          <p>Obtain the Hammer.</p>
+          <li>Another Man's Treasure</li>
+          <p>Receive certification as a Rank S Treasure Hunter.</p>
+          <li>The Ultimate Flute</li>
+          <p>Obtain the Angel Flute.</p>
+          <li>The Ultimate Mace</li>
+          <p>Obtain the Mace of Zeus.</p>
+          <li>The Ultimate fork</li>
+          <p>Obtain the Gastro Fork.</p>
+          <li>The Ultimate sword</li>
+          <p>Obtain Excalibur II.</p>
+          <li>The Ultimate rod</li>
+          <p>Obtain the Whale Whisker.</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>dragon lady</li>
+          <p>Defeat Behemoth in the Treno weapon shop using Dagger.</p>
+          <li>hail to the king</li>
+          <p>Jump rope 1000 times without tripping and obtain King of Jump Rope.</p>
+          <li>skip to my lou</li>
+          <p>Jump rope 100 times without tripping.</p>
+          <li>a round of applause</li>
+          <p>Have the nobles demand an encore.</p>
+          <li>A-Hunting We Will Go</li>
+          <p>Win with Vivi during the Festival of the Hunt.</p>
+          <li>All's Well That Ends Well</li>
+          <p>Complete FINAL FANTASY IX.</p>
+          <li>end of the road</li>
+          <p>Attain level 99 with at least one character.</p>
+          <li>the one ring</li>
+          <p>Obtain Madain's Ring via mining.</p>
+          <li>Peek-A-Boo</li>
+          <p>Free Kuppo from a wall in Fossil Roo.</p>
+          <li>track star</li>
+          <p>Obtain Athlete Queen.</p>
+          <li>found in the shuffle</li>
+          <p>Beat the Nero Brothers' shuffling game nine times in a row.</p>
+          <li>It's All in the Cards I</li>
+          <p>Win a Tetra Master match.</p>
+          <li>It's All in the Cards II</li>
+          <p>Win 10 Tetra Master matches. </p>
+          <li>It's All in the Cards III</li>
+          <p>Win 100 Tetra Master matches. </p>
+          <li>A Clean Bill of Health</li>
+          <p>Have a single character affected by all status ailments (both beneficial and detrimental).</p>
+          <li>Overly Emotional</li>
+          <p>Enter trance 50 times.</p>
+          <li>movie critic</li>
+          <p>View 79 Active Time Events.</p>
+          <li>over the moon</li>
+          <p>Obtain 4 moonstones.</p>
+          <li>kain's legacy</li>
+          <p>Obtain Kain's Lance.</p>
+          <li>Close But No Cigar</li>
+          <p>Obtain the Tower.</p>
+          <li>The Ultimate Claws</li>
+          <p>Obtain the Rune Claws.</p>
+          <li>The Ultimate racket</li>
+          <p>Obtain the Tiger Racket.</p>
+          <li>The Ultimate dual blade</li>
+          <p>Obtain the Ultima Weapon.</p>
+          <li>path of the samurai</li>
+          <p>Obtain the complete set of Genji armor.</p>
+          <li>your lucky day</li>
+          <p>Receive a Very Good Omen from a color fortune.</p>
+          <li>out of harm's way</li>
+          <p>Guide all the residents of Cleyra to safety.</p>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="ragtime mb-5" id="ragtime">
@@ -287,6 +407,15 @@
   .stellazio div {
     justify-content: center;
   }
+
+  ul li {
+      text-transform: capitalize;
+    }
+
+    ul p {
+      text-transform: capitalize;
+      font-size: 12px;
+    }
 
   @media screen and (max-width: 600px) {
     div {

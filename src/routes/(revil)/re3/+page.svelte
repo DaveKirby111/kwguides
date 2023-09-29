@@ -19,11 +19,98 @@
   <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
+      <li><a href="#trophies">trophies</a></li>
       <li><a href="#route">train station route</a></li>
       <li><a href="#vaccine">lab vaccine</a></li>
       <li><a href="#codes">codes</a></li>
       <li><a href="#dolls">charlie dolls</a></li>
     </ul>
+  </div>
+
+  <div id="trophies">
+    <h4>trophies</h4>
+    <h5>100% completion</h5>
+    <div class="d-flex">
+      
+      <div>
+        <ul>
+          <li>so long, RC</li>
+          <p>Obtain all trophies.</p>
+          <li>fire escape</li>
+          <p>Escape from Jill's apartment building.</p>
+          <li>somebody to lean on</li>
+          <p>Escape from uptown Raccoon City.</p>
+          <li>escape from the city</li>
+          <p>Make it out of downtown Raccoon City.</p>
+          <li>i don't feel so good</li>
+          <p>Leave the clock tower plaza.</p>
+          <li>dominator</li>
+          <p>Complete the game on "Inferno."</p>
+          <li>basic chemistry</li>
+          <p>craft an item</p>
+          <li>gunsmith</li>
+          <p>improve a weapon</p>
+          <li>get organized</li>
+          <p>Expand your inventory.</p>
+          <li>nemesis down</li>
+          <p>Cause Nemesis to relinquish an item.</p>
+          <li>nemesis down?</li>
+          <p>Defeat Nemesis on the rooftop.</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>power stones</li>
+          <p>Place all jewels in the clock tower monument.</p>
+          <li>the carlos express</li>
+          <p>Leave R.P.D.</p>
+          <li>an unfortunate end</li>
+          <p>Defeat zombie Brad.</p>
+          <li>jill valentine</li>
+          <p>Complete the game with an S rank on "Inferno."</p>
+          <li>i need a hero</li>
+          <p>Withstand the zombie siege.</p>
+          <li>the pursuer</li>
+          <p>Follow Nicholai deeper underground.</p>
+          <li>electric slide</li>
+          <p>Gather all the fuses in the warehouse within 5 minutes.</p>
+          <li>nemesis down!?</li>
+          <p>Defeat Stage 2 Nemesis.</p>
+          <li>nemesis down!!!</li>
+          <p>Defeat Stage 3 Nemesis.</p>
+          <li>hello, charlie!</li>
+          <p>Destroy a Charlie Doll.</p>
+          <li>two for one deal</li>
+          <p>Defeat two enemies with a single shot.</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>bookworm</li>
+          <p>Read all story files.</p>
+          <li>goodbye, charlie!</li>
+          <p>Destroy all Charlie dolls.</p>
+          <li>kendo's armory</li>
+          <p>Collect all weapons in the campaign.</p>
+          <li>RE: Master of Unlocking</li>
+          <p>Unlock all safes, lockers, strongboxes, and pickable locks.</p>
+          <li>survivor</li>
+          <p>Complete the game on "Standard" or higher.</p>
+          <li>veteran</li>
+          <p>Complete the game on "Hardcore" or higher.</p>
+          <li>conqueror</li>
+          <p>Complete the game on "Nightmare" or higher.</p>
+          <li>sensational work!</li>
+          <p>Complete the game with an S rank.</p>
+          <li>minimalist</li>
+          <p>Complete the game without opening the item box.</p>
+          <li>i might need these later</li>
+          <p>Complete the game using 1 or fewer recovery items.</p>
+          <li>sprinter</li>
+          <p>Complete the game in under 2 hours of play time.</p>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="route text-center mb-5" id="route">
@@ -94,6 +181,16 @@
 </div>
 
 <style>
+
+ul li {
+      text-transform: capitalize;
+    }
+
+    ul p {
+      text-transform: capitalize;
+      font-size: 12px;
+    }
+
   @media screen and (max-width: 600px) {
     div {
       padding: 5px;

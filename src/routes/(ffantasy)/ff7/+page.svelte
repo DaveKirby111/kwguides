@@ -46,12 +46,234 @@
   <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
+      <li><a href="#trophies">trophies</a></li>
       <li><a href="#yuffie">yuffie</a></li>
       <li><a href="#vincent">vincent</a></li>
       <li><a href="#date">gold saucer date</a></li>
       <li><a href="#ultimate">ultimate weapons/limits</a></li>
       <li><a href="#harp">lunar harp</a></li>
     </ul>
+  </div>
+
+  <div id="trophies">
+    <h4>trophies</h4>
+    <h5>OG FF7</h5>
+    <div class="d-flex">
+      <div>
+        <ul>
+          <li>gaia's guardian</li>
+          <p>Obtain all trophies</p>
+          <li>first blood</li>
+          <p>Emerge victorious from your first battle</p>
+          <li>breaking new ground</li>
+          <p>Use a Limit Break</p>
+          <li>Consummate Cross-dresser</li>
+          <p>Get Don Corneo to choose Cloud over the two females</p>
+          <li>fledgling summoner</li>
+          <p>Use a summon Materia in battle</p>
+          <li>materia mastermind</li>
+          <p>Raise a Materia to Lv. 5</p>
+          <li>best bromance</li>
+          <p>Go on a date with Barret in the Gold Saucer</p>
+          <li>chocobochampion</li>
+          <p>Win the Chocobo Racing mini-game</p>
+          <li>corel's angel</li>
+          <p>Score 10,050 points or more in G-Bike at the Gold Saucer</p>
+          <li>shuriken join us</li>
+          <p>Have Yuffie join your party</p>
+          <li>Won't You be My Valentine?</li>
+          <p>Have Vincent join your party</p>
+          <li>making waves</li>
+          <p>Obtain the Leviathan Materia</p>
+          <li>waiting in the wings</li>
+          <p>Obtain the Bahamut Materia</p>
+          <li>Coming Up All Nines</li>
+          <p>Obtain 99,999,999 gil</p>
+          <li>liege of leveling</li>
+          <p>Reach Lv. 99 with one character</p>
+          <li>Bahamutype-0</li>
+          <p>Obtain the Bahamut ZERO Materia</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Roundtable Destruction</li>
+          <p>Obtain the Knights of the Round Materia</p>
+          <li>The Slash to End All Slashes</li>
+          <p>Learn Omnislash—Cloud's last Limit Break</p>
+          <li>loose cannon</li>
+          <p>Learn Catastrophe—Barret's last Limit Break</p>
+          <li>packing a punch</li>
+          <p>Learn Final Heaven—Tifa's last Limit Break</p>
+          <li>see the light</li>
+          <p>Learn Great Gospel—Aeris's last Limit Break</p>
+          <li>a universe of pain</li>
+          <p>Learn Cosmo Memory—Red XIII's last Limit Break</p>
+          <li>meet your maker</li>
+          <p>Learn All Creation—Yuffie's last Limit Break</p>
+          <li>wheel of fortune</li>
+          <p>Learn Slots—Cait Sith's last Limit Break</p>
+          <li>inner demons</li>
+          <p>Learn Chaos—Vincent's last Limit Break</p>
+          <li>gale warning</li>
+          <p>Learn Highwind—Cid's last Limit Break</p>
+          <li>A Feat of Meteoric Proportions</li>
+          <p>Complete FINAL FANTASY VII</p>
+          <li>Transcendant Convoker</li>
+          <p>Obtain the Master Summon Materia</p>
+          <li>Diamond Disintegrator</li>
+          <p>Defeat the Diamond Weapon</p>
+          <li>Ruby Render</li>
+          <p>Defeat the Ruby Weapon</p>
+          <li>Emerald Eviscerator</li>
+          <p>Defeat the Emerald Weapon</p>
+          <li>Failure IS an Option</li>
+          <p>Have your whole party fall in battle</p>
+        </ul>
+      </div>
+    </div>
+
+    <h5>FF7 Remake Integrade</h5>
+    <div class="d-flex">
+      <div>
+        <ul>
+          <li>master of fate</li>
+          <p>Earn all FINAL FANTASY VII REMAKE trophies.</p>
+          <li>onetime gig</li>
+          <p>Complete Chapter 1</p>
+          <li>escape artist</li>
+          <p>Complete Chapter 2</p>
+          <li>mercenary endeavors</li>
+          <p>Complete Chapter 3</p>
+          <li>night on the town</li>
+          <p>Complete Chapter 4</p>
+          <li>plan E</li>
+          <p>Complete Chapter 5</p>
+          <li>lights out</li>
+          <p>Complete Chapter 6</p>
+          <li>trapped like sewer rats</li>
+          <p>Complete Chapter 7</p>
+          <li>reunited</li>
+          <p>Complete Chapter 8</p>
+          <li>never the bride</li>
+          <p>Complete Chapter 9</p>
+          <li>sewer survivor</li>
+          <p>Complete Chapter 10</p>
+          <li>paranormal investigator</li>
+          <p>Complete Chapter 11</p>
+          <li>the collapse</li>
+          <p>Complete Chapter 12</p>
+          <li>broken dreams</li>
+          <p>Complete Chapter 13</p>
+          <li>picking up the pieces</li>
+          <p>Complete Chapter 14</p>
+          <li>the pizza in the sky</li>
+          <p>Complete Chapter 15</p>
+          <li>no appointment needed</li>
+          <p>Complete Chapter 16</p>
+          <li>emerging from chaos</li>
+          <p>Complete Chapter 17</p>
+          <li>destiny's crossraods</li>
+          <p>Complete Chapter 18</p>
+          <li>warming up</li>
+          <p>win a battle</p>
+          <li>weakened resolve</li>
+          <p>Exploit an enemy's weakness.</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>bonds of friendship</li>
+          <p>Free a bound ally.</p>
+          <li>staggering start</li>
+          <p>Stagger an enemy.</p>
+          <li>music collector</li>
+          <p>Collect 3 music discs.</p>
+          <li>gotta start somewhere</li>
+          <p>Complete a quest.</p>
+          <li>my first ability</li>
+          <p>Max out a weapon's proficiency.</p>
+          <li>materia for beginners</li>
+          <p>Level up an orb of materia.</p>
+          <li>my first summon</li>
+          <p>Invoke a summon.</p>
+          <li>biker boy</li>
+          <p>Get praised by Jessie at the end of the motorcycle mini-game.</p>
+          <li>heavenly dart player</li>
+          <p>Rise to the top of the Seventh Heaven darts leaderboard.</p>
+          <li>cleanup crew</li>
+          <p>Obtain the Chocobo & Moogle materia.</p>
+          <li>in lockstep</li>
+          <p>Bypass the delta-level security lock in Mako Reactor 5.</p>
+          <li>crate annihilator</li>
+          <p>Complete all Normal difficulty Whack-a-Box challenges.</p>
+          <li>say it with flowers</li>
+          <p>Decorate the Leaf House with a floral arrangement.</p>
+          <li>summon slayer</li>
+          <p>Defeat a summon in battle.</p>
+          <li>sultan of squat</li>
+          <p>Complete all squat challenges.</p>
+          <li>dancing queen</li>
+          <p>Received a gift from Andrea for being a dance superstar.</p>
+          <li>returning champion</li>
+          <p>Emerge victorious from a colosseum sparring session.</p>
+          <li>snappy dresser</li>
+          <p>Obtain three bridal candidate outfits.</p>
+          <li>dressed to the nines</li>
+          <p>Obtain all nine bridal candidate outfits.</p>
+          <li>Whack-a-Box Wunderkind</li>
+          <p>Complete all Hard difficulty Whack-a-Box challenges.</p>
+          <li>peeress of pull-ups</li>
+          <p>Complete all pull-up challenges.</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>divine gratitude</li>
+          <p>Receive a letter from an angel.</p>
+          <li>the johnny experience</li>
+          <p>Witness all Johnny-related incidents.</p>
+          <li>best in the business</li>
+          <p>Complete all quests.</p>
+          <li>disc jockey</li>
+          <p>Collect all music discs.</p>
+          <li>building character</li>
+          <p>Attain level 50 with a character.</p>
+          <li>staggering feat</li>
+          <p>Deal 300% damage to a staggered enemy.</p>
+          <li>intelligence agent</li>
+          <p>Complete all battle intel reports.</p>
+          <li>weapons expert</li>
+          <p>Learn all weapon abilities.</p>
+          <li>master of mimicry</li>
+          <p>Learn all enemy skills.</p>
+          <li>that's the smell</li>
+          <p>Defeat a malboro.</p>
+          <li>ultimate weapon</li>
+          <p>Defeat the Pride and Joy prototype.</p>
+          <li>hardened veteran</li>
+          <p>Complete all chapters on Hard difficulty.</p>
+          <li>Takes Two IDs to Tango</li>
+          <p>Complete Chapter 1 of INTERmission.</p>
+          <li>Out of Darkness's Clutches</li>
+          <p>Complete Chapter 2 of INTERmission.</p>
+          <li>The Road to Revenge</li>
+          <p>Complete both chapters of INTERmission on Hard difficulty.</p>
+          <li>Turtle-tastic</li>
+          <p>Collect all the Happy Turtle flyers.</p>
+          <li>Game, Set, Master</li>
+          <p>Become the Fort Condor grandmaster.</p>
+          <li>condor queen</li>
+          <p>Become the Fort Condor grandmaster on Hard difficulty.</p>
+          <li>materia maven</li>
+          <p>Obtain all materia available from Shinra Box Buster challenges.</p>
+          <li>ultimate weapon 2.0</li>
+          <p>Defeat the Pride and Joy Mk 0.5.</p>
+          <li>corrupter of the immaculate</li>
+          <p>Defeat Weiss.</p>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="yuffie mb-5" id="yuffie">
@@ -695,6 +917,15 @@
     border-top: 55px solid black;
     border-bottom: 15px double black;
   }
+
+  ul li {
+      text-transform: capitalize;
+    }
+
+    ul p {
+      text-transform: capitalize;
+      font-size: 12px;
+    }
 
   @media screen and (max-width: 600px) {
     .div div {

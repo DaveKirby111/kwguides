@@ -182,9 +182,103 @@
   <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
+      <li><a href="#trophies">trophies</a></li>
       <li><a href="#assignments">assignments</a></li>
       <li><a href="#peak15">peak 15</a></li>
     </ul>
+  </div>
+
+  <div id="trophies">
+    <h4>trophies</h4>
+    <h5>100% completion</h5>
+    <div class="d-flex">
+      <div>
+        <ul>
+          <li>n7 elite</li>
+          <p>ME1: Acquire all trophies</p>
+          <li>medal of honor</li>
+          <p>ME1: Complete the game on any difficulty</p>
+          <li>medal of heroism</li>
+          <p>ME1: Complete Feros</p>
+          <li>distinguished service medal</li>
+          <p>ME1: Complete Eden Prime</p>
+          <li>council legion of merit</li>
+          <p>ME1: Complete Virmire</p>
+          <li>Honorarium of Corporate Service</li>
+          <p>ME1: Complete Noveria</p>
+          <li>lift mastery</li>
+          <p>ME1: Use biotic Lift 25 times</p>
+          <li>throw mastery</li>
+          <p>ME1: Use biotic Throw 25 times</p>
+          <li>warp mastery</li>
+          <p>ME1: Use biotic Warp 25 times</p>
+          <li>singularity mastery</li>
+          <p>ME1: Use biotic Singularity 25 times</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>barrier mastery</li>
+          <p>ME1: Use biotic Barrier 25 times</p>
+          <li>stasis mastery</li>
+          <p>ME1: Use biotic Stasis 25 times</p>
+          <li>damping specialist</li>
+          <p>ME1: Use Damping Field 25 times</p>
+          <li>AI hacking specialist</li>
+          <p>ME1: Use AI Hacking 25 times</p>
+          <li>electronics specialist</li>
+          <p>ME1: Use Shield Overload 25 times</p>
+          <li>sabotage specialist</li>
+          <p>ME1: Use Sabotage 25 times</p>
+          <li>first aid specialist</li>
+          <p>ME1: Use medi-gel 50 times</p>
+          <li>neural shock specialist</li>
+          <p>ME1: Use Neural Shock 25 times</p>
+          <li>Meritorious Service Medal</li>
+          <p>ME1: Complete Ilos</p>
+          <li>archivist</li>
+          <p>ME1: Find all primary Alien: codex entries</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>completionist</li>
+          <p>ME1: Complete the majority of the game</p>
+          <li>Medal of Exploration I</li>
+          <p>ME1: Land on an uncharted world</p>
+          <li>Medal of Exploration II</li>
+          <p>ME1: Land on 4 uncharted worlds</p>
+          <li>Medal of Exploration III</li>
+          <p>ME1: Land on 8 uncharted worlds</p>
+          <li>soldier ally</li>
+          <p>ME1: Complete 5 missions with the Alliance soldier squad member</p>
+          <li>sentinel ally</li>
+          <p>ME1: Complete 5 missions with the Alliance sentinel squad member</p>
+          <li>krogan ally</li>
+          <p>ME1: Complete 5 missions with the krogan squad member</p>
+          <li>turian ally</li>
+          <p>ME1: Complete 5 missions with the turian squad member</p>
+          <li>quarian ally</li>
+          <p>ME1: Complete 5 missions with the quarian squad member</p>
+          <li>asari ally</li>
+          <p>ME1: Complete 5 missions with the asari squad member</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>principled</li>
+          <p>ME1: Accumulate 75% of total possible Paragon or Renegade points</p>
+          <li>spectre inductee</li>
+          <p>ME1: Become a Spectre</p>
+          <li>charismatic</li>
+          <p>ME1: Use Charm or Intimidate to resolve an impossible situation</p>
+          <li>search and rescue</li>
+          <p>ME1: Locate Dr. T'soni in the Artemis Tau cluster</p>
+          <li>colonial savior</li>
+          <p>ME1: Complete the Bring Down the Sky mission.</p>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="assignments" id="assignments">
@@ -332,6 +426,15 @@
     border-top: 55px solid black;
     border-bottom: 15px double black;
   }
+
+  ul li {
+      text-transform: capitalize;
+    }
+
+    ul p {
+      text-transform: capitalize;
+      font-size: 12px;
+    }
 
   @media screen and (max-width: 600px) {
     .div div {

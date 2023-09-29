@@ -41,11 +41,98 @@
   <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
+      <li><a href="#trophies">trophies</a></li>
       <li><a href="#tests">SeeD Tests</a></li>
       <li><a href="#deep">deep sea research center</a></li>
       <li><a href="#esthar">esthar</a></li>
       <li><a href="#gf">guardian forces</a></li>
     </ul>
+  </div>
+
+  <div id="trophies">
+    <h4>trophies</h4>
+    <h5>100% completion</h5>
+    <div class="d-flex">
+      <div>
+        <ul>
+          <li>lionheart</li>
+          <p>Obtain all trophies</p>
+          <li>quezacotl</li>
+          <p>Unlock Guardian Force Quezacotl</p>
+          <li>shiva</li>
+          <p>Unlock Guardian Force Shiva</p>
+          <li>ifrit</li>
+          <p>Unlock Guardian Force Ifrit</p>
+          <li>siren</li>
+          <p>Unlock Guardian Force Siren</p>
+          <li>handyman</li>
+          <p>Upgrade your weapon</p>
+          <li>card player</li>
+          <p>Play Triple Triad</p>
+          <li>first salary</li>
+          <p>Get your first salary from SeeD</p>
+          <li>brothers</li>
+          <p>Unlock Guardian Force Brothers</p>
+          <li>maximum HP</li>
+          <p>Reach maximum HP</p>
+          <li>100 kills</li>
+          <p>Kill 100 enemies</p>
+          <li>chocobo</li>
+          <p>Capture a Chocobo</p>
+          <li>magician</li>
+          <p>Draw (Stock) magic from enemies 100 times</p>
+          <li>alexander</li>
+          <p>Unlock Guardian Force Alexander</p>
+          <li>leviathan</li>
+          <p>Unlock Guardian Force Leviathan</p>
+          <li>pandemona</li>
+          <p>Unlock Guardian Force Pandemona</p>
+          <li>cerberus</li>
+          <p>Unlock Guardian Force Cerberus</p>
+          <li>carbuncle</li>
+          <p>Unlock Guardian Force Carbuncle</p>
+          
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>doomtrain</li>
+          <p>Unlock Guardian Force Doomtrain</p>
+          <li>loser</li>
+          <p>Lose a rare card in a Triple Triad game</p>
+          <li>cards club master</li>
+          <p>Defeat every member of the CC group</p>
+          <li>obel lake secret</li>
+          <p>Complete the Obel Lake side quest</p>
+          <li>1000 kills</li>
+          <p>Kill 1000 enemies</p>
+          <li>omega destroyed</li>
+          <p>Beat the Omega Weapon</p>
+          <li>magic miner</li>
+          <p>Draw magic 100 times from draw points</p>
+          <li>timber maniacs</li>
+          <p>Collect all Timber Maniacs magazines</p>
+          <li>cactuar</li>
+          <p>Unlock Guardian Force Cactuar</p>
+          <li>tonberry</li>
+          <p>Unlock Guardian Force Tonberry</p>
+          <li>eden</li>
+          <p>Unlock Guardian Force Eden</p>
+          <li>end of game</li>
+          <p>Finish the game</p>
+          <li>diablos</li>
+          <p>Unlock Guardian Force Diablos</p>
+          <li>bahamut</li>
+          <p>Unlock Guardian Force Bahamut</p>
+          <li>ragnarok</li>
+          <p>Find Ragnarok</p>
+          <li>top rank</li>
+          <p>Reach SeeD rank A</p>
+          <li>UFO</li>
+          <p>Complete the PuPu side quest</p>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="seed mb-5" id="tests">
@@ -307,6 +394,17 @@
 </div>
 
 <style>
+
+ul li {
+      text-transform: capitalize;
+    }
+
+    ul p {
+      text-transform: capitalize;
+      font-size: 12px;
+    }
+
+
   @media screen and (max-width: 600px) {
     table {
       display: flex;

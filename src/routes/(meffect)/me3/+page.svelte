@@ -153,10 +153,104 @@
   <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
+      <li><a href="#trophies">trophies</a></li>
       <li><a href="#standoff">standoff</a></li>
       <li><a href="#rannoch">rannoch</a></li>
       <li><a href="#endings">endings</a></li>
     </ul>
+  </div>
+
+  <div id="trophies">
+    <h4>trophies</h4>
+    <h5>100% completion</h5>
+    <div class="d-flex">
+      <div>
+        <ul>
+          <li>n7 elite</li>
+          <p>ME3: Acquire all trophies</p>
+          <li>driven</li>
+          <p>ME3: Return to active duty.</p>
+          <li>bringer of war</li>
+          <p>ME3: Chase down an assassin.</p>
+          <li>mobilizer</li>
+          <p>ME3: Bring a veteran officer aboard.</p>
+          <li>world shaker</li>
+          <p>ME3: Destroy an Atlas dropped from orbit.</p>
+          <li>pathfinder</li>
+          <p>ME3: Explore a lost city.</p>
+          <li>tunnel rat</li>
+          <p>ME3: Survive the swarm.</p>
+          <li>party crasher</li>
+          <p>ME3: Sabotage a dreadnought.</p>
+          <li>hard target</li>
+          <p>ME3: Call down an orbital strike.</p>
+          <li>saboteur</li>
+          <p>ME3: Disable a group of fighter squadrons.</p>
+          <li>arbiter</li>
+          <p>ME3: Win a political stand-off.</p>
+          <li>last witness</li>
+          <p>ME3: Extract ancient technology.</p>
+          <li>executioner</li>
+          <p>ME3: Defeat an old adversary.</p>
+          <li>well connected</li>
+          <p>ME3: Send a warning across the galaxy.</p>
+          <li>fact finder</li>
+          <p>ME3: Discover an enemy's monstrous origin.</p>
+          <li>liberator</li>
+          <p>ME3: Stop a Cerberus kidnapping.</p>
+          <li>problem solver</li>
+          <p>ME3: Evacuate a scientific facility.</p>
+          <li>patriot</li>
+          <p>ME3: Make the final assault.</p>
+          <li>legend</li>
+          <p>ME3: Mission accomplished.</p>
+          <li>shopaholic</li>
+          <p>ME3: Visit a store on the Citadel.</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>master and commabder</li>
+          <p>ME3: Deliver most of the War assets to the final conflict.</p>
+          <li>lost and found</li>
+          <p>ME3: Dispatch 10 probes to retrieve people or resources in Reaper territory.</p>
+          <li>a personal touch</li>
+          <p>ME3: Modify a weapon.</p>
+          <li>combined arms</li>
+          <p>ME3: Perform any combination of 50 biotic combos or tech bursts.</p>
+          <li>focused</li>
+          <p>ME3: Evolve any of your powers to rank 6.</p>
+          <li>untouchable</li>
+          <p>ME3: Escape a Reaper in the galaxy map.</p>
+          <li>shield breaker</li>
+          <p>ME3: Overload the shields of 100 enemies.</p>
+          <li>sky high</li>
+          <p>ME3: Lift 100 enemies off the ground with powers.</p>
+          <li>pyromaniac</li>
+          <p>ME3: Set 100 enemies on fire with powers.</p>
+          <li>eye of the hurricane</li>
+          <p>ME3: Kill a brute while it's charging you.</p>
+          <li>mail slot</li>
+          <p>ME3: Kill 10 guardians with headshots from the front while their shields are raised.</p>
+          <li>hijacker</li>
+          <p>ME3: Hijack an Atlas mech.</p>
+          <li>giant killer</li>
+          <p>ME3: Defeat a harvester.</p>
+          <li>always prepared</li>
+          <p>ME3: Obtain two non-customizable suits of armor.</p>
+          <li>gunsmith</li>
+          <p>ME3: Upgrade any weapon to level 10.</p>
+          <li>under pressure</li>
+          <p>ME3: Uncover an ancient secret.</p>
+          <li>savior</li>
+          <p>ME3: Free Omega from Cerberus Occupation.</p>
+          <li>last resort</li>
+          <p>ME3: Stop an out-of-control scheme before it's too late.</p>
+          <li>the one and only</li>
+          <p>ME3: Defeat a group of Spectre-level opponents on Normal, Hardcore, or Insanity.</p>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="standoff" id="standoff">
@@ -420,6 +514,15 @@
     border-top: 55px solid black;
     border-bottom: 15px double black;
   }
+
+  ul li {
+      text-transform: capitalize;
+    }
+
+    ul p {
+      text-transform: capitalize;
+      font-size: 12px;
+    }
 
   @media screen and (max-width: 600px) {
     .mods div,

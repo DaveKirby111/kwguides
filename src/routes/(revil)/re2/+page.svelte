@@ -27,6 +27,7 @@
   <div class="guide-sections">
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
+      <li><a href="#trophies">trophies</a></li>
       <li><a href="#statues">statues</a></li>
       <li><a href="#combinations">combinations</a></li>
       <li><a href="#panels">electric panels</a></li>
@@ -34,6 +35,111 @@
       <li><a href="#lab">lab</a></li>
       <li><a href="#racoons">mr. racoon locations</a></li>
     </ul>
+  </div>
+
+  <div id="trophies">
+    <h4>trophies</h4>
+    <h5>100% completion</h5>
+    <div class="d-flex">
+      <div>
+        <ul>
+          <li>raccoon city native</li>
+          <p>Obtain all trophies.</p>
+          <li>Welcome to the City of the Dead</li>
+          <p>Make it to the police station.</p>
+          <li>path to the goddess</li>
+          <p>Solve the Goddess Statue puzzle.</p>
+          <li>never ending rain</li>
+          <p>Escape the police station.</p>
+          <li>hack complete</li>
+          <p>Complete Ada's segment.</p>
+          <li>hide and seek</li>
+          <p>Complete Sherry's segment.</p>
+          <li>a great need for a shower</li>
+          <p>Escape from the sewers.</p>
+          <li>a hero emerges</li>
+          <p>Complete Leon's story.</p>
+          <li>a heroine emerges</li>
+          <p>Complete Claire's story.</p>
+          <li>broken umbrella</li>
+          <p>Witness the true ending.</p>
+          <li>the basics of survival</li>
+          <p>Combine two items together.</p>
+          <li>hip to add squares</li>
+          <p>Increase your inventory slots.</p>
+          <li>customizer</li>
+          <p>Customize a weapon.</p>
+          <li>Don't Need No Stinkin' Gun</li>
+          <p>Defeat an enemy with a knife.</p>
+          <li>eat this!</li>
+          <p>Counterattack with a sub-weapon.</p>
+          <li>That'll Hold 'Em</li>
+          <p>Use Wooden Boards to board up a window.</p>
+          <li>Vermin Extermination</li>
+          <p>Destroy a Mr. Raccoon.</p>
+          <li>A Vault-like Mind</li>
+          <p>Open a portable safe.</p>
+          <li>first break-in</li>
+          <p>Open a dial safe.</p>
+          <li>Bon Appétit</li>
+          <p>Shoot the grenade you fed to an enemy.</p>
+          <li>zombie roundup</li>
+          <p>Kill 3 enemies at once with a sub-weapon.</p>
+          <li>like skeet shooting</li>
+          <p>Shoot a zombie dog or a licker out of the air.</p>
+          <li>Keep Their Heads Ringin'</li>
+          <p>Paralyze a licker's sense of hearing.</p>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>hats off!</li>
+          <p>Shoot Tyrant's hat off his head.</p>
+          <li>gotcha!</li>
+          <p>Defeat Stage 2 G using the crane only once.</p>
+          <li>treasure hunter</li>
+          <p>Using the photo hints, find 2 hidden items.</p>
+          <li>a waste of space</li>
+          <p>Expand inventory slots to max.</p>
+          <li>one slick super-spy</li>
+          <p>Use only the EMF Visualizer to complete Ada's gameplay segment</p>
+          <li>young escapee</li>
+          <p>Escape the bedroom within 60 seconds during Sherry's segment.</p>
+          <li>with time to spare</li>
+          <p>Defeat Stage 4 G with 4+ minutes left until detonation.</p>
+          <li>in the blink of an eye</li>
+          <p>Defeat Super Tyrant with 5+ minutes left until detonation.</p>
+          <li>lore explorer</li>
+          <p>Read all of the files.</p>
+          <li>Complete Vermin Extermination</li>
+          <p>Destroy all Mr. Raccoons.</p>
+          <li>master of unlocking</li>
+          <p>Open all of the safes and locks in the game.</p>
+          <li>Leon "S." Kennedy</li>
+          <p>Complete Leon's story on "Standard" or "Hardcore" with an S rank.</p>
+          <li>sizzling scarlet hero</li>
+          <p>Complete Claire's story on "Standard" or "Hardcore" with an S rank.</p>
+          <li>hardcore rookie</li>
+          <p>Complete Leon's story on "Hardcore" game mode.</p>
+          <li>hardcore college student</li>
+          <p>Complete Claire's story on "Hardcore" game mode.</p>
+          <li>frugalist</li>
+          <p>Complete the game without using a recovery item.</p>
+          <li>minimalist</li>
+          <p>Clear the game without opening the item box.</p>
+          <li>A Small Carbon Footprint</li>
+          <p>Take 14000 steps or fewer in one playthrough.</p>
+          <li>grim reaper</li>
+          <p>Complete "The 4th Survivor" extra mode.</p>
+          <li>Hell of a Sheriff</li>
+          <p>Complete the No Way Out scenario. (No training mode)</p>
+          <li>Got 'Em</li>
+          <p>Destroy all Mr. Raccoons hidden in The Ghost Survivors mode.</p>
+          <li>chasing jill</li>
+          <p>Read a letter left behind by Jill.</p>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="statues text-center" id="statues">

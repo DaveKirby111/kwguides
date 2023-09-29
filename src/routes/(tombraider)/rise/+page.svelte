@@ -23,8 +23,175 @@
     <div class="guide-sections">
         <p class="fw-bold text-decoration-underline">Sections</p>
         <ul class="skip">
+          <li><a href="#trophies">trophies</a></li>
           <li><a href="#bties">blood ties</a></li>
         </ul>
+      </div>
+
+      <div id="trophies">
+        <h4>trophies</h4>
+
+       <div class="d-flex">
+        <div>
+          <h5>story</h5>
+          <ul>
+            <li>the price of truth</li>
+            <p>finish the game on any difficulty</p>
+            <li>quite a tumble</li>
+            <p>survive the avalanche</p>
+            <li>Following in Father's Footsteps</li>
+            <p>enter the syrian tomb</p>
+            <li>Tougher Than She Looks</li>
+            <p>Survive a night in the Siberian wilderness</p>
+            <li>Strange Acquaintance</li>
+            <p>Rescue Jacob from the gulag</p>
+            <li>Taking the High Road</li>
+            <p>Light the signal fire in the Remnant Valley</p>
+            <li>A Helping Hand</li>
+            <p>Defend Remnant home from the Looter Invasion</p>
+            <li>The Key To It All</li>
+            <p>Recover the Atlas</p>
+            <li>Whatever It Takes</li>
+            <p>Rescue Jonah from Konstantin</p>
+            <li>The Road Less Travelled</li>
+            <p>Unlock the path to Kitezh</p>
+            <li>Ultimate Survivor</li>
+            <p>Finish the game on Survivor difficulty</p>
+          </ul>
+        </div>
+        <div>
+          <h5>100% open world</h5>
+          <ul>
+            <li>reading the past</li>
+            <p>translate a monolith</p>
+            <li>fluent</li>
+            <p>Reach max proficiency in any language</p>
+            <li>keen eye</li>
+            <p>Unearth 40 Survival Caches</p>
+            <li>looking for trouble</li>
+            <p>Complete 5 Challenges</p>
+            <li>good samaritan</li>
+            <p>Complete 3 Missions</p>
+            <li>challenging</li>
+            <p>Complete any Challenge Tomb</p>
+            <li>tomb raider</li>
+            <p>Complete all Challenge Tombs</p>
+            <li>Woman of the People</li>
+            <p>complete every mission</p>
+            <li>truth seeker</li>
+            <p>Collect 25% of all narrative assets (relics, murals and documents)</p>
+            <li>voices of the past</li>
+            <p>Collect 75% of all narrative assets (relics, murals and documents)</p>
+            <li>compulsive</li>
+            <p>complete every challenge</p>
+            <li>the chosen few</li>
+            <p>Uncover the remains of all Jacob's disciples</p>
+            <li>no guts, no glory</li>
+            <p>Perform a 2.5 second or longer swan dive</p>
+            <li>no stone unturned</li>
+            <p>Achieve 100% game completion</p>
+          </ul>
+        </div>
+       </div>
+       <div class="d-flex">
+        <div>
+          <h5>open world cleanup</h5>
+          <ul>
+            <li>firestarter</li>
+            <p>Defeat 2 enemies or more using a single Molotov Cocktail</p>
+            <li>bar brawl</li>
+            <p>Melee kill an enemy using a bottle</p>
+            <li>rapid recovery</li>
+            <p>Heal yourself in combat 3 times</p>
+            <li>renegade</li>
+            <p>Melee 5 enemies off a ledge</p>
+            <li>fearless</li>
+            <p>Defeat a Deathless Swordsman using only melee attacks and a finisher</p> 
+            <li>fall guys</li>
+            <p>Kill 10 enemies by shooting them in the leg</p>
+            <li>one-sided conversation</li>
+            <p>Stealth kill an enemy while they are having a conversation</p>
+            <li>glub glub glub</li>
+            <p>Drown 3 enemies using a water finisher</p>
+            <li>blade of justice</li>
+            <p>Perform 25 special stealth kills with the knife</p>
+            <li>was that really necessary?</li>
+            <p>Kill any animal with an explosive</p>
+            <li>weaponsmith</li>
+            <p>Fully upgrade any weapon</p>
+            <li>craftswoman</li>
+            <p>Craft 5 pieces of Equipment</p>
+            <li>master fletcher</li>
+            <p>Craft 25 of each special arrow type (Fire, Grenade, Poison)</p>
+            <li>self-improvement junkie</li>
+            <p>Purchase all skills in a single category</p>
+            <li>laying down the law</li>
+            <p>Kill 6 enemies with the Revolver without reloading</p>
+            <li>english pedigree</li>
+            <p>Headshot an enemy with an arrow from a distance beyond 25m</p>
+            <li>chemical waarfare</li>
+            <p>Kill 5 enemies with one Poison Arrow</p>
+            <li>dead ringer</li>
+            <p>Get 25 headshots using the Bolt-Action Rifle</p>
+            <li>quick and painless</li>
+            <p>Shoot 15 deer in the heart</p>
+            <li>trick shot</li>
+            <p>Shoot a bottle out of the air</p>
+            <li>rotisserie</li>
+            <p>Shoot a chicken out of the air with a fire arrow</p>
+            <li>avid shopper</li>
+            <p>Purchase all items from the supply shack</p>
+            <li>quiet time</li>
+            <p>Find the best seat in the house</p>
+            <li>bacon!</li>
+            <p>Kill a razorback boar using a Molotov cocktail</p>
+            <li>huntress</li>
+            <p>Kill 50 animals while wearing the Huntress outfit</p>
+            <li>siberian ranger</li>
+            <p>Beat 15 combat encounters after completing the game</p>
+          </ul>
+        </div>
+        <div>
+          <h5>expedition mode</h5>
+          <ul>
+            <li>triple threat</li>
+            <p>Kill 3 enemies with 1 Shotgun blast</p>
+            <li>a trusty old friend</li>
+            <p>Kill 5 enemies within 10 seconds using any rifle</p>
+            <li>paying respects</li>
+            <p>Attend a funeral</p>
+            <li>zipper</li>
+            <p>Perform a manual zip line transfer</p>
+          </ul>
+        </div>
+        <div>
+          <h5>score attack!</h5>
+          <ul>
+            <li>platinum</li>
+            <p>You unlocked every trophy in the game</p>
+            <li>Quite the Collector</li>
+            <p>collect 150 cards</p>
+            <li>These Belong in A Museum</li>
+            <p>collect 300 cards</p>
+            <li>way to go</li>
+            <p>Complete every level in Score Attack with a bronze score or better</p>
+            <li>golden child</li>
+            <p>Complete every level in Score Attack with a gold score</p>
+            <li>gilded</li>
+            <p>Complete a level in Score Attack with a gold score</p>
+            <li>well begun is half done</li>
+            <p>Complete 10 levels in Score Attack with a gold score</p>
+            <li>My Own Worst Enemy</li>
+            <p>Complete a level in Score Attack with a score multiplier of 2 or more</p>
+            <li>iron will</li>
+            <p>Complete a level in Score Attack using 5 cards</p>
+            <li>That All You Got?</li>
+            <p>Complete 3 Replay Challenges in one Score Attack</p>
+            <li>untouchable</li>
+            <p>Replay 5 different levels without taking any damage</p>
+          </ul>
+        </div>
+       </div>
       </div>
 
       <div id="bties">
@@ -226,6 +393,15 @@
     ol p {
       font-weight: bold;
       text-transform: capitalize;
+    }
+
+    ul li {
+      text-transform: capitalize;
+    }
+
+    ul p {
+      text-transform: capitalize;
+      font-size: 12px;
     }
     
   </style>
