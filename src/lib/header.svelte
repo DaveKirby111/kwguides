@@ -2,14 +2,23 @@
   import Nav from "$lib/nav.svelte";
   import kwg from "$lib/images/kwguides.jpg";
   import Title from "$lib/title.svelte";
+  import Navbar from "./navbar.svelte";
 </script>
 
-<header id="top" class="d-flex flex-column flex-md-row">
-  <div class="title d-flex justify-content-center p-3">
-    <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
-  </div>
+<!-- <div class="w-100" id="menu">
+  <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
+  <Navbar />
+</div> -->
 
-  <div class="w-100" id="menu"><Nav /></div>
+<header id="top">
+  <!-- <div class="title d-flex justify-content-center p-3">
+    <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
+  </div> -->
+
+  <div id="menu">
+    <Navbar />
+  </div>
+  <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
 </header>
 
 <div class="page">
@@ -31,7 +40,7 @@
   header {
     background-image: url("$lib/images/space.webp");
     background-size: 100% 100%;
-    flex-direction: column !important;
+    /* flex-direction: column !important; */
   }
 
   .page {

@@ -3,12 +3,14 @@
 
   let isMobileMenuOpen = false;
 
-  function toggleMobileMenu() {
+  export function toggleMobileMenu() {
     isMobileMenuOpen = !isMobileMenuOpen;
   }
 </script>
 
-<nav class="navbar d-flex justify-content-center p-0">
+<div class="overlay" class:open={isMobileMenuOpen} />
+
+<nav class="navbar p-0">
   <!-- Hamburger Menu Button -->
   <button class="hamburger" on:click={toggleMobileMenu}>
     <svg
@@ -29,6 +31,7 @@
 
   <!-- Navigation Links -->
   <ul class="navbar-nav text-capitalize" class:open={isMobileMenuOpen}>
+    <li><button on:click={toggleMobileMenu}>X</button></li>
     {#each links as link}
       <li class="nav-item dropdown" id={link.id}>
         <a
@@ -50,15 +53,58 @@
 </nav>
 
 <style>
+  nav {
+    z-index: 1000;
+  }
+
   nav ul {
     margin: auto;
     text-align: center;
     width: 100%;
   }
 
+  .nav-item {
+    margin-bottom: 20px;
+  }
+
+  nav button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+  nav a {
+    font-size: 30px;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    display: none;
+    z-index: 1000;
+  }
+
+  .overlay.open {
+    display: block;
+    position: absolute;
+  }
+
   .dropdown-item:hover {
-    background-color: green;
-    text-shadow: 2px 2px 2px black;
+    /* background-color: green; */
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .dropdown-item {
+    font-size: 25px;
   }
 
   .dropdown {
@@ -71,17 +117,15 @@
 
   .dropdown-menu {
     text-align: center;
-    width: 250px;
-    background-color: black;
+    width: 100%;
+    /* background-color: black; */
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0);
   }
 
   /* .dropdown:hover .dropdown-menu {
     display: block;
   } */
-
-  .dropdown-menu li {
-    border-bottom: 1px solid rgb(0, 176, 0);
-  }
 
   .dropdown-menu li:last-child {
     border-bottom: none;
@@ -94,8 +138,8 @@
     background: transparent;
     border: none;
     outline: none;
-    z-index: 1000;
-    /* margin-left: auto;  */
+    /* z-index: 1000; */
+    margin-left: auto;
     margin-top: 20px;
   }
 
@@ -110,7 +154,11 @@
 
   .navbar-nav.open {
     display: block;
+    position: absolute;
+    /* background-color: blue; */
+    background-color: rgba(0, 0, 0, 0.8);
     margin-bottom: 20px;
+    top: 0;
   }
 
   @media screen and (max-width: 600px) {
