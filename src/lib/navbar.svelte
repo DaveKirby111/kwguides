@@ -88,7 +88,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity as needed */
     display: none;
     z-index: 1000;
   }
@@ -104,7 +104,7 @@
   }
 
   .dropdown-item {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .dropdown {
@@ -159,6 +159,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     margin-bottom: 20px;
     top: 0;
+    z-index: 1;
   }
 
   @media screen and (max-width: 600px) {
