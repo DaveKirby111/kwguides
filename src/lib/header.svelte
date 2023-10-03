@@ -25,7 +25,11 @@
           <ul class="dropdown-menu p-0">
             {#each link.subitems as subitem}
               <li>
-                <a href={subitem.url} class="dropdown-item">{subitem.page}</a>
+                <a
+                  href={subitem.url}
+                  class="dropdown-item"
+                  on:click={toggleMobileMenu}>{subitem.page}</a
+                >
               </li>
             {/each}
           </ul>
@@ -36,9 +40,7 @@
 </div>
 
 <header id="top">
-  <div class="title d-flex justify-content-center p-3">
-    <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
-  </div>
+  <a href="/"><img src={kwg} alt="logo" class="logo" /></a>
 
   <button class="hamburger" on:click={toggleMobileMenu}>
     <svg
@@ -64,7 +66,8 @@
 
 <style>
   nav {
-    z-index: 1000;
+    margin-left: auto;
+    width: 100%;
   }
 
   nav ul {
@@ -93,7 +96,6 @@
   }
 
   .dropdown-item:hover {
-    /* background-color: green; */
     background-color: rgba(0, 0, 0, 0);
   }
 
@@ -112,7 +114,6 @@
   .dropdown-menu {
     text-align: center;
     width: 100%;
-    /* background-color: black; */
     margin-bottom: 30px;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -124,7 +125,6 @@
   .navbar-nav.open {
     display: block;
     position: absolute;
-    /* background-color: blue; */
     background-color: rgba(0, 0, 0, 0.8);
     margin-bottom: 20px;
     top: 0;
@@ -144,7 +144,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity as needed */
+    background-color: rgba(0, 0, 0, 0.8);
     display: none;
     z-index: 1;
   }
@@ -156,15 +156,12 @@
   }
 
   .hamburger {
-    /* display: none; */
     cursor: pointer;
     padding: 10px;
     background: transparent;
     border: none;
     outline: none;
-    /* z-index: 1000; */
     margin-left: auto;
-    margin-top: 20px;
   }
 
   .hamburger svg {
@@ -179,7 +176,6 @@
   header {
     background-image: url("$lib/images/space.webp");
     background-size: 100% 100%;
-    /* flex-direction: column !important; */
     display: flex;
   }
 
@@ -188,7 +184,11 @@
   }
 
   @media screen and (max-width: 600px) {
-    .title img {
+    header {
+      padding: 10px;
+    }
+
+    .logo {
       display: block;
       margin: auto;
     }
@@ -197,11 +197,6 @@
   @media screen and (max-width: 900px) {
     header {
       flex-direction: column !important;
-    }
-
-    .title img {
-      display: block;
-      margin: auto;
     }
   }
 </style>

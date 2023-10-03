@@ -10,11 +10,6 @@ main {
   background-color: rgb(188, 182, 182);
 }
 
-nav {
-  margin-left: auto;
-  width: 100%;
-}
-
 #menu {
   width: 100%;
 }
@@ -34,6 +29,7 @@ span {
   background: url("$lib/images/space.webp") -20px -20px no-repeat;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .div div {
