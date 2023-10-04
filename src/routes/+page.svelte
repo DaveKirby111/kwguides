@@ -65,8 +65,13 @@
         },
 
         {
-          title: "skyrim",
+          title: "skyrim, ",
           url: "/skyrim",
+        },
+
+        {
+          title: "enderal",
+          url: "/enderal",
         },
       ],
     },
@@ -105,8 +110,8 @@
 
         {
           title: "Crisis Core",
-          url: "/ccore"
-        }
+          url: "/ccore",
+        },
       ],
     },
     {
@@ -164,6 +169,21 @@
         {
           title: "shadow of the tomb raider",
           url: "/shadow",
+        },
+      ],
+    },
+
+    {
+      title: "witcher",
+      games: [
+        {
+          title: "witcher 2,  ",
+          url: "/witcher2",
+        },
+
+        {
+          title: "witcher 3",
+          url: "/witcher3",
         },
       ],
     },

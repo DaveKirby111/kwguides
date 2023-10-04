@@ -2,15 +2,35 @@
   import kwg from "$lib/images/kwguides.jpg";
   import Title from "$lib/title.svelte";
   import { links } from "$lib/nav.js";
+  import { slide } from "svelte/transition";
+  import { quintOut } from "svelte/easing";
 
   let isMobileMenuOpen = false;
 
+  // export function toggleMobileMenu() {
+  //   isMobileMenuOpen = !isMobileMenuOpen;
+  // }
+
   export function toggleMobileMenu() {
     isMobileMenuOpen = !isMobileMenuOpen;
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = "hidden"; // Prevent scrolling when overlay is open
+    } else {
+      document.body.style.overflow = "auto"; // Restore scrolling when overlay is closed
+    }
   }
 </script>
 
-<div class="overlay" class:open={isMobileMenuOpen}>
+<div
+  class="overlay"
+  class:open={isMobileMenuOpen}
+  transition:slide={{
+    delay: 0,
+    duration: 5000,
+    easing: quintOut,
+    axis: "x",
+  }}
+>
   <nav class="navbar p-0">
     <ul class="navbar-nav text-capitalize" class:open={isMobileMenuOpen}>
       <li><button on:click={toggleMobileMenu}>X</button></li>
@@ -74,10 +94,11 @@
     margin: auto;
     text-align: center;
     width: 100%;
+    height: 100%;
   }
 
   .nav-item {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   nav button {
@@ -92,7 +113,11 @@
   }
 
   nav a {
-    font-size: 30px;
+    font-size: 35px;
+  }
+
+  nav a:hover {
+    color: green !important;
   }
 
   .dropdown-item:hover {
@@ -108,7 +133,7 @@
   }
 
   .dropdown a {
-    color: rgb(0, 176, 0);
+    color: gray;
   }
 
   .dropdown-menu {
@@ -142,17 +167,18 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     display: none;
     z-index: 1;
   }
 
   .overlay.open {
     display: block;
-    position: absolute;
     z-index: 1000;
+
+    width: 100%;
   }
 
   .hamburger {
@@ -162,6 +188,7 @@
     border: none;
     outline: none;
     margin-left: auto;
+    margin-bottom: 20px;
   }
 
   .hamburger svg {
@@ -191,6 +218,14 @@
     .logo {
       display: block;
       margin: auto;
+    }
+
+    nav a {
+      font-size: 20px;
+    }
+
+    .dropdown-item {
+      font-size: 15px;
     }
   }
 

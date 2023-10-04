@@ -5,12 +5,12 @@ export const links = [
     url: "#",
     subitems: [
       {
-        page: "AC II",
+        page: "Assassin's Creed II",
         url: "/ac2",
       },
 
       {
-        page: "odyssey",
+        page: "assassin's creed: odyssey",
         url: "/odyssey",
       },
     ],
@@ -39,17 +39,17 @@ export const links = [
     url: "#",
     subitems: [
       {
-        page: "DA: origins",
+        page: "Dragon age: origins",
         url: "/da1",
       },
 
       {
-        page: "DA II",
+        page: "Dragon Age II",
         url: "/da2",
       },
 
       {
-        page: "DA: inquisition",
+        page: "Dragon Age: inquisition",
         url: "/da3",
       },
     ],
@@ -74,6 +74,11 @@ export const links = [
         page: "V: skyrim",
         url: "/skyrim",
       },
+
+      {
+        page: "enderal",
+        url: "/enderal",
+      },
     ],
   },
 
@@ -83,37 +88,37 @@ export const links = [
     url: "#",
     subitems: [
       {
-        page: "VII",
+        page: "final fantasy VII",
         url: "/ff7",
       },
 
       {
-        page: "VIII",
+        page: "final fantasy VIII",
         url: "/ff8",
       },
 
       {
-        page: "IX",
+        page: "final fantasy IX",
         url: "/ff9",
       },
 
       {
-        page: "XII",
+        page: "final fantasy XII",
         url: "/ff12",
       },
 
       {
-        page: "XIII",
+        page: "final fantasy XIII",
         url: "/ff13",
       },
 
       {
-        page: "XV",
+        page: "final fantasy XV",
         url: "/ff15",
       },
 
       {
-        page: "crisis core",
+        page: "final fantasy: crisis core",
         url: "/ccore",
       },
     ],
@@ -147,17 +152,17 @@ export const links = [
     url: "#",
     subitems: [
       {
-        page: "RE 1 remake",
+        page: "Resident Evil 1 remake",
         url: "/re1",
       },
 
       {
-        page: "RE 2 remake",
+        page: "Resident Evil 2 remake",
         url: "/re2",
       },
 
       {
-        page: "RE 3 remake",
+        page: "Resident Evil 3 remake",
         url: "/re3",
       },
     ],
@@ -181,6 +186,23 @@ export const links = [
       {
         page: "shadow of the tomb raider",
         url: "/shadow",
+      },
+    ],
+  },
+
+  {
+    id: 9,
+    title: "witcher",
+    url: "#",
+    subitems: [
+      {
+        page: "witcher 2: assassins of kings",
+        url: "/witcher2",
+      },
+
+      {
+        page: "witcher 3: wild hunt",
+        url: "/witcher3",
       },
     ],
   },

@@ -17,6 +17,7 @@
 	"type": "module",
 	"dependencies": {
 		"bootstrap": "^5.3.1",
-		"svelte-pdf": "^1.0.20"
+		"svelte-pdf": "^1.0.20",
+		"svelte-transition": "^0.0.10"
 	}
 }
