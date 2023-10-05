@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <footer>
   <p>david kirby 2023</p>
 </footer>

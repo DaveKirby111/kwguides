@@ -122,7 +122,8 @@ a:hover {
 .console,
 .bat,
 .setup,
-.builds {
+.builds,
+.intro {
   padding: 30px;
 }
 

@@ -7,10 +7,6 @@
 
   let isMobileMenuOpen = false;
 
-  // export function toggleMobileMenu() {
-  //   isMobileMenuOpen = !isMobileMenuOpen;
-  // }
-
   export function toggleMobileMenu() {
     isMobileMenuOpen = !isMobileMenuOpen;
     if (isMobileMenuOpen) {
