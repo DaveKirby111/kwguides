@@ -172,6 +172,7 @@
     background-color: rgba(0, 0, 0, 0.9);
     display: none;
     z-index: 1;
+    overflow: auto;
   }
 
   .overlay.open {
