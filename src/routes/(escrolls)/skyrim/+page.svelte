@@ -316,6 +316,7 @@
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
       <li><a href="#goldbrand">goldbrand</a></li>
+      <li><a href="#recipes">recipes</a></li>
       <li><a href="#shouts">dragon shouts</a></li>
       <li><a href="#masks">dragon priest masks</a></li>
     </ul>
@@ -335,6 +336,76 @@
       <li>Travel to Sivdur's Respite</li>
       <li>Locate Goldbrand</li>
     </ol>
+  </div>
+
+  <div id="recipes">
+    <h4>potion recipes</h4>
+    <div class="d-flex">
+      <div>
+        <h5>healing</h5>
+        <ul>
+          <li>wheat</li>
+          <li>blue mountain flower</li>
+          <li>blisterwort</li>
+          <li>butterfly wing</li>
+          <li>blue dartwing</li>
+          <li>imp stool</li>
+          <li>charred skeever hide</li>
+          <li>rock warbler egg</li>
+          <li>swamp fungal pod</li>
+          <li>eye of saber cat</li>
+          <li>daedra heart</li>
+          <li>ash hopper jelly</li>
+          <li>felsaad tern feathers</li>
+        </ul>
+      </div>
+      <div>
+        <h5>magicka</h5>
+        <ul>
+          <li>briar heart</li>
+          <li>creep cluster</li>
+          <li>dwarven oil</li>
+          <li>ectoplasm</li>
+          <li>elves ear</li>
+          <li>fire salts</li>
+          <li>frost salts</li>
+          <li>giant lichen</li>
+        </ul>
+      </div>
+      <div>
+        <h5>cure disease</h5>
+        <ul>
+          <li>charred skeever hide</li>
+          <li>hawk feathers</li>
+          <li>mudcrab chitin</li>
+          <li>vampire dust</li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex">
+      <div>
+        <h5>foritfy one-handed</h5>
+        <ul>
+          <li>bear claws</li>
+          <li>canis root</li>
+          <li>hanging moss</li>
+          <li>hawk feathers</li>
+          <li>rock warbler egg</li>
+          <li>small pearl</li>
+        </ul>
+      </div>
+      <div>
+        <h5>fortify destruction</h5>
+        <ul>
+          <li>ash creep cluster</li>
+          <li>beehive husk</li>
+          <li>ectoplasm</li>
+          <li>glow dust</li>
+          <li>glowing mushroom</li>
+          <li>nightshade</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="shouts" id="shouts">
@@ -650,6 +721,10 @@
     height: 200px;
     border-top: 15px solid black;
     border-bottom: 15px double black;
+  }
+
+  #recipes .d-flex {
+    justify-content: center;
   }
 
   .shout p {
