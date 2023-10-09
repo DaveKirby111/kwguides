@@ -1,0 +1,4 @@
+player.additem e35d7 1
+player.additem e35d6 1
+player.additem e35d8 1
+player.additem e35d9 1

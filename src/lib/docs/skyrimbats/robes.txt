@@ -1,0 +1,7 @@
+player.additem fe00982c 1
+player.additem fe009839 1
+player.additem 261c1 1
+player.additem 3452f 1
+player.additem ff000fe1 1
+player.additem 10dd3c 1
+player.additem 10dd3b 1

@@ -1,0 +1,6 @@
+player.additem fcc0f 1
+player.additem fcc0d 1
+player.additem fcc11 1
+player.additem fcc12 1
+player.additem f652c 1
+player.additem f6527 1

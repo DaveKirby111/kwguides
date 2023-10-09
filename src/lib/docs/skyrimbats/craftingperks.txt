@@ -1,0 +1,41 @@
+player.setav enchanting 100
+player.setav smithing 100
+player.setav alchemy 100
+player.addperk 000BEE97
+player.addperk 000C367C
+player.addperk 000C367D
+player.addperk 000C367E
+player.addperk 000C367F
+player.addperk 00058F7C
+player.addperk 00058F80
+player.addperk 00058F81
+player.addperk 00108A44
+player.addperk 00058F7E
+player.addperk 00058F82
+player.addperk 00058F7D
+player.addperk 00058F7F
+player.addperk 000BE127
+player.addperk 000C07CA
+player.addperk 000C07CB
+player.addperk 000C07CC
+player.addperk 000C07CD
+player.addperk 00058215
+player.addperk 00058216
+player.addperk 00058217
+player.addperk 00058218
+player.addperk 00105F2A
+player.addperk 00105F2B
+player.addperk 00105F2F
+player.addperk 00105F2E
+player.addperk 00105F2C
+player.addperk 0005821D
+player.addperk 000CB40D
+player.addperk 0005218E
+player.addperk 000CB40F
+player.addperk 000CB414
+player.addperk 000CB411
+player.addperk 000CB40E
+player.addperk 000CB410
+player.addperk 000CB412
+player.addperk 000CB413
+player.addperk 00052190

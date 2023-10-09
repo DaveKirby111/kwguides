@@ -1,0 +1,83 @@
+player.teachword 13E22 ; FUS = Force / Unrelenting Force
+player.teachword 13E23 ; RO = Balance / Unrelenting Force
+player.teachword 13E24 ; DAH (D4) = Push / Unrelenting Force
+
+player.teachword 60294 ; LAAS = Life / Aura Whisper
+player.teachword 60295 ; YAH = Seek / Aura Whisper
+player.teachword 60296 ; NIR = Hunt / Aura Whisper
+
+player.teachword 602A3 ; IIZ (3Z) = Ice / Ice Form
+player.teachword 602A4 ; SLEN = Flesh / Ice Form
+player.teachword 602A5 ; NUS = Statue / Ice Form
+
+player.teachword 6029A ; STRUN = Storm / Storm Call
+player.teachword 6029B ; BAH (B4) = Wrath / Storm Call
+player.teachword 6029C ; QO = Lightning / Storm Call
+
+player.teachword 20E17 ; YOL = Fire / Fire Breath
+player.teachword 20E18 ; TOOR (T8R) = Inferno / Fire Breath
+player.teachword 20E19 ; KREIN (SHUL) = Sun / Fire Breath
+
+player.teachword 48ACA ; TIID = Time / Slow Time
+player.teachword 48ACB ; KLO = Sand / Slow Time
+player.teachword 48ACC ; UL = Eternity / Slow Time
+
+player.teachword 2F7BB ; WULD = Whirlwind / Whirlwind Sprint
+player.teachword 2F7BC ; NAH = Fury / Whirlwind Sprint
+player.teachword 2F7BD ; KEST = Tempest / Whirlwind Sprint
+
+player.teachword 60291 ; RAAN = Animal / Animal Allegiance
+player.teachword 60292 ; MIR = Allegiance / Animal Allegiance
+player.teachword 60293 ; TAH = Pack / Animal Allegiance
+
+player.teachword 3291D ; SU = Air / Elemental Fury
+player.teachword 3291E ; GRAH = Battle / Elemental Fury
+player.teachword 3291F ; DUN = Fury / Elemental Fury
+
+player.teachword 32917 ; FEIM = Fade / Become Ethereal
+player.teachword 32918 ; ZI = Spirit / Become Ethereal
+player.teachword 32919 ; GRON = Bind / Become Ethereal
+
+player.teachword 5D16C ; FO = Frost / Frost Breath
+player.teachword 5D16D ; KRAH = Cold / Frost Breath
+player.teachword 5D16E ; DIIN = Freeze / Frost Breath
+
+player.teachword 602A0 ; ZUL = Voice / Throw Voice
+player.teachword 602A1 ; MEY = Fool / Throw Voice
+player.teachword 602A2 ; GUT = Far / Throw Voice
+
+player.teachword 5FB95 ; ZUN = Weapon / Disarm
+player.teachword 5FB96 ; HAAL = Hand / Disarm
+player.teachword 5FB97 ; VIIK = Defeat / Disarm
+
+player.teachword 3CD31 ; LOK = Sky / Clear Skies
+player.teachword 3CD32 ; VAH = Spring / Clear Skies
+player.teachword 3CD33 ; KOOR = Summer / Clear Skies
+
+player.teachword 51960 ; HUN = Hero / Call of Valor
+player.teachword 51961 ; KAAR = Champion / Call of Valor
+player.teachword 51962 ; ZOOL = Legend / Call of Valor
+
+player.teachword 44251 ; JOOR = Mortal / Dragonrend
+player.teachword 44252 ; ZAH = Finite / Dragonrend
+player.teachword 44253 ; FRUL = Temporary / Dragonrend
+
+player.teachword 60297 ; KRII = Kill / Marked for Death
+player.teachword 60298 ; LUN = Leech / Marked for Death
+player.teachword 60299 ; AUS = Suffer / Marked for Death
+
+player.teachword 60294 ; LAAS = Life / Aura Whisper
+player.teachword 60295 ; YA = Seek / Aura Whisper
+player.teachword 60296 ; NIR = Hunt / Aura Whisper
+
+player.teachword 46B89 ; OD = Snow / Call Dragon
+player.teachword 46B8A ; AH = Hunter / Call Dragon
+player.teachword 46B8B ; VIING = Wing / Call Dragon
+
+player.teachword 6029D ; KAAN = Kyne / Kyne's Peace
+player.teachword 6029E ; DREM = Peace / Kyne's Peace
+player.teachword 6029F ; OV = Trust / Kyne's Peace
+
+player.teachword 3291A ; FAAS = Fear / Dismaying Shout
+player.teachword 3291B ; RU = Run / Dismaying Shout
+player.teachword 3291C ; MAAR = Terror / Dismaying Shout

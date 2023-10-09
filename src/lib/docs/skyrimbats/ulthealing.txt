@@ -1,1 +1,1 @@
-﻿player.additem 30be5 50
+player.additem 39be5 20

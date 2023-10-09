@@ -4,9 +4,16 @@
   import Sections from "$lib/sections.svelte";
   import * as components from "$lib/skyrimarr.js";
 
+  import arrows from "$lib/docs/skyrimbats/allarrows.txt";
+  import shouts from "$lib/docs/skyrimbats/allshouts.txt";
+  import bolts from "$lib/docs/skyrimbats/bolts.txt";
+  import crafting from "$lib/docs/skyrimbats/craftingperks.txt";
   import daspect from "$lib/docs/skyrimbats/dragonaspect.txt";
-  import dsouls from "$lib/docs/skyrimbats/dragonsouls.txt";
-  import grandgems from "$lib/docs/skyrimbats/grandgems.txt";
+  import dsouls from "$lib/docs/skyrimbats/dsouls.txt";
+  import grandgems from "$lib/docs/skyrimbats/grandgem.txt";
+  import grandmaster from "$lib/docs/skyrimbats/grandmaster.txt";
+  import nightingale from "$lib/docs/skyrimbats/nightingale.txt";
+  import robes from "$lib/docs/skyrimbats/robes.txt";
   import ulthealing from "$lib/docs/skyrimbats/ulthealing.txt";
 
   const sections = [
@@ -115,16 +122,44 @@
 
   <div class="bat-files d-flex justify-content-center">
     <div class="flex-column">
+      <p class="fw-bold">allarrows.txt</p>
+      <a href={arrows} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">allshouts.txt</p>
+      <a href={shouts} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">bolts.txt</p>
+      <a href={bolts} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">craftingperks.txt</p>
+      <a href={crafting} download>download</a>
+    </div>
+    <div class="flex-column">
       <p class="fw-bold">dragonaspect.txt</p>
       <a href={daspect} download>download</a>
     </div>
     <div class="flex-column">
-      <p class="fw-bold">dragonsouls.txt</p>
+      <p class="fw-bold">dsouls.txt</p>
       <a href={dsouls} download>download</a>
     </div>
     <div class="flex-column">
-      <p class="fw-bold">grandgems.txt</p>
+      <p class="fw-bold">grandgem.txt</p>
       <a href={grandgems} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">grandmaster.txt</p>
+      <a href={grandmaster} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">nightingale.txt</p>
+      <a href={nightingale} download>download</a>
+    </div>
+    <div class="flex-column">
+      <p class="fw-bold">robes.txt</p>
+      <a href={robes} download>download</a>
     </div>
     <div class="flex-column">
       <p class="fw-bold">ulthealing.txt</p>

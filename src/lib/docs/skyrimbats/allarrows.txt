@@ -1,0 +1,14 @@
+player.additem 00038341 999999
+player.additem 00034182 999999
+player.additem 000139C0 999999
+player.additem 000139BF 999999
+player.additem 000139BE 999999
+player.additem 000139BD 999999
+player.additem 000139BC 999999
+player.additem 000139BB 999999
+player.additem 0001397F 999999
+player.additem 0001397D 999999
+player.additem 00105EE7 999999
+player.additem 000EAFDF 999999
+player.additem 000E738A 999999
+player.additem 000CEE9E 999999
