@@ -165,6 +165,11 @@ export const links = [
         page: "Resident Evil 3 remake",
         url: "/re3",
       },
+
+      {
+        page: "Resident Evil 4 remake",
+        url: "/re4",
+      },
     ],
   },
 
