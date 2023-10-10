@@ -370,4 +370,11 @@
   table th {
     text-transform: capitalize;
   }
+
+  @media screen and (max-width: 600px) {
+    table tr {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 </style>
