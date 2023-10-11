@@ -113,13 +113,18 @@
         <li>racing and pacing</li>
         <p>Finish the game in five hours.</p>
         <li>CQC FTW</li>
-        <p>Finish the game using only your knife (no lighter, Defensive Items, and stomping zombie heads).</p>
+        <p>
+          Finish the game using only your knife (no lighter, Defensive Items,
+          and stomping zombie heads).
+        </p>
         <li>ink is for squids</li>
         <p>Finish the game without saving.</p>
         <li>Break Out the Marshmallows!</li>
         <p>Burn up two zombies at the same time with the lighter.</p>
         <li>starsenal</li>
-        <p>Obtain all weapons (must load grenade launcher with all shell types).</p>
+        <p>
+          Obtain all weapons (must load grenade launcher with all shell types).
+        </p>
         <li>passion for fashion</li>
         <p>Obtain all costumes.</p>
         <li>Every Nook and Cranny</li>
@@ -182,15 +187,14 @@
 </div>
 
 <style>
+  ul li {
+    text-transform: capitalize;
+  }
 
-ul li {
-      text-transform: capitalize;
-    }
-
-    ul p {
-      text-transform: capitalize;
-      font-size: 12px;
-    }
+  ul p {
+    text-transform: capitalize;
+    font-size: 12px;
+  }
 
   @media screen and (max-width: 600px) {
     div {

@@ -147,8 +147,13 @@
         },
 
         {
-          title: "RE 3 Remake",
+          title: "RE 3 Remake, ",
           url: "/re3",
+        },
+
+        {
+          title: "RE 4 Remake",
+          url: "/re4",
         },
       ],
     },

@@ -157,3 +157,21 @@ a:hover {
 table th {
   font-size: 25px;
 }
+
+#rank button {
+  background-color: transparent;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#rank button:hover {
+  background-color: gray;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+#rank button[aria-expanded="true"] {
+  background-color: gray !important;
+  color: white !important;
+  text-shadow: 1px 1px 1px black;
+}

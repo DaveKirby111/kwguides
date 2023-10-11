@@ -24,143 +24,132 @@
     </ul>
   </div>
 
-  <div id="rank">
+  <div id="rank" class="d-flex flex-column">
     <h4>rank guide</h4>
-    <h5>assisted</h5>
-    <table
-      class="table table-borderless table-dark table-striped table-responsive"
-    >
-      <thead>
-        <tr>
-          <th>rank</th>
-          <th>S+</th>
-          <th>S</th>
-          <th>A</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>time</th>
-          <td>4 hours</td>
-          <td>4 hours</td>
-          <td>15 hours</td>
-        </tr>
-        <tr>
-          <th>playthrough</th>
-          <td>1</td>
-          <td>any</td>
-          <td>any</td>
-        </tr>
 
-        <tr>
-          <th>saves</th>
-          <td>unlimited</td>
-          <td>unlimited</td>
-          <td>unlimited</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5>standard</h5>
-    <table
-      class="table table-borderless table-dark table-striped table-responsive"
+    <button data-bs-toggle="collapse" data-bs-target="#assisted"
+      >assisted</button
     >
-      <thead>
-        <tr>
-          <th>rank</th>
-          <th>S+</th>
-          <th>S</th>
-          <th>A</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>time</th>
-          <td>5 hours</td>
-          <td>5 hours</td>
-          <td>12 hours</td>
-        </tr>
-        <tr>
-          <th>playthrough</th>
-          <td>1</td>
-          <td>any</td>
-          <td>any</td>
-        </tr>
+    <div id="assisted" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 4 hours</li>
+          <li class="list-group-item">Playthrough: 1</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 4 hours</li>
+          <li class="list-group-item">Playthrough: any</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 15 hours</li>
+          <li class="list-group-item">Playthrough: any</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+    </div>
 
-        <tr>
-          <th>saves</th>
-          <td>unlimited</td>
-          <td>unlimited</td>
-          <td>unlimited</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5>hardcore</h5>
-    <table
-      class="table table-borderless table-dark table-striped table-responsive"
+    <button data-bs-toggle="collapse" data-bs-target="#standard"
+      >standard</button
     >
-      <thead>
-        <tr>
-          <th>rank</th>
-          <th>S+</th>
-          <th>S</th>
-          <th>A</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>time</th>
-          <td>5 hours 30 min.</td>
-          <td>5 hours 30 min.</td>
-          <td>10 hours</td>
-        </tr>
-        <tr>
-          <th>playthrough</th>
-          <td>1</td>
-          <td>any</td>
-          <td>any</td>
-        </tr>
-        <tr>
-          <th>saves</th>
-          <td>unlimited</td>
-          <td>unlimited</td>
-          <td>unlimited</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5>professional</h5>
-    <table
-      class="table table-borderless table-dark table-striped table-responsive"
-    >
-      <thead>
-        <tr>
-          <th>rank</th>
-          <th>S+</th>
-          <th>S</th>
-          <th>A</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>time</th>
-          <td>5 hours 30 min.</td>
-          <td>5 hours 30 min.</td>
-          <td>7 hours</td>
-        </tr>
-        <tr>
-          <th>playthrough</th>
-          <td>1</td>
-          <td>any</td>
-          <td>any</td>
-        </tr>
 
-        <tr>
-          <th>saves</th>
-          <td>15</td>
-          <td>unlimited</td>
-          <td>unlimited</td>
-        </tr>
-      </tbody>
-    </table>
+    <div id="standard" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours</li>
+          <li class="list-group-item">Playthrough: 1</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours</li>
+          <li class="list-group-item">Playthrough: any</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 12 hours</li>
+          <li class="list-group-item">Playthrough: any</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#hardcore"
+      >hardcore</button
+    >
+
+    <div id="hardcore" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours 30 min.</li>
+          <li class="list-group-item">Playthrough: 1</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours 30 min.</li>
+          <li class="list-group-item">Playthrough: any</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 10 hours</li>
+          <li class="list-group-item">Playthrough: any</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+    </div>
+    <button data-bs-toggle="collapse" data-bs-target="#professional"
+      >professional</button
+    >
+
+    <div id="professional" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours 30 min.</li>
+          <li class="list-group-item">Playthrough: 1</li>
+          <li class="list-group-item">Saves: 15</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours 30 min.</li>
+          <li class="list-group-item">Playthrough: any</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 7 hours</li>
+          <li class="list-group-item">Playthrough: any</li>
+          <li class="list-group-item">Saves: unlimited</li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#top" class="skiplink">Top</a>
   </div>
 
   <div id="bonus">
@@ -367,14 +356,23 @@
 </div>
 
 <style>
-  table th {
+  .list-group-item {
+    text-align: center;
+  }
+
+  #rank button {
     text-transform: capitalize;
+    font-size: 18px;
+  }
+
+  #rank h5 {
+    font-size: 40px;
+    text-align: center;
   }
 
   @media screen and (max-width: 600px) {
-    table tr {
-      display: flex;
-      flex-direction: column;
+    #rank {
+      padding: 0;
     }
   }
 </style>

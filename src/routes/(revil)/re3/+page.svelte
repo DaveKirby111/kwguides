@@ -20,6 +20,7 @@
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
       <li><a href="#trophies">trophies</a></li>
+      <li><a href="#rank">rank</a></li>
       <li><a href="#route">train station route</a></li>
       <li><a href="#vaccine">lab vaccine</a></li>
       <li><a href="#codes">codes</a></li>
@@ -31,7 +32,6 @@
     <h4>trophies</h4>
     <h5>100% completion</h5>
     <div class="d-flex">
-      
       <div>
         <ul>
           <li>so long, RC</li>
@@ -113,6 +113,78 @@
     </div>
   </div>
 
+  <div id="rank" class="d-flex flex-column">
+    <h4>rank guide</h4>
+
+    <button data-bs-toggle="collapse" data-bs-target="#assisted"
+      >assisted</button
+    >
+    <div id="assisted" class="collapse">
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours 30 min.</li>
+          <li class="list-group-item">Saves: 5</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#standard"
+      >standard</button
+    >
+
+    <div id="standard" class="collapse">
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours</li>
+          <li class="list-group-item">Saves: 5</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#hardcore"
+      >hardcore</button
+    >
+
+    <div id="hardcore" class="collapse">
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 1 hour 45 min.</li>
+          <li class="list-group-item">Saves: 5</li>
+        </ul>
+      </div>
+    </div>
+    <button data-bs-toggle="collapse" data-bs-target="#nightmare"
+      >nightmare</button
+    >
+
+    <div id="nightmare" class="collapse">
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours</li>
+          <li class="list-group-item">Saves: 5</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#inferno">inferno</button>
+
+    <div id="inferno" class="collapse">
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours</li>
+          <li class="list-group-item">Saves: 5</li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#top" class="skiplink">Top</a>
+  </div>
+
   <div class="route text-center mb-5" id="route">
     <h4>Train Station Route</h4>
     <p>RE 01 – FA 02 – RA 03 – SA 02 – FO 01</p>
@@ -181,19 +253,36 @@
 </div>
 
 <style>
+  ul li {
+    text-transform: capitalize;
+  }
 
-ul li {
-      text-transform: capitalize;
-    }
+  ul p {
+    text-transform: capitalize;
+    font-size: 12px;
+  }
 
-    ul p {
-      text-transform: capitalize;
-      font-size: 12px;
-    }
+  .list-group-item {
+    text-align: center;
+  }
+
+  #rank button {
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+
+  #rank h5 {
+    font-size: 40px;
+    text-align: center;
+  }
 
   @media screen and (max-width: 600px) {
     div {
       padding: 5px;
+    }
+
+    #rank {
+      padding: 0;
     }
   }
 </style>

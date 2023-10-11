@@ -28,6 +28,7 @@
     <p class="fw-bold text-decoration-underline">Sections</p>
     <ul class="skip">
       <li><a href="#trophies">trophies</a></li>
+      <li><a href="#rank">rank</a></li>
       <li><a href="#statues">statues</a></li>
       <li><a href="#combinations">combinations</a></li>
       <li><a href="#panels">electric panels</a></li>
@@ -116,9 +117,13 @@
           <li>master of unlocking</li>
           <p>Open all of the safes and locks in the game.</p>
           <li>Leon "S." Kennedy</li>
-          <p>Complete Leon's story on "Standard" or "Hardcore" with an S rank.</p>
+          <p>
+            Complete Leon's story on "Standard" or "Hardcore" with an S rank.
+          </p>
           <li>sizzling scarlet hero</li>
-          <p>Complete Claire's story on "Standard" or "Hardcore" with an S rank.</p>
+          <p>
+            Complete Claire's story on "Standard" or "Hardcore" with an S rank.
+          </p>
           <li>hardcore rookie</li>
           <p>Complete Leon's story on "Hardcore" game mode.</p>
           <li>hardcore college student</li>
@@ -140,6 +145,252 @@
         </ul>
       </div>
     </div>
+  </div>
+
+  <div id="rank" class="d-flex flex-column">
+    <h4>rank guide</h4>
+
+    <button data-bs-toggle="collapse" data-bs-target="#LstandardA"
+      >Leon A standard</button
+    >
+    <div id="LstandardA" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>B</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 8 hours</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#LstandardB"
+      >Leon B standard</button
+    >
+    <div id="LstandardB" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 4 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>B</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#CstandardA"
+      >Claire A standard</button
+    >
+    <div id="CstandardA" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>B</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 8 hours</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#CstandardB"
+      >Claire B standard</button
+    >
+    <div id="CstandardB" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 4 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>B</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#LhardcoreA"
+      >Leon A hardcore</button
+    >
+    <div id="LhardcoreA" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 4 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>B</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 8 hours</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#LhardcoreB"
+      >Leon B hardcore</button
+    >
+    <div id="LhardcoreB" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>B</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#ChardcoreA"
+      >Claire A hardcore</button
+    >
+    <div id="ChardcoreA" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 4 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>B</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 8 hours</li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-bs-toggle="collapse" data-bs-target="#ChardcoreB"
+      >Claire B hardcore</button
+    >
+    <div id="ChardcoreB" class="collapse">
+      <div>
+        <h5>S+</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>S</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 2 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h5>A</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 3 hours 30 min.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>B</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Time: 5 hours</li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#top" class="skiplink">Top</a>
   </div>
 
   <div class="statues text-center" id="statues">
@@ -366,9 +617,27 @@
     height: auto;
   }
 
+  .list-group-item {
+    text-align: center;
+  }
+
+  #rank button {
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+
+  #rank h5 {
+    font-size: 40px;
+    text-align: center;
+  }
+
   @media screen and (max-width: 600px) {
     div {
       padding: 5px;
+    }
+
+    #rank {
+      padding: 0;
     }
   }
 </style>
