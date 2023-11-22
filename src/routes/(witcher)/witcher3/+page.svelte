@@ -70,6 +70,18 @@
       input: "additem('gwint_card_avallach')",
       desc: "give Avallach Gwent card.",
     },
+
+    {
+      name: "Master Weapon Kit",
+      input: 'additem("weapon_repair_kit_3", #)',
+      desc: "Master weapon repair kit",
+    },
+
+    {
+      name: "Master Armor Kit",
+      input: 'additem("armor_repair_kit_3", #)',
+      desc: "Master weapon repair kit",
+    },
   ];
 </script>
 
