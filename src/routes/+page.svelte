@@ -75,6 +75,23 @@
         },
       ],
     },
+
+    {
+      title: "fallout",
+      games: [
+        {
+          title: "fallout 4, ",
+          url: "/fallout4"
+        },
+
+        {
+          title: "falloutNV",
+          url: "/nvegas"
+        },
+      ],
+    },
+
+
     {
       title: "final fantasy",
       games: [

@@ -84,6 +84,23 @@ export const links = [
 
   {
     id: 5,
+    title: "fallout",
+    url: "#",
+    subitems: [
+      {
+        page: "fallout 4",
+        url: "/fallout4",
+      },
+
+      {
+        page: "new vegas",
+        url: "/nvegas",
+      },
+    ],
+  },
+
+  {
+    id: 6,
     title: "final fantasy",
     url: "#",
     subitems: [
@@ -125,7 +142,7 @@ export const links = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "mass effect",
     url: "#",
     subitems: [
@@ -147,7 +164,7 @@ export const links = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "resident evil",
     url: "#",
     subitems: [
@@ -174,7 +191,7 @@ export const links = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "tomb raider",
     url: "#",
     subitems: [
@@ -196,7 +213,7 @@ export const links = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "witcher",
     url: "#",
     subitems: [

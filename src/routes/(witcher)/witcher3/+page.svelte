@@ -82,6 +82,24 @@
       input: 'additem("armor_repair_kit_3", #)',
       desc: "Master weapon repair kit",
     },
+
+    {
+      name: "Black Dye",
+      input: 'additem("Dye Black")',
+      desc: "armor dye",
+    },
+
+    {
+      name: "Dwarven Spirit",
+      input: 'additem("Dwarven spirit")',
+      desc: "alchemy",
+    },
+
+    {
+      name: "White Gull",
+      input: 'additem("White Gull 1")',
+      desc: "alchemy",
+    },
   ];
 </script>
 
@@ -143,9 +161,7 @@
       <p class="fw-bold">velen</p>
       <img src={pop.velen} alt="power" />
     </div>
-    <div>
-      <img src={pop.velen1} alt="power" />
-    </div>
+    
     <div>
       <p class="fw-bold">novigrad</p>
       <img src={pop.novigrad} alt="power" />

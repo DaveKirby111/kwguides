@@ -7,7 +7,6 @@ import skellige4 from "$lib/images/witcher3/power/skellige4.jpg";
 import sunstone from "$lib/images/witcher3/power/skelligesunstone.jpg";
 import toussaint from "$lib/images/witcher3/power/toussaint.webp";
 import velen from "$lib/images/witcher3/power/velen.jpg";
-import velen1 from "$lib/images/witcher3/power/velen1.jpg";
 import orchard from "$lib/images/witcher3/power/whiteorchard.jpg";
 
 export {
@@ -20,6 +19,5 @@ export {
   sunstone,
   toussaint,
   velen,
-  velen1,
   orchard,
 };
