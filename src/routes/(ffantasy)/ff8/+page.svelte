@@ -4,10 +4,6 @@
   import Sections from "$lib/sections.svelte";
 
   const sections = [
-    {
-      name: "mods",
-      link: "#mods",
-    },
 
     {
       name: "guides",
@@ -18,22 +14,6 @@
 
 <Sections {sections} />
 
-<div id="mods" class="mods">
-  <h2>mods</h2>
-
-  <div class="d-flex div justify-content-center">
-    <div class="me-5 text-center">
-      <p>Hyne Save Editor</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/finalfantasy8/mods/5?tab=description"
-          target="_blank">Nexus Page</a
-        >
-      </p>
-    </div>
-  </div>
-  <a href="#top" class="skiplink">Top</a>
-</div>
 
 <div id="guides" class="guides">
   <h2>guides</h2>
