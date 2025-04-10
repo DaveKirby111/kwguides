@@ -30,6 +30,20 @@
   </div>
 
   <div>
+    <h3>Blood Curse</h3>
+    <p>the ritual: order to create the circle</p>
+    <ol>
+      <li>petrified bread</li>
+      <li>black candles</li>
+      <li>goat skull</li>
+      <li>scorched tree</li>
+      <li>raven's corpse</li>
+      <li>sour milk</li>
+      <li>pixie ring</li>
+    </ol>
+  </div>
+
+  <div>
     <h3>Free swords to pick up:</h3>
     <p><b>Chapter 1:</b></p>
     <p>Silver= Sword of Kaer Morhen, after meeting Iorveth in Arachas' Lair</p>
