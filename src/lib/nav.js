@@ -18,6 +18,18 @@ export const links = [
 
   {
     id: 2,
+    title: "Baldur's Gate",
+    url: "#",
+    subitems: [
+      {
+        page: "Baldur's Gate 3",
+        url: "/bgate3",
+      },
+    ],
+  },
+
+  {
+    id: 3,
     title: "deus ex",
     url: "#",
     subitems: [
@@ -34,7 +46,7 @@ export const links = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "dragon age",
     url: "#",
     subitems: [
@@ -56,7 +68,7 @@ export const links = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "elder scrolls",
     url: "#",
     subitems: [
@@ -83,7 +95,7 @@ export const links = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "fallout",
     url: "#",
     subitems: [
@@ -100,7 +112,7 @@ export const links = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "final fantasy",
     url: "#",
     subitems: [
@@ -142,7 +154,7 @@ export const links = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "mass effect",
     url: "#",
     subitems: [
@@ -164,7 +176,7 @@ export const links = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "resident evil",
     url: "#",
     subitems: [
@@ -191,7 +203,7 @@ export const links = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "tomb raider",
     url: "#",
     subitems: [
@@ -213,7 +225,7 @@ export const links = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: "witcher",
     url: "#",
     subitems: [

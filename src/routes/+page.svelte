@@ -17,6 +17,18 @@
         },
       ],
     },
+
+    {
+      title: "Baldur's Gate",
+      games: [
+        {
+          title: "Baldur's Gate 3",
+          url: "/bgate3",
+        },
+        
+      ],
+    },
+
     {
       title: "deus ex",
       games: [
@@ -232,7 +244,7 @@
           <td>{game.title}</td>
           <td>
             {#each game.games as entry}
-              <a href={entry.url}>{entry.title}</a>
+              <a href={entry.url} style="color: white;">{entry.title}</a>
             {/each}
           </td>
         </tr>
