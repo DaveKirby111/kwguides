@@ -4,17 +4,17 @@
     pageTitle.set("Fallout 4");
     import Sections from "$lib/sections.svelte";
 
-    const sections = [
-      {
-      name: "console",
-      link: "#console",
-    },
+  //   const sections = [
+  //     {
+  //     name: "console",
+  //     link: "#console",
+  //   },
     
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
   
   const commands = [
     {
@@ -45,7 +45,7 @@
 
   </script>
   
-  <Sections {sections} />
+  <!-- <Sections {sections} /> -->
 
   <div id="console" class="console">
     <h2>console commands</h2>

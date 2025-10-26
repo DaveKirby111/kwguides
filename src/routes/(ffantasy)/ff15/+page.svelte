@@ -11,17 +11,17 @@
   import {tengil} from "$lib/jmonsters10.js";
   import {thousandgil} from "$lib/jmonsters.js";
 
-  const sections = [
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  // const sections = [
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 
   
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="guides" class="guides">
   <h2>guides</h2>

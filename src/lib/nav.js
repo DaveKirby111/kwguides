@@ -204,6 +204,18 @@ export const links = [
 
   {
     id: 10,
+    title: "silent hill",
+    url: "#",
+    subitems: [
+      {
+        page: "Silent Hill 2 Remake",
+        url: "/shill2",
+      },
+    ],
+  },
+
+  {
+    id: 11,
     title: "tomb raider",
     url: "#",
     subitems: [
@@ -225,7 +237,7 @@ export const links = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: "witcher",
     url: "#",
     subitems: [

@@ -3,22 +3,22 @@
   $pageTitle = "Mass Effect 2";
   import Sections from "$lib/sections.svelte";
 
-  const sections = [
-    {
-      name: "mods",
-      link: "#mods",
-    },
+  // const sections = [
+  //   {
+  //     name: "mods",
+  //     link: "#mods",
+  //   },
 
-    {
-      name: "console",
-      link: "#console",
-    },
+  //   {
+  //     name: "console",
+  //     link: "#console",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 
   const commands = [
     {
@@ -41,80 +41,9 @@
   ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
-<div id="mods" class="mods">
-  <h2>mods</h2>
 
-  <h3>OG ME 2 mods</h3>
-  <div class="d-flex div mb-5 justify-content-center">
-    <div class="me-5 text-center">
-      <p>New Game Plus Improved</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffect2/mods/223?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>Remove Shared Cooldown</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffect2/mods/118?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>No Minigames</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffect2/mods/63?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-  </div>
-
-  <h3>Legendary Edition Mods</h3>
-  <div class="d-flex div justify-content-center">
-    <div class="me-5 text-center">
-      <p>LE2 New Game Plus Upgraded</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/1411?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>No Shared Power Cooldown (LE2 and LE3)</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/1699?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>Soldier Loadout For All</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/336?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-  </div>
-  <a href="#top" class="skiplink">Top</a>
-</div>
 
 <div class="console" id="console">
   <h2>console commands</h2>

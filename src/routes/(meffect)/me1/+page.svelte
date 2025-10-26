@@ -3,22 +3,22 @@
   $pageTitle = "Mass Effect";
   import Sections from "$lib/sections.svelte";
 
-  const sections = [
-    {
-      name: "mods",
-      link: "#mods",
-    },
+  // const sections = [
+  //   {
+  //     name: "mods",
+  //     link: "#mods",
+  //   },
 
-    {
-      name: "console",
-      link: "#console",
-    },
+  //   {
+  //     name: "console",
+  //     link: "#console",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 
   const commands = [
     {
@@ -47,108 +47,7 @@
   ];
 </script>
 
-<Sections {sections} />
-
-<div id="mods" class="mods">
-  <h2>mods</h2>
-
-  <h4>OG ME 1 mods</h4>
-  <div class="d-flex div mb-5 justify-content-center">
-    <div class="me-5 text-center">
-      <p>Trilogy Save Editor for OG and LE</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/20?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>ME3Tweaks Mod Manager</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/2?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>Keepers Finders</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffect/mods/205?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>Galaxy Map Trackers</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffect/mods/186?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>Mako - Improved Controls Mod</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffect/mods/59?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-  </div>
-
-  <h4>Legendary Edition Mods</h4>
-  <div class="d-flex div justify-content-center">
-    <div class="me-5 text-center">
-      <p>Keepers Finders</p>
-      <p>
-        <a href="http://" target="_blank" rel="noopener noreferrer"
-          >Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>Galaxy Map Trackers</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/426?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>Breather Helmet for LE1</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/1843?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>LE1 Community Patch</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/23?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-  </div>
-  <a href="#top" class="skiplink">Top</a>
-</div>
+<!-- <Sections {sections} /> -->
 
 <div id="console" class="console">
   <h2>console commands</h2>

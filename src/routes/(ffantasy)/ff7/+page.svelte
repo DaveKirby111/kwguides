@@ -7,38 +7,22 @@
   import key1 from "$lib/images/ff7/key1.png";
   import key2 from "$lib/images/ff7/key2.png";
 
-  const sections = [
-    {
-      name: "mods",
-      link: "#mods",
-    },
+  // const sections = [
+  //   {
+  //     name: "mods",
+  //     link: "#mods",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
-<div id="mods" class="mods">
-  <h2>mods</h2>
 
-  <div class="d-flex div justify-content-center">
-    <div class="me-5 text-center">
-      <p>Black Chocobo Save Editor</p>
-      <p>
-        <a
-          href="http://www.blackchocobo.com/"
-          target="_blank"
-          rel="noopener noreferrer">Visit Site</a
-        >
-      </p>
-    </div>
-  </div>
-  <a href="#top" class="skiplink">Top</a>
-</div>
 
 <div id="guides" class="guides">
   <h2>guides</h2>

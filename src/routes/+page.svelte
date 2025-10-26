@@ -187,6 +187,17 @@
       ],
     },
 
+     {
+      title: "silent hill",
+      games: [
+        {
+          title: "SH 2 Remake,  ",
+          url: "/shill2",
+        },
+
+      ],
+    },
+
     {
       title: "tomb raider",
       games: [

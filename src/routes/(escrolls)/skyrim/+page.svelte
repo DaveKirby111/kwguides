@@ -16,27 +16,27 @@
   import robes from "$lib/docs/skyrimbats/robes.txt";
   import ulthealing from "$lib/docs/skyrimbats/ulthealing.txt";
 
-  const sections = [
-    {
-      name: "console",
-      link: "#console",
-    },
+  // const sections = [
+  //   {
+  //     name: "console",
+  //     link: "#console",
+  //   },
 
-    {
-      name: "bat",
-      link: "#bat",
-    },
+  //   {
+  //     name: "bat",
+  //     link: "#bat",
+  //   },
 
-    {
-      name: "mods",
-      link: "#mods",
-    },
+  //   {
+  //     name: "mods",
+  //     link: "#mods",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 
   const commands = [
     {
@@ -83,7 +83,7 @@
   ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="console" class="console">
   <h2>console commands</h2>
@@ -170,179 +170,7 @@
   <a href="#top" class="skiplink">Top</a>
 </div>
 
-<div id="mods" class="mods">
-  <h2>mods</h2>
 
-  <div class="div d-flex mb-5 justify-content-center flex-wrap">
-    <div class="d-flex flex-column text-center">
-      <p>Skyrim Script Extender</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=description"
-        target="_blank">Nexus Page</a
-      >
-    </div>
-    <div class="d-flex flex-column text-center">
-      <p>SkyUI</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=description"
-        target="_blank">Nexus Page</a
-      >
-    </div>
-    <div class="d-flex flex-column text-center">
-      <p>Unofficial Skyrim Special Edition Patch</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=392477"
-        target="_blank">Nexus Page</a
-      >
-    </div>
-    <div class="d-flex flex-column text-center">
-      <p>Unofficial Skyrim Creation Club Patches</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/18975?tab=description"
-        target="_blank">Nexus Page</a
-      >
-    </div>
-  </div>
-  <div class="div d-flex mb-5 justify-content-center">
-    <div class="d-flex flex-column text-center">
-      <p>SkyHud</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/463?tab=description"
-        target="_blank">Nexus Page</a
-      >
-    </div>
-    <div class="d-flex flex-column text-center">
-      <p>Nordic UI Overhaul</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/49881?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-    <div class="d-flex flex-column text-center">
-      <p>Werewolf Perks Expanded</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/1285?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-    <div class=" text-center">
-      <p>Dragon Aspect (Mage Version)</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/22763?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-  </div>
-  <div class="div d-flex mb-5 justify-content-center">
-    <div class=" text-center">
-      <p>My home is your home</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/7096?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-    <div class=" text-center">
-      <p>Paarthurnax Quest Expansion</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/51711?tab=description"
-        target="_blank">Nexus Page</a
-      >
-    </div>
-    <div class=" text-center">
-      <p>Cloaks of Skyrim</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/6369?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-    <div class=" text-center">
-      <p>Armor Variants Expansion</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/34100?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-  </div>
-  <div class="div d-flex justify-content-center">
-    <div class=" text-center">
-      <p>Convenient Horses</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/9519?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-    <div class="text-center">
-      <p>Sleek Wolf Armor</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/44812?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-    <div class=" text-center">
-      <p>Perk Point Book</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/2254?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-    <div class=" text-center">
-      <p>Magic Training</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/40000?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-  </div>
-
-  <div class="div d-flex mb-5 justify-content-center">
-    <div class=" text-center">
-      <p>Alternate Start - Live Another Life</p>
-      <p style="color: red;">* Requires Unofficial Patch *</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/272?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-    <div class=" text-center">
-      <p>A Quality World Map</p>
-
-      <a
-        href="https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=description"
-        target="_blank"
-        rel="noopener noreferrer">Nexus Page</a
-      >
-    </div>
-  </div>
-  <a href="#top" class="skiplink">Top</a>
-</div>
 
 <div id="guides" class="guides">
   <h2>guides</h2>

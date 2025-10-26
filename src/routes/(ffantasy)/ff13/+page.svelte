@@ -3,15 +3,15 @@
   $pageTitle = "Final Fantasy XIII";
   import Sections from "$lib/sections.svelte";
 
-  const sections = [
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  // const sections = [
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="guides" class="guides">
   <h2>guides</h2>

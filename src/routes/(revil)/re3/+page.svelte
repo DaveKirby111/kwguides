@@ -3,15 +3,15 @@
   $pageTitle = "Resident Evil 3 Remake";
   import Sections from "$lib/sections.svelte";
 
-  const sections = [
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  // const sections = [
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="guides" class="guides">
   <h2>guides</h2>

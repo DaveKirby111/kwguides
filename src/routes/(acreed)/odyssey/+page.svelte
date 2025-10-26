@@ -5,26 +5,26 @@
 
   import * as components from "$lib/odysseyarr.js";
 
-  const sections = [
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  // const sections = [
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="guides" class="guides">
   <h2>guides</h2>
 
-  <div class="guide-sections">
-    <p class="fw-bold text-decoration-underline">Sections</p>
-    <ul class="skip">
-      <li><a href="#pilgrim">pilgrim set</a></li>
-      <li><a href="#tombs">tombs</a></li>
-    </ul>
-  </div>
+    <div class="guide-sections">
+        <p class="fw-bold text-decoration-underline">Sections</p>
+        <ul class="skip">
+          <li><a href="#tombs">tombs</a></li>
+        </ul>
+      </div>
+
 
   <div class="pilgrim" id="pilgrim">
     <h4>pilgrim set</h4>

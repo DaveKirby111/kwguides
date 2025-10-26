@@ -5,15 +5,15 @@
   import Bloodsword from "$lib/images/witcher2/bloodsword.webp";
   import Gargoyls from "$lib/images/witcher2/gargoyls.webp";
 
-  const sections = [
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  // const sections = [
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="guides" class="guides">
   <div class="guide-sections">

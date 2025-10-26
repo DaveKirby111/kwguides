@@ -9,26 +9,26 @@
   import glyph4 from "$lib/images/ac/ac2/forli.jpg";
   import statues from "$lib/images/ac/ac2/statues.webp";
 
-  const sections = [
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  // const sections = [
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="guides" class="guides">
+
   <h2>guides</h2>
 
-  <div class="guide-sections">
-    <p class="fw-bold text-decoration-underline">Sections</p>
-    <ul class="skip">
-      <li><a href="#statues">statues</a></li>
-      <li><a href="#glyphs">glyphs</a></li>
-    </ul>
-  </div>
+    <div class="guide-sections">
+        <p class="fw-bold text-decoration-underline">Sections</p>
+        <ul class="skip">
+          <li><a href="#tombs">tombs</a></li>
+        </ul>
+      </div>
 
   <div class="statues" id="statues">
     <h4>statue locations</h4>

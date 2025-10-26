@@ -4,17 +4,17 @@
     pageTitle.set("Baldur's Gate 3");
     import Sections from "$lib/sections.svelte";
 
-    const sections = [
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   const sections = [
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
   
 
   </script>
   
-  <Sections {sections} />
+  <!-- <Sections {sections} /> -->
 
  
 

@@ -7,20 +7,20 @@
   import bridge2 from "$lib/images/dao/bridge2.jpg";
   import bridge3 from "$lib/images/dao/bridge3.jpg";
 
-  const sections = [
-    {
-      name: "mods",
-      link: "#mods",
-    },
+  // const sections = [
+  //   {
+  //     name: "mods",
+  //     link: "#mods",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="mods" class="mods">
   <h2>mods</h2>

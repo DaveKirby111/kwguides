@@ -7,32 +7,32 @@
   import bbounding from "$lib/docs/oblivionbats/bbounding.txt";
   import alchemy from "$lib/docs/oblivionbats/alchemy.txt";
 
-  const sections = [
-    {
-      name: "console",
-      link: "#console",
-    },
+  // const sections = [
+  //   {
+  //     name: "console",
+  //     link: "#console",
+  //   },
 
-    {
-      name: "bat",
-      link: "#bat",
-    },
+  //   {
+  //     name: "bat",
+  //     link: "#bat",
+  //   },
 
-    {
-      name: "mods",
-      link: "#mods",
-    },
+  //   {
+  //     name: "mods",
+  //     link: "#mods",
+  //   },
 
-    {
-      name: "builds",
-      link: "#builds",
-    },
+  //   {
+  //     name: "builds",
+  //     link: "#builds",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 
   const commands = [
     {
@@ -91,7 +91,7 @@
   ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="console" class="console">
   <h2>console commands</h2>
@@ -142,47 +142,6 @@
   <a href="#top" class="skiplink">Top</a>
 </div>
 
-<div id="mods" class="mods">
-  <h2>mods</h2>
-
-  <div class="d-flex div justify-content-center">
-    <div class="d-flex flex-column me-5 text-center">
-      <p>Oblivion Script Extender</p>
-      <p>
-        <a
-          href="https://github.com/llde/xOBSE/releases/tag/22.6.1"
-          target="_blank">Github Page</a
-        >
-      </p>
-    </div>
-    <div class="d-flex flex-column me-5 text-center">
-      <p>MenuQue - OBSE Plugin</p>
-      <p>
-        <a href="https://www.nexusmods.com/oblivion/mods/32200?tab=description"
-          >Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="d-flex flex-column me-5 text-center">
-      <p>All +5 Attribute Modifiers</p>
-      <p>
-        <a href="https://www.nexusmods.com/oblivion/mods/2691" target="_blank"
-          >Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="d-flex flex-column text-center">
-      <p>Oblivion XP Update (requires OBSE and MenuQue)</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/oblivion/mods/51817?tab=description"
-          target="_blank">Nexus Page</a
-        >
-      </p>
-    </div>
-  </div>
-  <a href="#top" class="skiplink">Top</a>
-</div>
 
 <div id="builds" class="builds">
   <h2>builds</h2>

@@ -4,17 +4,17 @@
     pageTitle.set("Tomb Raider");
     import Sections from "$lib/sections.svelte";
 
-    const sections = [
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   const sections = [
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
   
 
   </script>
   
-  <Sections {sections} />
+  <!-- <Sections {sections} /> -->
 
   <div id="guides" class="guides">
 

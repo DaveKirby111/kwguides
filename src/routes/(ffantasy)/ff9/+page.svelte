@@ -3,46 +3,22 @@
   $pageTitle = "Final Fantasy IX";
   import Sections from "$lib/sections.svelte";
 
-  const sections = [
-    {
-      name: "mods",
-      link: "#mods",
-    },
+  // const sections = [
+  //   {
+  //     name: "mods",
+  //     link: "#mods",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
-<div id="mods" class="mods">
-  <h2>mods</h2>
 
-  <div class="d-flex div justify-content-center">
-    <div class="me-5 text-center">
-      <p>Memoria Engine</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/finalfantasy9/mods/3?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-    <div class="me-5 text-center">
-      <p>Memoria Save Editor</p>
-      <p>
-        <a
-          href="https://forums.qhimm.com/index.php?topic=11494.0"
-          target="_blank">Visit Site</a
-        >
-      </p>
-    </div>
-  </div>
-</div>
 
 <div id="guides" class="guides">
   <h2>guides</h2>

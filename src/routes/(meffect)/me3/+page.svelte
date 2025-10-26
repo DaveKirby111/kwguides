@@ -3,22 +3,22 @@
   $pageTitle = "Mass Effect 3";
   import Sections from "$lib/sections.svelte";
 
-  const sections = [
-    {
-      name: "mods",
-      link: "#mods",
-    },
+  // const sections = [
+  //   {
+  //     name: "mods",
+  //     link: "#mods",
+  //   },
 
-    {
-      name: "console",
-      link: "#console",
-    },
+  //   {
+  //     name: "console",
+  //     link: "#console",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 
   const commands = [
     {
@@ -41,85 +41,9 @@
   ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
-<div id="mods" class="mods">
-  <h2>mods</h2>
 
-  <div class="d-flex div justify-content-center">
-    <div class="me-5 text-center">
-      <p>LE3 Community Patch</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/13"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-
-    <div class="me-5 text-center">
-      <p>Ashley Consistency Project</p>
-      <p>* Requires LE 3 Patch *</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/1209?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-
-    <div class="me-5 text-center">
-      <p>No Shared Power Cooldown (LE2 and LE3)</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/1699?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-
-    <div class="me-5 text-center">
-      <p>Audemus' Happy Ending Mod</p>
-      <p>
-        <a
-          href="https://www.nexusmods.com/masseffectlegendaryedition/mods/323?tab=description"
-          target="_blank"
-          rel="noopener noreferrer">Nexus Page</a
-        >
-      </p>
-    </div>
-  </div>
-
-  <div class="egm d-flex flex-column text-center">
-    <h3>expanded galaxy mod (LE)</h3>
-    <div class="d-flex div justify-content-center">
-      <div class="me-5 text-center">
-        <p>Main File</p>
-        <p>
-          <a
-            href="https://www.nexusmods.com/masseffectlegendaryedition/mods/422?tab=description"
-            target="_blank"
-            rel="noopener noreferrer">Nexus Page</a
-          >
-        </p>
-      </div>
-      <div class="me-5 text-center">
-        <p>Miranda Mod</p>
-        <p>
-          <a
-            href="https://www.nexusmods.com/masseffectlegendaryedition/mods/1350"
-            target="_blank"
-            rel="noopener noreferrer">Nexus Page</a
-          >
-        </p>
-      </div>
-    </div>
-  </div>
-  <a href="#top" class="skiplink">Top</a>
-</div>
 
 <div class="console" id="console">
   <h2>console commands</h2>

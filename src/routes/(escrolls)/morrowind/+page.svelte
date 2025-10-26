@@ -5,32 +5,32 @@
   import abanabi from "$lib/images/morrowind/Abanabi.png";
   import umbra from "$lib/images/morrowind/umbra.jpg";
 
-  const sections = [
-    {
-      name: "setup",
-      link: "#setup",
-    },
+  // const sections = [
+  //   {
+  //     name: "setup",
+  //     link: "#setup",
+  //   },
 
-    {
-      name: "console",
-      link: "#console",
-    },
+  //   {
+  //     name: "console",
+  //     link: "#console",
+  //   },
 
-    {
-      name: "mods",
-      link: "#mods",
-    },
+  //   {
+  //     name: "mods",
+  //     link: "#mods",
+  //   },
 
-    {
-      name: "builds",
-      link: "#builds",
-    },
+  //   {
+  //     name: "builds",
+  //     link: "#builds",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 
   const commands = [
     {
@@ -77,7 +77,7 @@
   ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="setup" class="setup">
   <h2>setup</h2>

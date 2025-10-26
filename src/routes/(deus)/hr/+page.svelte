@@ -5,15 +5,15 @@
   import pwords from "$lib/docs/HRpw.pdf";
   import kcodes from "$lib/docs/HRkc.pdf";
 
-  const sections = [
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  // const sections = [
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div id="guides" class="guides">
   <h2>guides</h2>

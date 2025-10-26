@@ -3,17 +3,17 @@
   pageTitle.set("Enderal");
   import Sections from "$lib/sections.svelte";
 
-  const sections = [
-    {
-      name: "console commands",
-      link: "#console",
-    },
+  // const sections = [
+  //   {
+  //     name: "console commands",
+  //     link: "#console",
+  //   },
 
-    {
-      name: "guides",
-      link: "#guides",
-    },
-  ];
+  //   {
+  //     name: "guides",
+  //     link: "#guides",
+  //   },
+  // ];
 
   const commands = [
     {
@@ -48,7 +48,7 @@
   ];
 </script>
 
-<Sections {sections} />
+<!-- <Sections {sections} /> -->
 
 <div class="intro">
   <h4>intro</h4>
