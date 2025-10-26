@@ -55,7 +55,7 @@
         <p>Woodside Apartments - safe code</p>
         <p>Difficulty:</p>
         <ul>
-          <li>Light: 15-11-12</li>
+          <li>Light: 15-11-13</li>
           <li>Standard and Hard: 13-7-11</li>
         </ul>
       </div>
