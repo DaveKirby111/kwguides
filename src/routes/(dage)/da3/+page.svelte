@@ -2,6 +2,7 @@
   import { pageTitle } from "$lib/stores.js";
   $pageTitle = "Dragon Age: Inquisition";
   import Sections from "$lib/sections.svelte";
+  import * as components from "$lib/daiarr.js";
 
   // const sections = [
   //   {
@@ -22,6 +23,16 @@
       <li><a href="#romance">romance</a></li>
       <li><a href="#election">divine election</a></li>
     </ul>
+  </div>
+
+  <div class="palace mb-5" id="palace">
+    <h4>Winter's Palace: Wicked Eyes and Wicked Hearts</h4>
+   <div id="winter">
+    <a href={components.main} target="_blank"><img src={components.main} alt="main"></a>
+    <a href={components.upper} target="_blank"><img src={components.upper} alt="upper"></a>
+    <a href={components.exterior} target="_blank"><img src={components.exterior} alt="exterior"></a>
+    <a href={components.servant} target="_blank"><img src={components.servant} alt="servant"></a>
+   </div>
   </div>
 
   <div class="romance mb-5" id="romance">
@@ -295,6 +306,19 @@
 </div>
 
 <style>
+
+  img {
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+  }
+
+  #winter {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
   @media screen and (max-width: 600px) {
     div {
       width: 100%;
